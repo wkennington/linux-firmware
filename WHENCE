@@ -352,3 +352,12 @@ File: ql2500_fw.bin -- 4.04.04
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
 Available from ftp://ftp.qlogic.com/outgoing/linux/firmware/
+
+--------------------------------------------------------------------------
+
+Driver: ORINOCO - Agere/Prism/Symbol Orinoco support
+
+File: agere_sta_fw.bin -- 9.48 Hermes I
+File: agere_ap_fw.bin  -- 9.48 Hermes I
+
+Licence: Redistributable. See LICENCE.agere for details
