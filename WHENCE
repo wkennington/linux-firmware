@@ -361,3 +361,12 @@ File: agere_sta_fw.bin -- 9.48 Hermes I
 File: agere_ap_fw.bin  -- 9.48 Hermes I
 
 Licence: Redistributable. See LICENCE.agere for details
+
+--------------------------------------------------------------------------
+
+Driver: AR9170 - Atheros 802.11n "otus" USB
+
+File: ar9170-1.fw
+File: ar9170-2.fw
+
+License: Redistributable. See LICENCE.atheros_firmware for details
