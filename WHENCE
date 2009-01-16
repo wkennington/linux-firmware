@@ -483,16 +483,25 @@ Driver: libertas - Marvell Libertas fullmac-type 802.11b/g cards
 
 File: cf8385.bin
 File: cf8385_helper.bin
+File: gspi8682.bin
+File: gspi8682_helper.bin
 File: gspi8686_v9.bin
 File: gspi8686_v9_helper.bin
+File: gspi8688.bin
+File: gspi8688_helper.bin
 File: sd8385.bin
 File: sd8385_helper.bin
+File: sd8682.bin
+File: sd8682_helper.bin
 File: sd8686_v8.bin
 File: sd8686_v8_helper.bin
 File: sd8686_v9.bin
 File: sd8686_v9_helper.bin
+File: sd8688.bin
+File: sd8688_helper.bin
 File: usb8388_v5.bin
 File: usb8388_v9.bin
+File: usb8682.bin
 
 License: Redistributable. See libertas/LICENSE for details.  Extracted from
 Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
