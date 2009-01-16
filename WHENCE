@@ -478,3 +478,34 @@ License: Redistributable. See LICENCE.i2400m for details
 Also available from http://linuxwimax.org/Download
 
 --------------------------------------------------------------------------
+
+Driver: libertas - Marvell Libertas fullmac-type 802.11b/g cards
+
+File: cf8385.bin
+File: cf8385_helper.bin
+File: gspi8686_v9.bin
+File: gspi8686_v9_helper.bin
+File: sd8385.bin
+File: sd8385_helper.bin
+File: sd8686_v8.bin
+File: sd8686_v8_helper.bin
+File: sd8686_v9.bin
+File: sd8686_v9_helper.bin
+File: usb8388_v5.bin
+File: usb8388_v9.bin
+
+License: Redistributable. See libertas/LICENSE for details.  Extracted from
+Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
+
+--------------------------------------------------------------------------
+
+Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g cards
+
+File: fmimage_8687.fw
+File: helper_8687.fw
+
+License: Redistributable. See mwl8k/LICENSE for details.  Downloaded from
+Marvell's "Extranet" with permission.
+
+--------------------------------------------------------------------------
+
