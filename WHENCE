@@ -518,3 +518,20 @@ Marvell's "Extranet" with permission.
 
 --------------------------------------------------------------------------
 
+
+Driver: iwlwifi - Intel Wireless Wifi
+
+File: iwlwifi-3945-2.ucode
+Info: v15.28.2.8
+
+File: iwlwifi-4965-2.ucode
+Info: v228.57.2.23
+
+File: iwlwifi-5000-1.ucode
+Info: v5.4.A.11 (aka v5.4.1.16)
+
+License: Redistributable. See LICENCE.iwlwifi_firmware for details
+
+Also available from http://intellinuxwireless.org/?n=Downloads
+
+--------------------------------------------------------------------------
