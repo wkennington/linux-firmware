@@ -536,3 +536,16 @@ License: Redistributable. See LICENCE.iwlwifi_firmware for details
 Also available from http://intellinuxwireless.org/?n=Downloads
 
 --------------------------------------------------------------------------
+
+Driver: cx231xx -  Conexant Cx23100/101/102 USB video capture devices
+
+File: v4l-cx231xx-avcore-01.fw
+
+License:
+  Conexant grants permission to use and redistribute these firmware
+  files for use with Conexant devices, but not as a part of the Linux
+  kernel or in any other form which would require these files themselves
+  to be covered by the terms of the GNU General Public License.
+  These firmware files are distributed in the hope that they will be
+  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
