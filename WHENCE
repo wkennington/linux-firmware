@@ -537,9 +537,57 @@ Also available from http://intellinuxwireless.org/?n=Downloads
 
 --------------------------------------------------------------------------
 
-Driver: cx231xx -  Conexant Cx23100/101/102 USB video capture devices
+Driver: cx231xx - Conexant Cx23100/101/102 USB broadcast A/V decoder
 
 File: v4l-cx231xx-avcore-01.fw
+
+License:
+  Conexant grants permission to use and redistribute these firmware
+  files for use with Conexant devices, but not as a part of the Linux
+  kernel or in any other form which would require these files themselves
+  to be covered by the terms of the GNU General Public License.
+  These firmware files are distributed in the hope that they will be
+  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
+Driver: cx23418 - Conexant PCI Broadcast A/V with MPEG encoder
+
+File: v4l-cx23418-apu.fw
+File: v4l-cx23418-cpu.fw
+File: v4l-cx23418-dig.fw
+
+License:
+  Conexant grants permission to use and redistribute these firmware
+  files for use with Conexant devices, but not as a part of the Linux
+  kernel or in any other form which would require these files themselves
+  to be covered by the terms of the GNU General Public License.
+  These firmware files are distributed in the hope that they will be
+  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
+Driver: cx23885 - Conexant PCI Express Broadcast A/V decoder
+
+File: v4l-cx23885-avcore-01.fw
+File: v4l-cx23885-enc.fw
+
+License:
+  Conexant grants permission to use and redistribute these firmware
+  files for use with Conexant devices, but not as a part of the Linux
+  kernel or in any other form which would require these files themselves
+  to be covered by the terms of the GNU General Public License.
+  These firmware files are distributed in the hope that they will be
+  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
+Driver: cx23840 - Conexant sideport Broadcast A/V decoder
+
+File: v4l-cx25840.fw
 
 License:
   Conexant grants permission to use and redistribute these firmware
