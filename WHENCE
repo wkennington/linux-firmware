@@ -463,8 +463,7 @@ Licence:
 	image as part of a Linux or other Open Source operating system kernel
 	in text or binary form as required.
 
-	This firmware may not be modified and may only be used with
-	Alacritech hardware.
+	This firmware may not be modified.
 
 Found in hex form in kernel source.
 
@@ -488,8 +487,7 @@ Licence:
 	image as part of a Linux or other Open Source operating system kernel
 	in text or binary form as required.
 
-	This firmware may not be modified and may only be used with
-	Alacritech hardware.
+	This firmware may not be modified.
 
 Found in hex form in kernel source.
 
