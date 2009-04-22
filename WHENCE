@@ -906,3 +906,13 @@ Licence: Redistributable. See LICENSE.ralink-firmware.txt for details
 
 Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
+--------------------------------------------------------------------------
+
+Driver: usbdux/usbduxfast - usbdux data acquisition cards
+
+File: usbdux_firmware.bin
+File: usbdixfast_firmware.bin
+
+Licence: GPLv2. See source code in usbdux/ subdirectory.
+
+Provided from the author, Bernd Porr <BerndPorr@f2s.com>
