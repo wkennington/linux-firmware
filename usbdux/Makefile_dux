@@ -1,0 +1,19 @@
+# (c) Bernd Porr
+# GNU public license
+# no warranty
+#
+
+all: as31 usbduxfast_firmware.bin usbdux_firmware.bin
+
+as31:
+	make -C as31-2.1
+
+usbduxfast_firmware.bin: fx2-include.asm usbduxfast_firmware.asm as31
+	as31-2.1/as31 -Fbin usbduxfast_firmware.asm
+
+usbdux_firmware.bin: fx2-include.asm usbdux_firmware.asm as31
+	as31-2.1/as31 -Fbin usbdux_firmware.asm
+
+clean:
+	rm -f *.bin *~ *.lst *.bin
+	make -C as31-2.1 clean
