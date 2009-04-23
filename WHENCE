@@ -910,6 +910,9 @@ Driver: usbdux/usbduxfast - usbdux data acquisition cards
 
 File: usbdux_firmware.bin
 File: usbdixfast_firmware.bin
+Source: usbdux/fx2-include.asm
+Source: usbdux/usbduxfast_firmware.asm
+Source: usbdux/usbdux_firmware.asm
 
 Licence: GPLv2. See source code in usbdux/ subdirectory.
 
