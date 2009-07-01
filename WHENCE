@@ -597,3 +597,13 @@ License:
   These firmware files are distributed in the hope that they will be
   useful, but WITHOUT ANY WARRANTY; without even the implied warranty
   of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
+Driver: xc5000 - Xceive 5000 Tuner driver
+
+File: dvb-fe-xc5000-1.6.114.fw
+Info: v1.6.114
+
+License: Redistributable. See LICENCE.xc5000 for details
+
