@@ -971,3 +971,13 @@ Source: usbdux/usbdux_firmware.asm
 Licence: GPLv2. See source code in usbdux/ subdirectory.
 
 Provided from the author, Bernd Porr <BerndPorr@f2s.com>
+
+--------------------------------------------------------------------------
+
+Driver: xc5000 - Xceive 5000 Tuner driver
+
+File: dvb-fe-xc5000-1.6.114.fw
+Info: v1.6.114
+
+License: Redistributable. See LICENCE.xc5000 for details
+
