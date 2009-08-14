@@ -635,6 +635,9 @@ Info: v8.24.2.12
 File: iwlwifi-5150-2.ucode
 Info: v8.24.2.2
 
+File: iwlwifi-1000-3.ucode
+Info: v128.50.3.1
+
 License: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://intellinuxwireless.org/?n=Downloads
