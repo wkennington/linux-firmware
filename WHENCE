@@ -602,7 +602,7 @@ File: usb8388_v5.bin
 File: usb8388_v9.bin
 File: usb8682.bin
 
-License: Redistributable. See libertas/LICENSE for details.  Extracted from
+License: Redistributable. See LICENCE.libertas for details.  Extracted from
 Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
 
 --------------------------------------------------------------------------
@@ -612,7 +612,7 @@ Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g cards
 File: fmimage_8687.fw
 File: helper_8687.fw
 
-License: Redistributable. See mwl8k/LICENSE for details.  Downloaded from
+License: Redistributable. See LICENCE.mwl8k for details.  Downloaded from
 Marvell's "Extranet" with permission.
 
 --------------------------------------------------------------------------
@@ -930,7 +930,7 @@ Driver: rt61pci - Ralink RT2561, RT2561S, RT2661 wireless MACs
 
 File: rt2561.bin rt2561s.bin rt2661.bin
 
-Licence: Redistributable. See LICENSE.ralink-firmware.txt for details
+Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
 Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
@@ -940,7 +940,7 @@ Driver: rt73usb - Ralink RT2571W, RT2671 wireless MACs
 
 File: rt73.bin
 
-Licence: Redistributable. See LICENSE.ralink-firmware.txt for details
+Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
 Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
@@ -950,7 +950,7 @@ Driver: rt2860sta - Ralink RT2860, RT2890 wireless MACs
 
 File: rt2860.bin
 
-Licence: Redistributable. See LICENSE.ralink-firmware.txt for details
+Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
 Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
@@ -960,7 +960,7 @@ Driver: rt2870sta - Ralink RT2870 wireless MACs
 
 File: rt2870.bin
 
-Licence: Redistributable. See LICENSE.ralink-firmware.txt for details
+Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
 Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
