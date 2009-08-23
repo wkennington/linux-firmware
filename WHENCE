@@ -1000,13 +1000,15 @@ Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
 --------------------------------------------------------------------------
 
-Driver: rt2870sta - Ralink RT2870 wireless MACs
+Driver: rt2870sta - Ralink RT2870, RT3070, RT3071, RT3072 wireless MACs
 
 File: rt2870.bin
+File: rt3070.bin
+File: rt3071.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
+Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
