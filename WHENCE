@@ -987,3 +987,11 @@ Info: v1.6.114
 
 License: Redistributable. See LICENCE.xc5000 for details
 
+--------------------------------------------------------------------------
+
+Driver: dib0700 - DiBcom dib0700 USB DVB bridge driver
+
+File: dvb-usb-dib0700-1.20.fw
+Info: v1.20
+
+License: Redistributable. See LICENCE.dib0700 for details
