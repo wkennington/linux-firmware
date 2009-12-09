@@ -428,7 +428,7 @@ Driver: AR9170 - Atheros 802.11n "otus" USB
 File: ar9170-1.fw
 File: ar9170-2.fw
 
-License: Redistributable. See LICENCE.atheros_firmware for details
+Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
 
@@ -501,7 +501,7 @@ File: cxgb3/t3fw-7.0.0.bin
 File: cxgb3/t3fw-7.1.0.bin
 file: cxgb3/t3fw-7.4.0.bin
 
-License: GPLv2 or OpenIB.org BSD license, no source visible
+Licence: GPLv2 or OpenIB.org BSD license, no source visible
 
 --------------------------------------------------------------------------
 
@@ -572,7 +572,7 @@ Driver: i2400m-usb - Intel 2400 Wireless WiMAX Connection over USB
 File: i2400m-fw-usb-1.3.sbcf
 File: i2400m-fw-usb-1.4.sbcf
 
-License: Redistributable. See LICENCE.i2400m for details
+Licence: Redistributable. See LICENCE.i2400m for details
 
 Also available from http://linuxwimax.org/Download
 
@@ -602,7 +602,7 @@ File: usb8388_v5.bin
 File: usb8388_v9.bin
 File: usb8682.bin
 
-License: Redistributable. See LICENCE.libertas for details.  Extracted from
+Licence: Redistributable. See LICENCE.libertas for details.  Extracted from
 Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
 
 --------------------------------------------------------------------------
@@ -612,7 +612,7 @@ Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g cards
 File: fmimage_8687.fw
 File: helper_8687.fw
 
-License: Redistributable. See LICENCE.mwl8k for details.  Downloaded from
+Licence: Redistributable. See LICENCE.mwl8k for details.  Downloaded from
 Marvell's "Extranet" with permission.
 
 --------------------------------------------------------------------------
@@ -638,7 +638,7 @@ Info: v8.24.2.2
 File: iwlwifi-1000-3.ucode
 Info: v128.50.3.1
 
-License: Redistributable. See LICENCE.iwlwifi_firmware for details
+Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://intellinuxwireless.org/?n=Downloads
 
@@ -648,7 +648,7 @@ Driver: cx231xx - Conexant Cx23100/101/102 USB broadcast A/V decoder
 
 File: v4l-cx231xx-avcore-01.fw
 
-License:
+Licence:
   Conexant grants permission to use and redistribute these firmware
   files for use with Conexant devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -803,7 +803,7 @@ File: v4l-cx23418-apu.fw
 File: v4l-cx23418-cpu.fw
 File: v4l-cx23418-dig.fw
 
-License:
+Licence:
   Conexant grants permission to use and redistribute these firmware
   files for use with Conexant devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -819,7 +819,7 @@ Driver: cx23885 - Conexant PCI Express Broadcast A/V decoder
 File: v4l-cx23885-avcore-01.fw
 File: v4l-cx23885-enc.fw
 
-License:
+Licence:
   Conexant grants permission to use and redistribute these firmware
   files for use with Conexant devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -834,7 +834,7 @@ Driver: cx23840 - Conexant sideport Broadcast A/V decoder
 
 File: v4l-cx25840.fw
 
-License:
+Licence:
   Conexant grants permission to use and redistribute these firmware
   files for use with Conexant devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -870,7 +870,7 @@ Driver: bnx2x: Broadcom Everest
 File: bnx2x-e1-4.8.53.0.fw
 File: bnx2x-e1h-4.8.53.0.fw
 
-License:
+Licence:
   Copyright (c) 2007-2009 Broadcom Corporation
 
   This file contains firmware data derived from proprietary unpublished
@@ -985,7 +985,7 @@ Driver: xc5000 - Xceive 5000 Tuner driver
 File: dvb-fe-xc5000-1.6.114.fw
 Info: v1.6.114
 
-License: Redistributable. See LICENCE.xc5000 for details
+Licence: Redistributable. See LICENCE.xc5000 for details
 
 --------------------------------------------------------------------------
 
@@ -994,4 +994,4 @@ Driver: dib0700 - DiBcom dib0700 USB DVB bridge driver
 File: dvb-usb-dib0700-1.20.fw
 Info: v1.20
 
-License: Redistributable. See LICENCE.dib0700 for details
+Licence: Redistributable. See LICENCE.dib0700 for details
