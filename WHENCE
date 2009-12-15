@@ -995,3 +995,13 @@ File: dvb-usb-dib0700-1.20.fw
 Info: v1.20
 
 License: Redistributable. See LICENCE.dib0700 for details
+
+--------------------------------------------------------------------------
+
+Driver rtl8192e - Realtek 8192 PCI wireless driver
+
+Files: RTL8192E/*
+Licence: Redistributable, provided by Realtek in their driver
+         source download.
+
+--------------------------------------------------------------------------
