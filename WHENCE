@@ -995,3 +995,11 @@ File: dvb-usb-dib0700-1.20.fw
 Info: v1.20
 
 Licence: Redistributable. See LICENCE.dib0700 for details
+--------------------------------------------------------------------------
+
+Driver: DFU Driver for Atheros bluetooth chipset AR3011
+
+File: ath3k-1.fw
+Info: v1.0
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
