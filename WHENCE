@@ -10,7 +10,7 @@ kernel.
 
 Driver: ambassador -- Madge Ambassador (Collage PCI 155 Server) ATM NIC.
 
-File: firmware/atmsar11.fw
+File: atmsar11.fw
 
 Licence: Allegedly GPLv2+, but no source visible. Marked:
 
@@ -271,7 +271,6 @@ File: whiteheat.fw
 Version: 4.06
 
 File: whiteheat_loader.fw
-File: whiteheat_loader_debug.fw
 
 Licence: Allegedly GPLv2, but no source visible. Marked:
 	 Copyright (C) 2000-2002  ConnectTech Inc
@@ -507,9 +506,9 @@ Licence: GPLv2 or OpenIB.org BSD license, no source visible
 
 Driver: cxgb3 - Chelsio Terminator 3 1G/10G Ethernet adapter
 
-File: cxgb3/ael2005_opt_edc.bin.ihex
-File: cxgb3/ael2005_twx_edc.bin.ihex
-File: cxgb3/ael2020_twx_edc.bin.ihex
+File: cxgb3/ael2005_opt_edc.bin
+File: cxgb3/ael2005_twx_edc.bin
+File: cxgb3/ael2020_twx_edc.bin
 
 Licence:
  *	Copyright (c) 2007-2009 NetLogic Microsystems, Inc.
@@ -597,27 +596,27 @@ Also available from http://linuxwimax.org/Download
 
 Driver: libertas - Marvell Libertas fullmac-type 802.11b/g cards
 
-File: cf8385.bin
-File: cf8385_helper.bin
-File: gspi8682.bin
-File: gspi8682_helper.bin
-File: gspi8686_v9.bin
-File: gspi8686_v9_helper.bin
-File: gspi8688.bin
-File: gspi8688_helper.bin
-File: sd8385.bin
-File: sd8385_helper.bin
-File: sd8682.bin
-File: sd8682_helper.bin
-File: sd8686_v8.bin
-File: sd8686_v8_helper.bin
-File: sd8686_v9.bin
-File: sd8686_v9_helper.bin
-File: sd8688.bin
-File: sd8688_helper.bin
-File: usb8388_v5.bin
-File: usb8388_v9.bin
-File: usb8682.bin
+File: libertas/cf8385.bin
+File: libertas/cf8385_helper.bin
+File: libertas/gspi8682.bin
+File: libertas/gspi8682_helper.bin
+File: libertas/gspi8686_v9.bin
+File: libertas/gspi8686_v9_helper.bin
+File: libertas/gspi8688.bin
+File: libertas/gspi8688_helper.bin
+File: libertas/sd8385.bin
+File: libertas/sd8385_helper.bin
+File: libertas/sd8682.bin
+File: libertas/sd8682_helper.bin
+File: libertas/sd8686_v8.bin
+File: libertas/sd8686_v8_helper.bin
+File: libertas/sd8686_v9.bin
+File: libertas/sd8686_v9_helper.bin
+File: libertas/sd8688.bin
+File: libertas/sd8688_helper.bin
+File: libertas/usb8388_v5.bin
+File: libertas/usb8388_v9.bin
+File: libertas/usb8682.bin
 
 Licence: Redistributable. See LICENCE.libertas for details.  Extracted from
 Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
@@ -626,8 +625,8 @@ Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
 
 Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g cards
 
-File: fmimage_8687.fw
-File: helper_8687.fw
+File: mwl8k/fmimage_8687.fw
+File: mwl8k/helper_8687.fw
 
 Licence: Redistributable. See LICENCE.mwl8k for details.  Downloaded from
 Marvell's "Extranet" with permission.
@@ -907,8 +906,8 @@ Driver: bnx2x: Broadcom Everest
 
 File: bnx2x-e1-4.8.53.0.fw
 File: bnx2x-e1h-4.8.53.0.fw
-File: bnx2x-e1-5.2.7.0.fw.ihex
-File: bnx2x-e1h-5.2.7.0.fw.ihex
+File: bnx2x-e1-5.2.7.0.fw
+File: bnx2x-e1h-5.2.7.0.fw
 
 Licence:
   Copyright (c) 2007-2009 Broadcom Corporation
@@ -1014,7 +1013,7 @@ Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 Driver: usbdux/usbduxfast - usbdux data acquisition cards
 
 File: usbdux_firmware.bin
-File: usbdixfast_firmware.bin
+File: usbduxfast_firmware.bin
 Source: usbdux/fx2-include.asm
 Source: usbdux/usbduxfast_firmware.asm
 Source: usbdux/usbdux_firmware.asm
