@@ -1176,6 +1176,8 @@ Found in hex form in kernel source.
 Driver: s2255drv
 
 File: f2255.bin
+File: s2250_loader.fw
+File: s2250.fw
 
 Licence:
   Sensoray grants permission to use and redistribute these firmware
@@ -1185,4 +1187,3 @@ Licence:
   These firmware files are distributed in the hope that they will be
   useful, but WITHOUT ANY WARRANTY; without even the implied warranty
   of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
