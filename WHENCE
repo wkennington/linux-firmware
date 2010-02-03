@@ -1173,3 +1173,11 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
+Driver: radeon - ATI Radeon
+
+File: radeon/R600_rlc.bin
+File: radeon/R700_rlc.bin
+
+Licence: Redistributable. See LICENSE.radeon_rlc for details.
+
+--------------------------------------------------------------------------
