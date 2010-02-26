@@ -432,6 +432,14 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
 
+Driver: AR9271 - Atheros HTC device (USB)
+
+File: ar9271.fw
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
 Driver: CASSINI - Sun Cassini
 
 File: sun/cassini.bin
