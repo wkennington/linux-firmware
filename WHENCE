@@ -812,13 +812,22 @@ File: cis/MT5634ZLX.cis
 File: cis/RS-COM-2P.cis
 File: cis/COMpad2.cis
 File: cis/COMpad4.cis
-File: cis/SW_555_SER.cis
-File: cis/SW_7xx_SER.cis
-File: cis/SW_8xx_SER.cis
 
 Licence: GPL
 
 Originally developed by the pcmcia-cs project
+
+--------------------------------------------------------------------------
+
+Driver: serial_cs - Serial PCMCIA adapter
+
+File: cis/SW_555_SER.cis
+File: cis/SW_7xx_SER.cis
+File: cis/SW_8xx_SER.cis
+
+Licence: GPLv3
+
+Copyright Sierra Wireless
 
 --------------------------------------------------------------------------
 
