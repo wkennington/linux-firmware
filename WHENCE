@@ -431,6 +431,14 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
 
+Driver: ar9271 - Atheros HTC device (USB)
+
+File: ar9271.fw
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
 Driver: cassini - Sun Cassini
 
 File: sun/cassini.bin
@@ -653,6 +661,9 @@ Info: v8.24.2.2
 
 File: iwlwifi-1000-3.ucode
 Info: v128.50.3.1
+
+File: iwlwifi-6000-4.ucode
+Info: v9.193.4.1
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1190,6 +1201,15 @@ Licence:
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Found in hex form in kernel source.
+
+--------------------------------------------------------------------------
+
+Driver: radeon - ATI Radeon
+
+File: radeon/R600_rlc.bin
+File: radeon/R700_rlc.bin
+
+Licence: Redistributable. See LICENSE.radeon_rlc for details.
 
 --------------------------------------------------------------------------
 
