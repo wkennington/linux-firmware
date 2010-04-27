@@ -1229,3 +1229,12 @@ Licence: Redistributable, provided by Realtek in their driver
          source download.
 
 --------------------------------------------------------------------------
+
+Driver: DFU Driver for Atheros bluetooth chipset AR3011
+
+File: ath3k-2.fw
+Info: v2.0
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
