@@ -1244,7 +1244,7 @@ Licence:
 
 Driver rtl8192e - Realtek 8192 PCI wireless driver
 
-Files: RTL8192E/*
+File: RTL8192E/*
 Licence: Redistributable, provided by Realtek in their driver
          source download.
 
