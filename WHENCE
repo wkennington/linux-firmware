@@ -431,9 +431,11 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
 
-Driver: ar9271 - Atheros HTC device (USB)
+Driver: ath9k_htc - Atheros HTC devices (USB)
 
 File: ar9271.fw
+File: ar7010.fw
+File: ar7010_1_1.fw
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
