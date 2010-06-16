@@ -1271,3 +1271,43 @@ Licence: Unknown
 Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
+
+Driver: ueagle-atm - Driver for USB ADSL Modems based on Eagle IV Chipset
+
+File: ueagle-atm/CMV4p.bin.v2
+File: ueagle-atm/DSP4p.bin
+File: ueagle-atm/eagleIV.fw
+Info: v1.0
+
+Licence: Redistributable. See LICENCE.ueagle-atm4-firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: ueagle-atm - Driver for USB ADSL Modems based on Eagle I,II,III
+
+
+File: ueagle-atm/930-fpga.bin
+File: ueagle-atm/CMVeiWO.bin    
+File: ueagle-atm/CMVepFR10.bin  
+File: ueagle-atm/DSP9p.bin	
+File: ueagle-atm/eagleIII.fw
+File: ueagle-atm/adi930.fw     
+File: ueagle-atm/CMVep.bin      
+File: ueagle-atm/CMVepFR.bin    
+File: ueagle-atm/DSPei.bin
+File: ueagle-atm/CMV9i.bin     
+File: ueagle-atm/CMVepES03.bin  
+File: ueagle-atm/CMVepIT.bin    
+File: ueagle-atm/DSPep.bin
+File: ueagle-atm/CMV9p.bin     
+File: ueagle-atm/CMVepES.bin    
+File: ueagle-atm/CMVepWO.bin    
+File: ueagle-atm/eagleI.fw
+File: ueagle-atm/CMVei.bin     
+File: ueagle-atm/CMVepFR04.bin  
+File: ueagle-atm/DSP9i.bin	    
+File: ueagle-atm/eagleII.fw
+Info: v1.1
+
+Licence: Redistributable. Based on 
+         https://mail.gna.org/public/eagleusb-dev/2004-11/msg00172.html
