@@ -1382,3 +1382,12 @@ Licence:
  Permission is hereby granted for the distribution of this firmware data
  in hexadecimal or equivalent format, provided this copyright notice is
  accompanying it.
+
+--------------------------------------------------------------------------
+
+Driver: brcm80211 - Broadcom 802.11n wireless LAN driver.
+
+File: brcm/bcm43xx-0-610-809-0.fw
+File: brcm/bcm43xx_hdr-0-610-809-0.fw
+
+Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
