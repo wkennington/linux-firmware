@@ -1401,3 +1401,11 @@ File: bcm4329-fullmac-4-218-248-5.bin
 File: bcm4329-fullmac-4-218-248-5.txt
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
+
+--------------------------------------------------------------------------
+
+Driver: vt6656 - VIA VT6656 USB wireless driver
+
+File: vntwusb.fw
+
+Licence: Redistributable. See LICENCE.via_vt6656 for details.
