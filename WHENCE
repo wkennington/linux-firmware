@@ -1401,3 +1401,19 @@ File: bcm4329-fullmac-4-218-248-5.bin
 File: bcm4329-fullmac-4-218-248-5.txt
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
+
+--------------------------------------------------------------------------
+
+Driver: tlg2300 - Telgent 2300 V4L/DVB driver.
+
+File: tlg2300_firmware.bin
+
+Licence:
+  Telegent System grants permission to use and redistribute these
+  firmware files for use with devices containing the chip tlg2300, but
+  not as a part of the Linux kernel or in any other form which would
+  require these files themselves to be covered by the terms of the GNU
+  General Public License. These firmware files are distributed in the
+  hope that they will be useful, but WITHOUT ANY WARRANTY; without even
+  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+  PURPOSE.
