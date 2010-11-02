@@ -1433,3 +1433,20 @@ Licence:
   PURPOSE.
 
 --------------------------------------------------------------------------
+
+Driver: r8712u - Reaktek 802.11n WLAN driver for RTL8712U
+
+File: rtlwifi/rtl8712u.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8192ce - Reaktek 802.11n WLAN driver for RTL8192CE
+
+File: rtlwifi/rtl8192cefw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+
+--------------------------------------------------------------------------
+
