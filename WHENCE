@@ -1101,6 +1101,8 @@ Driver: ath3k - DFU Driver for Atheros bluetooth chipset AR3011
 File: ath3k-1.fw
 Info: v1.0
 
+Fix EEPROM radio table issue and change PID to 3005
+
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
