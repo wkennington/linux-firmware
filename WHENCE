@@ -1242,6 +1242,9 @@ File: radeon/JUNIPER_rlc.bin
 File: radeon/REDWOOD_me.bin
 File: radeon/REDWOOD_pfp.bin
 File: radeon/REDWOOD_rlc.bin
+File: radeon/PALM_me.bin
+File: radeon/PALM_pfp.bin
+File: radeon/SUMO_rlc.bin
 
 Licence: Redistributable. See LICENSE.radeon_rlc for details.
 
