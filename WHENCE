@@ -1256,6 +1256,16 @@ File: radeon/REDWOOD_rlc.bin
 File: radeon/PALM_me.bin
 File: radeon/PALM_pfp.bin
 File: radeon/SUMO_rlc.bin
+File: radeon/BARTS_mc.bin
+File: radeon/BARTS_me.bin
+File: radeon/BARTS_pfp.bin
+File: radeon/BTC_rlc.bin
+File: radeon/CAICOS_mc.bin
+File: radeon/CAICOS_me.bin
+File: radeon/CAICOS_pfp.bin
+File: radeon/TURKS_mc.bin
+File: radeon/TURKS_me.bin
+File: radeon/TURKS_pfp.bin
 
 Licence: Redistributable. See LICENSE.radeon_rlc for details.
 
