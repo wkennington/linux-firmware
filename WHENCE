@@ -1492,3 +1492,8 @@ Licence:
 
 --------------------------------------------------------------------------
 
+Driver: vt6656 - VIA VT6656 USB wireless driver
+
+File: vntwusb.fw
+
+Licence: Redistributable. See LICENCE.via_vt6656 for details.
