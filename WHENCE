@@ -639,8 +639,18 @@ Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g cards
 File: mwl8k/fmimage_8687.fw
 File: mwl8k/helper_8687.fw
 
-Licence: Redistributable. See LICENSE.Marvell for details.  Downloaded from
+Licence: Redistributable. See LICENCE.Marvell for details.  Downloaded from
 Marvell's "Extranet" with permission.
+
+--------------------------------------------------------------------------
+
+Driver: mwifiex - Marvell Wi-Fi fullmac-type 802.11n card
+
+File: mrvl/sd8787_uapsta.bin
+Version: 14.57.5.p44
+
+Licence: Redistributable. See LICENCE.Marvell for details.  Extracted from
+Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
 
 --------------------------------------------------------------------------
 
