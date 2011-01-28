@@ -1323,15 +1323,6 @@ Licence: Redistributable, provided by Realtek in their driver
 
 --------------------------------------------------------------------------
 
-Driver: DFU Driver for Atheros bluetooth chipset AR3011
-
-File: ath3k-2.fw
-Info: v2.0
-
-Licence: Redistributable. See LICENCE.atheros_firmware for details
-
---------------------------------------------------------------------------
-
 Driver: lgs8gxx - Legend Silicon GB20600 demodulator driver
 
 File: lgs8g75.fw
