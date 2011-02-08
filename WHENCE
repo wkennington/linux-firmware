@@ -1474,19 +1474,19 @@ Licence:
 
 --------------------------------------------------------------------------
 
-Driver: r8712u - Reaktek 802.11n WLAN driver for RTL8712U
+Driver: r8712u - Realtek 802.11n WLAN driver for RTL8712U
 
 File: rtlwifi/rtl8712u.bin
 
-Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
-Driver: rtl8192ce - Reaktek 802.11n WLAN driver for RTL8192CE
+Driver: rtl8192ce - Realtek 802.11n WLAN driver for RTL8192CE
 
 File: rtlwifi/rtl8192cfw.bin
 
-Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
@@ -1494,7 +1494,7 @@ Driver: rtl8192cu - Realtek 802.11n WLAN driver for RTL8192CU
 
 File: rtlwifi/rtl8192cufw.bin
 
-Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
@@ -1502,7 +1502,7 @@ Driver: rtl8192se - Realtek 802.11n WLAN driver for RTL8192SE
 
 File: rtlwifi/rtl8192sefw.bin
 
-Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
@@ -1510,7 +1510,7 @@ Driver: rtl8192de - Realtek 802.11n WLAN driver for RTL8192DE
 
 File: rtlwifi/rtl8192defw.bin
 
-Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
