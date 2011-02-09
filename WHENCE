@@ -1544,3 +1544,12 @@ Driver: vt6656 - VIA VT6656 USB wireless driver
 File: vntwusb.fw
 
 Licence: Redistributable. See LICENCE.via_vt6656 for details.
+
+--------------------------------------------------------------------------
+
+Driver: DFU Driver for Atheros bluetooth chipset AR3012
+
+File: ar3k/AthrBT_0x01020001.dfu
+File: ar3k/ramps_0x01020001_26.dfu
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
