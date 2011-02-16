@@ -1558,9 +1558,10 @@ Driver: r8169 - RealTek 8169/8168/8101 ethernet driver.
 
 File: rtl_nic/rtl8168d-1.fw
 File: rtl_nic/rtl8168d-2.fw
+File: rtl_nic/rtl8105e-1.fw
 
 Licence:
- * Copyright (c) 2010, Realtek Semiconductor Corporation 
+ * Copyright © 2011, Realtek Semiconductor Corporation
  *
  * Permission is hereby granted for the distribution of this firmware
  * data in hexadecimal or equivalent format, provided this copyright
