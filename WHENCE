@@ -1465,7 +1465,7 @@ File: wl1271-nvs-ap.bin
 
 Licence: See LICENCE.ti-connectivity for details.
 
-	Station:      wl1271-fw.bin version 6.1.0.0.343 (RM version 206)
+	Station:      wl1271-fw.bin version 6.1.0.50.350 (RM version 206)
 	Access Point: wl1271-fw-ap.bin version 6.2.0.0.30 (RM version 6.2.0.0.6)
 	The nvs file includes two parts:
 	 - radio calibration
