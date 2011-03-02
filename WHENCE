@@ -1497,6 +1497,18 @@ In order to use that files copy ti-connectivity directory to target FS at
 
 --------------------------------------------------------------------------
 
+Driver: TI_ST - Texas Instruments bluetooth driver
+
+File: TIInit_7.2.31.bts
+
+Licence: See LICENCE.ti-connectivity for details.
+
+	TIInit_7.2.31.bts version 7.2.31
+
+	In order to use that file copy it to /lib/firmware/ti-connectivity.
+
+--------------------------------------------------------------------------
+
 Driver: tlg2300 - Telgent 2300 V4L/DVB driver.
 
 File: tlg2300_firmware.bin
