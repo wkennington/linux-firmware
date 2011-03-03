@@ -1293,6 +1293,10 @@ File: radeon/CAICOS_pfp.bin
 File: radeon/TURKS_mc.bin
 File: radeon/TURKS_me.bin
 File: radeon/TURKS_pfp.bin
+File: radeon/CAYMAN_mc.bin
+File: radeon/CAYMAN_me.bin
+File: radeon/CAYMAN_pfp.bin
+File: radeon/CAYMAN_rlc.bin
 
 Licence: Redistributable. See LICENSE.radeon_rlc for details.
 
