@@ -1557,3 +1557,19 @@ File: ar3k/AthrBT_0x01020001.dfu
 File: ar3k/ramps_0x01020001_26.dfu
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver:Atheros AR300x UART HCI Bluetooth Chip driver
+
+File: ar3k/1020200/ar3kbdaddr.pst
+File: ar3k/1020200/PS_ASIC.pst
+File: ar3k/1020200/RamPatch.txt
+File: ar3k/30101/ar3kbdaddr.pst
+File: ar3k/30101/PS_ASIC.pst
+File: ar3k/30101/RamPatch.txt
+File: ar3k/30000/ar3kbdaddr.pst
+File: ar3k/30000/PS_ASIC.pst
+File: ar3k/30000/RamPatch.txt
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
