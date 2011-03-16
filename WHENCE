@@ -1454,6 +1454,16 @@ Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
 --------------------------------------------------------------------------
 
+Driver: tda7706 - FM radio Highly integrated tuner for AM/FM car-radio
+
+File: TDA7706_OM_v2.5.1_boot.txt
+File: TDA7706_OM_v3.0.2_boot.txt
+
+Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
+        Copyright © 2010 STMicroelectronics
+
+--------------------------------------------------------------------------
+
 Driver: wl12xx - Texas Instruments 802.11 wireless LAN driver
 
 File: wl1271-fw.bin
