@@ -1458,20 +1458,32 @@ Driver: wl12xx - Texas Instruments 802.11 wireless LAN driver
 
 File: wl1271-fw.bin
 File: wl1271-fw-2.bin
+File: wl128x-fw.bin
 File: wl1271-fw-ap.bin
-File: wl1271-nvs.bin
+File: wl128x-fw-ap.bin
+File: wl1271-nvs-example-wl127x.bin
+File: wl1271-nvs-example-wl128x.bin
 
 Licence: See LICENCE.ti-connectivity for details.
 
-	Station:      wl1271-fw.bin version 6.1.0.50.350 (RM version 206)
-	Station:      wl1271-fw-2.bin version 6.1.3.50.55
-	Access Point: wl1271-fw-ap.bin version 6.2.0.0.36
+	Station:      wl1271-fw.bin version 6.1.0.50.350
+	Station:      wl1271-fw-2.bin version 6.1.3.50.58
+	Station:      wl128x-fw.bin version 7.1.3.50.58
+	Access Point: wl1271-fw-ap.bin version 6.2.0.0.47
+	Access Point: wl128x-fw-ap.bin version 7.2.0.0.47
 
-	The nvs file includes two parts:
+The nvs file includes two parts:
 	 - radio calibration
 	 - ini setting parameters
 
-	In order to use that files copy them to target FS at /lib/firmware/.
+In order to have correct NVS file for your device NVS tool should be use:
+http://linuxwireless.org/en/users/Drivers/wl12xx/calibrator
+
+Example NVS files (not optimal) for wl127x and wl128x includes.
+To use example NVS rename one of them to wl1271-nvs.bin
+
+In order to use that files copy ti-connectivity directory to target FS at
+/lib/firmware/.
 
 --------------------------------------------------------------------------
 
