@@ -1617,3 +1617,15 @@ File: ath6k/AR6002/athwlan.bin.z77
 File: ath6k/AR6002/data.patch.hw2_0.bin
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: myri10ge - Myri10GE 10GbE NIC driver
+
+File: myri10ge_eth_z8e.dat
+File: myri10ge_ethp_z8e.dat
+File: myri10ge_rss_eth_z8e.dat
+File: myri10ge_rss_ethp_z8e.dat
+Info: v1.4.52
+
+License: Redistributable.  See LICENCE.myri10ge_firmware for details.
