@@ -1433,19 +1433,19 @@ Licence:
 
 --------------------------------------------------------------------------
 
-Driver: brcm80211 - Broadcom 802.11n wireless LAN driver.
+Driver: brcmsmac - Broadcom 802.11n softmac wireless LAN driver.
 
-File: brcm/bcm43xx-0-610-809-0.fw
-File: brcm/bcm43xx_hdr-0-610-809-0.fw
+File: brcm/bcm43xx-0.fw
+File: brcm/bcm43xx_hdr-0.fw
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
 --------------------------------------------------------------------------
 
-Driver: brcm80211 - Broadcom 802.11n wireless LAN driver.
+Driver: brcmfmac - Broadcom 802.11n fullmac wireless LAN driver.
 
-File: bcm4329-fullmac-4-218-248-5.bin
-File: bcm4329-fullmac-4-218-248-5.txt
+File: brcm/bcm4329-fullmac-4.bin
+File: brcm/bcm4329-fullmac-4.txt
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
