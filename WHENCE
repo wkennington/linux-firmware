@@ -1024,7 +1024,7 @@ Found in hex form in kernel source.
 Driver: netxen_nic - NetXen Multi port (1/10) Gigabit Ethernet NIC
 
 File: phanfw.bin
-Info: v4.0.534
+Info: v4.0.550
 
 Licence: Redistributable. See LICENCE.phanfw for details.
 
