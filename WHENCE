@@ -1576,3 +1576,41 @@ File: ar3k/30000/PS_ASIC.pst
 File: ar3k/30000/RamPatch.txt
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: ath6kl - Atheros support for AR6003
+
+File: ath6k/
+File: ath6k/AR6003
+File: ath6k/AR6003/hw1.0
+File: ath6k/AR6003/hw1.0/otp.bin.z77
+File: ath6k/AR6003/hw1.0/bdata.SD31.bin
+File: ath6k/AR6003/hw1.0/bdata.SD32.bin
+File: ath6k/AR6003/hw1.0/data.patch.bin
+File: ath6k/AR6003/hw1.0/bdata.WB31.bin
+File: ath6k/AR6003/hw1.0/athwlan.bin.z77
+File: ath6k/AR6003/hw2.1.1
+File: ath6k/AR6003/hw2.1.1/otp.bin
+File: ath6k/AR6003/hw2.1.1/athwlan.bin
+File: ath6k/AR6003/hw2.1.1/endpointping.bin
+File: ath6k/AR6003/hw2.1.1/bdata.SD31.bin
+File: ath6k/AR6003/hw2.1.1/bdata.SD32.bin
+File: ath6k/AR6003/hw2.1.1/data.patch.bin
+File: ath6k/AR6003/hw2.1.1/bdata.WB31.bin
+File: ath6k/AR6003/hw2.0
+File: ath6k/AR6003/hw2.0/otp.bin.z77
+File: ath6k/AR6003/hw2.0/bdata.SD31.bin
+File: ath6k/AR6003/hw2.0/bdata.SD32.bin
+File: ath6k/AR6003/hw2.0/data.patch.bin
+File: ath6k/AR6003/hw2.0/bdata.WB31.bin
+File: ath6k/AR6003/hw2.0/athwlan.bin.z77
+File: ath6k/AR6002
+File: ath6k/AR6002/eeprom.data
+File: ath6k/AR6002/README.txt
+File: ath6k/AR6002/License.txt
+File: ath6k/AR6002/eeprom.bin
+File: ath6k/AR6002/athwlan.bin.z77
+File: ath6k/AR6002/data.patch.hw2_0.bin
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
