@@ -533,6 +533,14 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
+Driver: cxgb4 - Chelsio Terminator 4 1G/10G Ethernet adapter
+
+File: cxgb4/t4fw.bin
+
+Licence: Redistributable. See LICENCE.chelsio_firmware for details
+
+--------------------------------------------------------------------------
+
 Driver: e100 -- Intel PRO/100 Ethernet NIC
 
 File: e100/d101m_ucode.bin
