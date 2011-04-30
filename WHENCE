@@ -1120,12 +1120,22 @@ This is a link to rt2860.bin for compatibility.
 Driver: rt2800usb - Ralink RT2870, RT3070, RT3071, RT3072, RT5370 wireless MACs
 
 File: rt2870.bin
+
+Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
+
+Binary file supplied by Shiang Tu <shiang_tu@ralinktech.com>. Firmware Version 29
+
+--------------------------------------------------------------------------
+
+Driver: rt2870sta - Ralink RT2870, RT3070, RT3071 wireless MACs
+
 File: rt3070.bin
 File: rt3071.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-Binary file supplied by Shiang Tu <shiang_tu@ralinktech.com>. Firmware Version 29
+rt3070.bin is a link to rt2870.bin for compatibility.
+rt3071.bin is a copy of bytes 4096-8191 of rt2870.bin for compatibility.
 
 --------------------------------------------------------------------------
 
