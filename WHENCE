@@ -1336,6 +1336,10 @@ File: radeon/CAYMAN_mc.bin
 File: radeon/CAYMAN_me.bin
 File: radeon/CAYMAN_pfp.bin
 File: radeon/CAYMAN_rlc.bin
+File: radeon/SUMO_pfp.bin
+File: radeon/SUMO_me.bin
+File: radeon/SUMO2_pfp.bin
+File: radeon/SUMO2_me.bin
 
 Licence: Redistributable. See LICENSE.radeon_rlc for details.
 
