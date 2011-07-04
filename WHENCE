@@ -1763,3 +1763,18 @@ to be covered by the terms of the GNU General Public License.
 These firmware files are distributed in the hope that they will be
 useful, but WITHOUT ANY WARRANTY; without even the implied warranty
 of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
+Driver: ene-ub6250 -- ENE UB6250 SD card reader driver
+
+File: ene-ub6250/sd_init1.bin
+File: ene-ub6250/sd_init2.bin
+File: ene-ub6250/sd_rdwr.bin
+File: ene-ub6250/ms_init.bin
+File: ene-ub6250/msp_rdwr.bin
+File: ene-ub6250/ms_rdwr.bin
+
+Licence: Redistributable. See LICENCE.ene_firmware for details.
+
+--------------------------------------------------------------------------
