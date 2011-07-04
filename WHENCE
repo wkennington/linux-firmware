@@ -1530,10 +1530,10 @@ File: wl1271-nvs-example-wl128x.bin
 Licence: See LICENCE.ti-connectivity for details.
 
 	Station:      wl1271-fw.bin version 6.1.0.50.350
-	Station:      wl1271-fw-2.bin version 6.1.3.50.58
-	Station:      wl128x-fw.bin version 7.1.3.50.58
-	Access Point: wl1271-fw-ap.bin version 6.2.0.0.47
-	Access Point: wl128x-fw-ap.bin version 7.2.0.0.47
+	Station:      wl1271-fw-2.bin version 6.1.5.50.74
+	Station:      wl128x-fw.bin version 7.1.5.50.74
+	Access Point: wl1271-fw-ap.bin version 6.2.1.0.54
+	Access Point: wl128x-fw-ap.bin version 7.2.1.0.54
 
 The nvs file includes two parts:
 	 - radio calibration
