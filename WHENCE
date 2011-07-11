@@ -1718,3 +1718,19 @@ File: myri10ge_rss_ethp_z8e.dat
 Info: v1.4.52
 
 License: Redistributable.  See LICENCE.myri10ge_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: drxk - Micronas DRX-K demodulator driver
+
+File: dvb-usb-terratec-h5-drxk.fw
+
+Licence:
+TERRATEC grants permission to use and redistribute these firmware
+files for use with TERRATEC devices, but not as part of the Linux
+kernel or in any other form which would require these files themselves
+to be covered by the terms of the GNU General Public License.
+
+These firmware files are distributed in the hope that they will be
+useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
