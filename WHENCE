@@ -1718,3 +1718,19 @@ File: myri10ge_rss_ethp_z8e.dat
 Info: v1.4.52
 
 License: Redistributable.  See LICENCE.myri10ge_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: ath6kl - Atheros support for AR6003 WiFi-Bluetooth combo module
+
+File: ath6k/AR6003.1
+File: ath6k/AR6003.1/hw2.1.1
+File: ath6k/AR6003.1/hw2.1.1/athwlan.bin
+File: ath6k/AR6003.1/hw2.1.1/bdata.SD31.bin
+File: ath6k/AR6003.1/hw2.1.1/bdata.SD32.bin
+File: ath6k/AR6003.1/hw2.1.1/bdata.WB31.bin
+File: ath6k/AR6003.1/hw2.1.1/data.patch.bin
+File: ath6k/AR6003.1/hw2.1.1/endpointping.bin
+File: ath6k/AR6003.1/hw2.1.1/otp.bin
+
+License: Redistributable. See LICENCE.atheros_firmware for details
