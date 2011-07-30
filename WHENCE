@@ -619,6 +619,8 @@ Also available from http://linuxwimax.org/Download
 
 Driver: libertas - Marvell Libertas fullmac-type 802.11b/g cards
 
+File: libertas/cf8381.bin
+File: libertas/cf8381_helper.bin
 File: libertas/cf8385.bin
 File: libertas/cf8385_helper.bin
 File: libertas/gspi8682.bin
