@@ -1611,7 +1611,7 @@ Licence:
 
 Driver: r8712u - Realtek 802.11n WLAN driver for RTL8712U
 
-File: rtlwifi/rtl8712u.bin
+File: rtlwifi/rtl8712u.bin - upgraded to the version found in the Vendor's V2.6.6
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
