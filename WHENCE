@@ -372,10 +372,12 @@ Driver: dsp56k - Atari DSP56k support
 
 File: dsp56k/bootstrap.bin
 Source: dsp56k/bootstrap.asm
+Source: dsp56k/Makefile
+Source: dsp56k/concat-bootstrap.pl
 
 Licence: GPLv2 or later
 
-DSP56001 assembler, possibly buildable with a56 from 
+DSP56001 assembler, buildable with a56 from
 http://www.zdomain.com/a56.html
 
 --------------------------------------------------------------------------
