@@ -653,7 +653,7 @@ Driver: libertas - Marvell Libertas 802.11b/g cards, OLPC firmware
 File: libertas/lbtf_sdio.bin
 Info: v9.0.7.p4
 
-File: libertas/lbtf_usb.bin
+File: lbtf_usb.bin
 Info: v5.132.3.p1
 
 File: libertas/usb8388_olpc.bin
