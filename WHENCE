@@ -1024,12 +1024,15 @@ File: bnx2x/bnx2x-e1h-7.0.20.0.fw
 File: bnx2x/bnx2x-e2-7.0.23.0.fw
 File: bnx2x/bnx2x-e1-7.0.23.0.fw
 File: bnx2x/bnx2x-e1h-7.0.23.0.fw
+File: bnx2x/bnx2x-e2-7.0.29.0.fw
+File: bnx2x/bnx2x-e1-7.0.29.0.fw
+File: bnx2x/bnx2x-e1h-7.0.29.0.fw
 
 License:
-  Copyright (c) 2007-2010 Broadcom Corporation
+  Copyright (c) 2007-2011 Broadcom Corporation
 
   This file contains firmware data derived from proprietary unpublished
-  source code, Copyright (c) 2007-2009 Broadcom Corporation.
+  source code, Copyright (c) 2007-2011 Broadcom Corporation.
 
   Permission is hereby granted for the distribution of this firmware data
   in hexadecimal or equivalent format, provided this copyright notice is
