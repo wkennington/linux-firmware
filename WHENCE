@@ -1846,3 +1846,15 @@ File: ene-ub6250/ms_rdwr.bin
 Licence: Redistributable. See LICENCE.ene_firmware for details.
 
 --------------------------------------------------------------------------
+
+Driver: isci -- Intel C600 SAS controller driver
+
+File: isci/isci_firmware.bin
+Source: isci/create_fw.c
+Source: isci/create_fw.h
+Source: isci/probe_roms.h
+Source: isci/Makefile
+
+Licence: GPLv2
+
+--------------------------------------------------------------------------
