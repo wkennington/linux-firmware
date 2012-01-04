@@ -58,11 +58,20 @@ static const unsigned long long sas_addr[2][4] = { { 0x5FCFFFFF00000001ULL,
 						     0x5FCFFFFF00000002ULL } };
 #endif
 
+static const int cable_selection[2][4];
+
 /* Maximum number of concurrent device spin up */
 static const int max_num_concurrent_dev_spin_up = 1;
 
 /* enable of ssc operation */
-static const int enable_ssc;
+/*
+ * NOTE: also see probe_roms.h. This value can be set for ssc values.
+ * Values can be set for:
+ * ssc_sata_tx_spread_level
+ * ssc_sas_tx_spread_level
+ * ssc_sas_tx_type
+ */
+static const __u8 enable_ssc;
 
 /* AFE_TX_AMP_CONTROL */
 static const unsigned int afe_tx_amp_control0 = 0x000bdd08;
@@ -72,6 +81,6 @@ static const unsigned int afe_tx_amp_control3 = 0x000afc6e;
 
 static const char blob_name[] = "isci_firmware.bin";
 static const char sig[] = "ISCUOEMB";
-static const unsigned char version = 0x10;
+static const unsigned char version = ISCI_ROM_VER_LATEST;
 
 #endif

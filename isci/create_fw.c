@@ -39,7 +39,7 @@ int write_blob(struct isci_orom *isci_orom)
 
 void set_binary_values(struct isci_orom *isci_orom)
 {
-	int ctrl_idx, phy_idx, port_idx;
+	int c, phy_idx, port_idx;
 
 	/* setting OROM signature */
 	strncpy(isci_orom->hdr.signature, sig, strlen(sig));
@@ -48,32 +48,33 @@ void set_binary_values(struct isci_orom *isci_orom)
 	isci_orom->hdr.hdr_length = sizeof(struct sci_bios_oem_param_block_hdr);
 	isci_orom->hdr.num_elements = num_elements;
 
-	for (ctrl_idx = 0; ctrl_idx < 2; ctrl_idx++) {
-		isci_orom->ctrl[ctrl_idx].controller.mode_type = mode_type;
-		isci_orom->ctrl[ctrl_idx].controller.max_concurr_spin_up =
-			max_num_concurrent_dev_spin_up;
-		isci_orom->ctrl[ctrl_idx].controller.do_enable_ssc =
-			enable_ssc;
+	for (c = 0; c < 2; c++) {
+		struct sci_oem_params *ctrl = &isci_orom->ctrl[c];
+		__u8 cable_selection_mask = 0;
 
-		for (port_idx = 0; port_idx < 4; port_idx++)
-			isci_orom->ctrl[ctrl_idx].ports[port_idx].phy_mask =
-				phy_mask[ctrl_idx][port_idx];
+		ctrl->controller.mode_type = mode_type;
+		ctrl->controller.max_concurr_spin_up = max_num_concurrent_dev_spin_up;
+		ctrl->controller.do_enable_ssc = enable_ssc;
 
-		for (phy_idx = 0; phy_idx < 4; phy_idx++) {
-			isci_orom->ctrl[ctrl_idx].phys[phy_idx].sas_address.high =
-				(__u32)(sas_addr[ctrl_idx][phy_idx] >> 32);
-			isci_orom->ctrl[ctrl_idx].phys[phy_idx].sas_address.low =
-				(__u32)(sas_addr[ctrl_idx][phy_idx]);
+		for (port_idx = 0; port_idx < SCI_MAX_PORTS; port_idx++)
+			ctrl->ports[port_idx].phy_mask = phy_mask[c][port_idx];
 
-			isci_orom->ctrl[ctrl_idx].phys[phy_idx].afe_tx_amp_control0 =
-				afe_tx_amp_control0;
-			isci_orom->ctrl[ctrl_idx].phys[phy_idx].afe_tx_amp_control1 =
-				afe_tx_amp_control1;
-			isci_orom->ctrl[ctrl_idx].phys[phy_idx].afe_tx_amp_control2 =
-				afe_tx_amp_control2;
-			isci_orom->ctrl[ctrl_idx].phys[phy_idx].afe_tx_amp_control3 =
-				afe_tx_amp_control3;
+		for (phy_idx = 0; phy_idx < SCI_MAX_PHYS; phy_idx++) {
+			struct sci_phy_oem_params *phy = &ctrl->phys[phy_idx];
+			__u8 cable_phy = cable_selection[c][phy_idx];
+
+			phy->sas_address.high = sas_addr[c][phy_idx] >> 32;
+			phy->sas_address.low = sas_addr[c][phy_idx];
+
+			phy->afe_tx_amp_control0 = afe_tx_amp_control0;
+			phy->afe_tx_amp_control1 = afe_tx_amp_control1;
+			phy->afe_tx_amp_control2 = afe_tx_amp_control2;
+			phy->afe_tx_amp_control3 = afe_tx_amp_control3;
+
+			cable_selection_mask |= (cable_phy & 1) << phy_idx;
+			cable_selection_mask |= (cable_phy & 2) << (phy_idx + 3);
 		}
+		ctrl->controller.cable_selection_mask = cable_selection_mask;
 	}
 }
 

@@ -31,6 +31,6 @@ Header Type - u8: 0xf
 
 ==============================================================================
 
-Place isci_firmware.bin in /lib/firmware
+Place isci_firmware.bin in /lib/firmware/isci
 Be sure to recreate the initramfs image to include the firmware.
 
