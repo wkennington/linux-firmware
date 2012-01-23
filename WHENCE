@@ -736,8 +736,14 @@ Info: v17.168.5.3
 File: iwlwifi-6000g2b-5.ucode
 Info: v17.168.5.1
 
+File: iwlwifi-135-6.ucode
+Info: v18.168.6.1
+
 File: iwlwifi-100-5.ucode
 Info: v39.31.5.1
+
+File: iwlwifi-105-6.ucode
+Info: v18.168.6.1
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
