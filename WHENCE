@@ -1589,6 +1589,12 @@ File: wl127x-fw-3.bin
 Version: 6.3.0.0.77
 File: wl127x-fw-plt-3.bin
 Version: 6.3.0.0.77 (PLT-only)
+File: wl127x-fw-4-sr.bin
+Version: 6.3.5.0.98 (Single-role)
+File: wl127x-fw-4-mr.bin
+Version: 6.5.2.0.15 (Multi-role)
+File: wl127x-fw-4-plt.bin
+Version: 6.3.5.0.98 (PLT-only)
 
 File: wl128x-fw.bin
 Version: 7.1.5.50.74 (STA-only)
@@ -1598,6 +1604,12 @@ File: wl128x-fw-3.bin
 Version: 7.3.0.0.77
 File: wl128x-fw-plt-3.bin
 Version: 7.3.0.0.77
+File: wl128x-fw-4-sr.bin
+Version: 7.3.5.0.98 (Single-role)
+File: wl128x-fw-4-mr.bin
+Version: 7.5.2.0.15 (Multi-role)
+File: wl128x-fw-4-plt.bin
+Version: 7.3.5.0.98 (PLT)
 
 File: wl127x-nvs.bin
 File: wl128x-nvs.bin
