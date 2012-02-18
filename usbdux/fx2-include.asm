@@ -1,5 +1,5 @@
-; rev 0.9
-; (c) Bernd Porr, Bernd.Porr@cn.stir.ac.uk
+; rev 0.91
+; (c) Bernd Porr, BerndPorr@f2s.com
 ; GPL, GNU public license
 ;
 ;   This program is free software; you can redistribute it and/or modify
@@ -42,8 +42,6 @@
 	.equ	EP8ISOINPKTS,0E643H
 	;; endpoint byte counts
 	.equ	EP1OUTBC,0E68DH
-	.equ	EP1INBC,0E68FH
-	.equ	EP1INCS,0E6A2H
 	.equ	EP2BCH,0E690H
 	.equ	EP2BCL,0E691H
 	.equ	EP4BCH,0E694H
@@ -63,6 +61,7 @@
 	.equ	EP8FIFOCFG,0E61BH
 	;; 
 	.equ	INPKTEND,0E648H
+	.equ	OUTPKTEND,0E649H
 	.equ	GPIFCTLCFG,0E6C3H
 	.equ	GPIFABORT,0E6F5H
 	.equ	GPIFIDLECTL,0E6C2H
@@ -72,8 +71,12 @@
 	.equ	EP6GPIFFLGSEL,0E6E2H
 	.equ	EP6GPIFPDFSTOP,0E6E3H
 	.equ	EP6GPIFTRIG,0E6E4H
-	.equ	GPIFIE,0E660H
-	.equ	GPIFIRQ,0E661H
+	.equ	GPIFTCB3,0E6CEH
+	.equ	GPIFTCB2,0E6CFH
+	.equ	GPIFTCB1,0E6D0H
+	.equ	GPIFTCB0,0E6D1H
+	.equ	EP4GPIFFLGSEL,0E6DAH
+	.equ	EP4GPIFPFSTOP,0E6DBH
 	;; 
 	;; endpoint control
 	.equ	EP2CS,0E6A3H
@@ -118,9 +121,10 @@
 	.equ	XAUTODAT2,0E67CH
 	;; USB-control
 	.equ	USBCS,0E680H
-	;; force packet end
-	.equ    OUTPKTEND,0E649H
+
 	.equ	IOA,80H
+	.equ	DPL0,82H
+	.equ	DPH0,83H
 	.equ	DPL1,84H
 	.equ	DPH1,85H
 	.equ	DPS,86H
@@ -149,16 +153,12 @@
 	.equ	GPIFTRIG,0BBH
 	.equ	EIE,0E8h
 	.equ	EIP,0F8h
+	.equ	GPIFIE,0E660H
 
-	
-	;; GPIF
-	.equ	GPIFTCB3,0E6CEH
-	.equ	GPIFTCB2,0E6CFH
-	.equ	GPIFTCB1,0E6D0H
-	.equ	GPIFTCB0,0E6D1H
-	.equ	EP4GPIFFLGSEL,0E6DAH
-	.equ	EP4GPIFPFSTOP,0E6DBH
-
+;;; serial control
+	.equ	SCON0,098h
+	.equ	SBUF0,099h
 
 	;;; end of file
 	
+

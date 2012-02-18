@@ -1208,13 +1208,15 @@ rt3071.bin is a copy of bytes 4096-8191 of rt2870.bin for compatibility.
 
 --------------------------------------------------------------------------
 
-Driver: usbdux/usbduxfast - usbdux data acquisition cards
+Driver: usbdux/usbduxfast/usbduxsigma - usbdux data acquisition cards
 
 File: usbdux_firmware.bin
 File: usbduxfast_firmware.bin
+File: usbduxsigma_firmware.bin
 Source: usbdux/fx2-include.asm
 Source: usbdux/usbduxfast_firmware.asm
 Source: usbdux/usbdux_firmware.asm
+Source: usbdux/usbduxsigma_firmware.asm
 
 Licence: GPLv2. See source code in usbdux/ subdirectory.
 
