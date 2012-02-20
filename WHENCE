@@ -1580,15 +1580,24 @@ Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
 Driver: wl12xx - Texas Instruments 802.11 wireless LAN driver
 
 File: wl1271-fw.bin
+Version: 6.1.0.50.350 (STA-only)
 File: wl1271-fw-2.bin
+Version: 6.1.5.50.74 (STA-only)
 File: wl1271-fw-ap.bin
+Version: 6.2.1.0.54 (AP-only)
 File: wl127x-fw-3.bin
+Version: 6.3.0.0.77
 File: wl127x-fw-plt-3.bin
+Version: 6.3.0.0.77 (PLT-only)
 
 File: wl128x-fw.bin
+Version: 7.1.5.50.74 (STA-only)
 File: wl128x-fw-ap.bin
+Version: 7.2.1.0.54 (AP-only)
 File: wl128x-fw-3.bin
+Version: 7.3.0.0.77
 File: wl128x-fw-plt-3.bin
+Version: 7.3.0.0.77
 
 File: wl127x-nvs.bin
 File: wl128x-nvs.bin
@@ -1598,28 +1607,23 @@ sl:   wl1271-nvs.bin -> wl127x-nvs.bin
 
 Licence: See LICENCE.ti-connectivity for details.
 
-	Station:      wl1271-fw.bin version 6.1.0.50.350
-	Station:      wl1271-fw-2.bin version 6.1.5.50.74
-	Station:      wl128x-fw.bin version 7.1.5.50.74
-	Access Point: wl1271-fw-ap.bin version 6.2.1.0.54
-	Access Point: wl128x-fw-ap.bin version 7.2.1.0.54
-	Station & Access Point: wl127x-fw-3.bin version Rev 6.3.0.0.77
-	PLT: 			wl127x-fw-3.bin version PLT 6.3.0.0.77
-	Station & Access Point: wl128x-fw-3.bin version Rev 7.3.0.0.77
-	PLT:			wl128x-fw-3.bin version PLT 7.3.0.0.77
-
-The nvs file includes two parts:
+The NVS file includes two parts:
 	 - radio calibration
-	 - ini setting parameters
+	 - HW configuration parameters (aka. INI values)
 
-In order to have correct NVS file for your device NVS tool should be use:
-http://linuxwireless.org/en/users/Drivers/wl12xx/calibrator
+The published NVS files are for testing only.  Every device needs to
+hava a unique NVS which is properly calibrated for best results.  You
+can find more information about NVS generation for your device here:
 
-Example NVS files (not optimal) for wl127x and wl128x includes.
-To use example NVS set symbolic link wl12xx-nvs.bin to one of
-them (depending the chip on the platform)
+http://wireless.kernel.org/en/users/Drivers/wl12xx/calibrator
 
-In order to use that files copy ti-connectivity directory to target FS at
+If you're using a wl127x based device, use a symbolic link called
+wl1271-nvs.bin that links to the wl127x-nvs.bin file.  If you are
+using wl128x, link to wl128x-nvs.bin instead.
+
+The driver expects to find the firmwares under a ti-connectivity
+subdirectory.  So if your system looks for firmwares in /lib/firmware,
+the firmwares for wl12xx chips must be located in
 /lib/firmware/ti-connectivity/.
 
 --------------------------------------------------------------------------
