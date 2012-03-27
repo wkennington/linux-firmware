@@ -1702,7 +1702,7 @@ File: rtl_nic/rtl8168e-1.fw
 File: rtl_nic/rtl8168e-2.fw
 
 File: rtl_nic/rtl8168e-3.fw
-Version: 0.0.3
+Version: 0.0.4
 
 File: rtl_nic/rtl8168f-1.fw
 Version: 0.0.3
