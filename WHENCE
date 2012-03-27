@@ -1705,10 +1705,10 @@ File: rtl_nic/rtl8168e-3.fw
 Version: 0.0.4
 
 File: rtl_nic/rtl8168f-1.fw
-Version: 0.0.3
+Version: 0.0.4
 
 File: rtl_nic/rtl8168f-2.fw
-Version: 0.0.3
+Version: 0.0.4
 
 File: rtl_nic/rtl8411-1.fw
 Version: 0.0.1
