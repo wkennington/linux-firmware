@@ -1779,20 +1779,14 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 Driver: ath6kl - Atheros support for AR6003
 
-File: ath6k/
-File: ath6k/AR6004/
-File: ath6k/AR6004/hw1.2
 File: ath6k/AR6004/hw1.2/fw-2.bin
 File: ath6k/AR6004/hw1.2/bdata.bin
-File: ath6k/AR6003
-File: ath6k/AR6003/hw1.0
 File: ath6k/AR6003/hw1.0/otp.bin.z77
 File: ath6k/AR6003/hw1.0/bdata.SD31.bin
 File: ath6k/AR6003/hw1.0/bdata.SD32.bin
 File: ath6k/AR6003/hw1.0/data.patch.bin
 File: ath6k/AR6003/hw1.0/bdata.WB31.bin
 File: ath6k/AR6003/hw1.0/athwlan.bin.z77
-File: ath6k/AR6003/hw2.1.1
 File: ath6k/AR6003/hw2.1.1/fw-2.bin
 File: ath6k/AR6003/hw2.1.1/fw-3.bin
 File: ath6k/AR6003/hw2.1.1/otp.bin
@@ -1802,17 +1796,13 @@ File: ath6k/AR6003/hw2.1.1/bdata.SD31.bin
 File: ath6k/AR6003/hw2.1.1/bdata.SD32.bin
 File: ath6k/AR6003/hw2.1.1/data.patch.bin
 File: ath6k/AR6003/hw2.1.1/bdata.WB31.bin
-File: ath6k/AR6003/hw2.0
 File: ath6k/AR6003/hw2.0/otp.bin.z77
 File: ath6k/AR6003/hw2.0/bdata.SD31.bin
 File: ath6k/AR6003/hw2.0/bdata.SD32.bin
 File: ath6k/AR6003/hw2.0/data.patch.bin
 File: ath6k/AR6003/hw2.0/bdata.WB31.bin
 File: ath6k/AR6003/hw2.0/athwlan.bin.z77
-File: ath6k/AR6002
 File: ath6k/AR6002/eeprom.data
-File: ath6k/AR6002/README.txt
-File: ath6k/AR6002/License.txt
 File: ath6k/AR6002/eeprom.bin
 File: ath6k/AR6002/athwlan.bin.z77
 File: ath6k/AR6002/data.patch.hw2_0.bin
@@ -1835,8 +1825,6 @@ License: Redistributable.  See LICENCE.myri10ge_firmware for details.
 
 Driver: ath6kl - Atheros support for AR6003 WiFi-Bluetooth combo module
 
-File: ath6k/AR6003.1
-File: ath6k/AR6003.1/hw2.1.1
 File: ath6k/AR6003.1/hw2.1.1/athwlan.bin
 File: ath6k/AR6003.1/hw2.1.1/bdata.SD31.bin
 File: ath6k/AR6003.1/hw2.1.1/bdata.SD32.bin
@@ -1851,7 +1839,6 @@ License: Redistributable. See LICENCE.atheros_firmware for details
 
 Driver: ath6kl - Atheros support for AR3001 WiFi-Bluetooth combo module
 
-File: ar3k/30101coex
 File: ar3k/30101coex/ar3kbdaddr.pst
 File: ar3k/30101coex/PS_ASIC_aclLowPri.pst
 File: ar3k/30101coex/PS_ASIC_aclHighPri.pst
