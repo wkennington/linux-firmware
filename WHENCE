@@ -267,6 +267,15 @@ Found in hex form in ftp://ftp.multitech.com/wireless/wireless_linux.zip
 
 --------------------------------------------------------------------------
 
+Driver: ti_usb_3410_5052 -- Multi-Tech USB fax modems
+
+File: mts_mt9234mu.fw
+File: mts_mt9234zba.fw
+
+Licence: Unknown
+
+--------------------------------------------------------------------------
+
 Driver: whiteheat -- USB ConnectTech WhiteHEAT serial device
 
 File: whiteheat.fw
@@ -517,6 +526,7 @@ File: cxgb3/t3c_psram-1.1.0.bin
 File: cxgb3/t3fw-7.0.0.bin
 File: cxgb3/t3fw-7.1.0.bin
 File: cxgb3/t3fw-7.4.0.bin
+File: cxgb3/t3fw-7.10.0.bin
 File: cxgb3/t3fw-7.12.0.bin
 
 Licence: GPLv2 or OpenIB.org BSD license, no source visible
@@ -1086,6 +1096,7 @@ File: bnx2/bnx2-mips-06-6.2.3.fw
 File: bnx2/bnx2-mips-09-4.6.17.fw
 File: bnx2/bnx2-mips-09-5.0.0.j3.fw
 File: bnx2/bnx2-mips-09-5.0.0.j9.fw
+File: bnx2/bnx2-mips-09-5.0.0.j15.fw
 File: bnx2/bnx2-mips-09-6.0.17.fw
 File: bnx2/bnx2-mips-09-6.2.1.fw
 File: bnx2/bnx2-mips-09-6.2.1a.fw
