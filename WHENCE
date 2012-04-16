@@ -1579,42 +1579,42 @@ Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
 
 Driver: wl12xx - Texas Instruments 802.11 wireless LAN driver
 
-File: wl1271-fw.bin
+File: ti-connectivity/wl1271-fw.bin
 Version: 6.1.0.50.350 (STA-only)
-File: wl1271-fw-2.bin
+File: ti-connectivity/wl1271-fw-2.bin
 Version: 6.1.5.50.74 (STA-only)
-File: wl1271-fw-ap.bin
+File: ti-connectivity/wl1271-fw-ap.bin
 Version: 6.2.1.0.54 (AP-only)
-File: wl127x-fw-3.bin
+File: ti-connectivity/wl127x-fw-3.bin
 Version: 6.3.0.0.77
-File: wl127x-fw-plt-3.bin
+File: ti-connectivity/wl127x-fw-plt-3.bin
 Version: 6.3.0.0.77 (PLT-only)
-File: wl127x-fw-4-sr.bin
+File: ti-connectivity/wl127x-fw-4-sr.bin
 Version: 6.3.5.0.98 (Single-role)
-File: wl127x-fw-4-mr.bin
+File: ti-connectivity/wl127x-fw-4-mr.bin
 Version: 6.5.2.0.15 (Multi-role)
-File: wl127x-fw-4-plt.bin
+File: ti-connectivity/wl127x-fw-4-plt.bin
 Version: 6.3.5.0.98 (PLT-only)
 
-File: wl128x-fw.bin
+File: ti-connectivity/wl128x-fw.bin
 Version: 7.1.5.50.74 (STA-only)
-File: wl128x-fw-ap.bin
+File: ti-connectivity/wl128x-fw-ap.bin
 Version: 7.2.1.0.54 (AP-only)
-File: wl128x-fw-3.bin
+File: ti-connectivity/wl128x-fw-3.bin
 Version: 7.3.0.0.77
-File: wl128x-fw-plt-3.bin
+File: ti-connectivity/wl128x-fw-plt-3.bin
 Version: 7.3.0.0.77
-File: wl128x-fw-4-sr.bin
+File: ti-connectivity/wl128x-fw-4-sr.bin
 Version: 7.3.5.0.98 (Single-role)
-File: wl128x-fw-4-mr.bin
+File: ti-connectivity/wl128x-fw-4-mr.bin
 Version: 7.5.2.0.15 (Multi-role)
-File: wl128x-fw-4-plt.bin
+File: ti-connectivity/wl128x-fw-4-plt.bin
 Version: 7.3.5.0.98 (PLT)
 
-File: wl127x-nvs.bin
-File: wl128x-nvs.bin
-sl:   wl12xx-nvs.bin -> wl127x-nvs.bin
-sl:   wl1271-nvs.bin -> wl127x-nvs.bin
+File: ti-connectivity/wl127x-nvs.bin
+File: ti-connectivity/wl128x-nvs.bin
+sl:   ti-connectivity/wl12xx-nvs.bin -> wl127x-nvs.bin
+sl:   ti-connectivity/wl1271-nvs.bin -> wl127x-nvs.bin
 
 
 Licence: See LICENCE.ti-connectivity for details.
@@ -1642,7 +1642,7 @@ the firmwares for wl12xx chips must be located in
 
 Driver: TI_ST - Texas Instruments bluetooth driver
 
-File: TIInit_7.2.31.bts
+File: ti-connectivity/TIInit_7.2.31.bts
 
 Licence: See LICENCE.ti-connectivity for details.
 
