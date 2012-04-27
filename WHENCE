@@ -415,7 +415,7 @@ Driver: qla2xxx - QLogic QLA2XXX Fibre Channel
 
 File: ql2100_fw.bin -- 1.19.38 TP
 File: ql2200_fw.bin -- 2.02.08 TP
-File: ql2300_fw.bin -- 3.03.20 IPX
+File: ql2300_fw.bin -- 3.03.28 IPX
 File: ql2322_fw.bin -- 3.03.20 IPX
 File: ql2400_fw.bin -- 4.04.04 IP
 File: ql2500_fw.bin -- 4.04.04
