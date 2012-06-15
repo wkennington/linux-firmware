@@ -552,7 +552,7 @@ Found in hex form in kernel source.
 
 Driver: cxgb4 - Chelsio Terminator 4 1G/10G Ethernet adapter
 
-File: cxgb4/t4fw-1.4.16.0.bin
+File: cxgb4/t4fw-1.4.23.0.bin
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
