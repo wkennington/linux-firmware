@@ -1613,7 +1613,7 @@ Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
 
 --------------------------------------------------------------------------
 
-Driver: wl12xx - Texas Instruments 802.11 wireless LAN driver
+Driver: wl12xx - Texas Instruments 802.11 WLAN driver for WiLink6/7 chips
 
 File: ti-connectivity/wl1271-fw.bin
 Version: 6.1.0.50.350 (STA-only)
@@ -1664,7 +1664,6 @@ File: ti-connectivity/wl128x-nvs.bin
 sl:   ti-connectivity/wl12xx-nvs.bin -> wl127x-nvs.bin
 sl:   ti-connectivity/wl1271-nvs.bin -> wl127x-nvs.bin
 
-
 Licence: See LICENCE.ti-connectivity for details.
 
 The NVS file includes two parts:
@@ -1684,6 +1683,20 @@ using wl128x, link to wl128x-nvs.bin instead.
 The driver expects to find the firmwares under a ti-connectivity
 subdirectory.  So if your system looks for firmwares in /lib/firmware,
 the firmwares for wl12xx chips must be located in
+/lib/firmware/ti-connectivity/.
+
+--------------------------------------------------------------------------
+
+Driver: wl18xx - Texas Instruments 802.11 WLAN driver for WiLink8 chips
+
+File: ti-connectivity/wl18xx-fw.bin
+Version: 8.2.0.0.100
+
+Licence: See LICENCE.ti-connectivity for details.
+
+The driver expects to find the firmwares under a ti-connectivity
+subdirectory.  So if your system looks for firmwares in /lib/firmware,
+the firmwares for wl18xx chips must be located in
 /lib/firmware/ti-connectivity/.
 
 --------------------------------------------------------------------------
