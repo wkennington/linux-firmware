@@ -413,12 +413,18 @@ Found in hex form in kernel source.
 
 Driver: qla2xxx - QLogic QLA2XXX Fibre Channel
 
-File: ql2100_fw.bin -- 1.19.38 TP
-File: ql2200_fw.bin -- 2.02.08 TP
-File: ql2300_fw.bin -- 3.03.28 IPX
-File: ql2322_fw.bin -- 3.03.28 IPX
-File: ql2400_fw.bin -- 5.06.05 MID 
-File: ql2500_fw.bin -- 5.06.05 MIDQ
+File: ql2100_fw.bin
+Version: 1.19.38 TP
+File: ql2200_fw.bin
+Version: 2.02.08 TP
+File: ql2300_fw.bin
+Version: 3.03.28 IPX
+File: ql2322_fw.bin
+Version: 3.03.28 IPX
+File: ql2400_fw.bin
+Version: 5.06.05 MID
+File: ql2500_fw.bin
+Version: 5.06.05 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
@@ -428,8 +434,10 @@ Available from ftp://ftp.qlogic.com/outgoing/linux/firmware/
 
 Driver: orinoco - Agere/Prism/Symbol Orinoco support
 
-File: agere_sta_fw.bin -- 9.48 Hermes I
-File: agere_ap_fw.bin  -- 9.48 Hermes I
+File: agere_sta_fw.bin
+Version: 9.48 Hermes I
+File: agere_ap_fw.bin
+Version: 9.48 Hermes I
 
 Licence: Redistributable. See LICENCE.agere for details
 
@@ -1731,7 +1739,8 @@ Licence:
 
 Driver: r8712u - Realtek 802.11n WLAN driver for RTL8712U
 
-File: rtlwifi/rtl8712u.bin - upgraded to the version found in the Vendor's V2.6.6
+File: rtlwifi/rtl8712u.bin
+Info: version found in the Vendor's V2.6.6
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
