@@ -93,6 +93,7 @@ Licence: Allegedly GPLv2+, but no source visible. Marked:
 Driver: smctr -- SMC ISA/MCA Token Ring adapter
 
 File: tr_smctr.bin
+Version: 6.3C1
 Info: MCT.BIN v6.3C1 03/01/95
 
 Original licence info:
@@ -184,10 +185,12 @@ Compiled from original 8051 source into Intel HEX, used in our binary ihex form.
 Driver: emi26 -- EMI 2|6 USB Audio interface
 
 File: emi26/bitstream.fw
-Info: VERSION=1.1.1.131 DATE=2001dec06
+Version: 1.1.1.131
+Info: DATE=2001dec06
 
 File: emi26/firmware.fw
-Info: VERSION=1.0.2.916 DATE=12.02.2002
+Version: 1.0.2.916
+Info: DATE=12.02.2002
 
 File: emi26/loader.fw
 
@@ -218,19 +221,23 @@ Original licence information:
 Driver: emi62 -- EMI 6|2m USB Audio interface
 
 File: emi62/bitstream.fw
-Info: VERSION=1.0.0.191 DATE= 2002oct28
+Version: 1.0.0.191
+Info: DATE= 2002oct28
 
 File: emi62/loader.fw
 Source: EMILOAD.HEX
-Info: VERSION=1.0.2.002 DATE=10.01.2002
+Version: 1.0.2.002
+Info: DATE=10.01.2002
 
 File: emi62/midi.fw
 Source: EMI62MFW.HEX
-Info: VERSION=1.04.062 DATE=16.10.2002
+Version: 1.04.062
+Info: DATE=16.10.2002
 
 File: emi62/spdif.fw
 Source: EMI62SFW.HEX
-Info: VERSION=1.04.062 DATE=16.10.2002
+Version: 1.04.062
+Info: DATE=16.10.2002
 
 Converted from Intel HEX files, used in our binary representation of ihex.
 
@@ -674,13 +681,13 @@ Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
 Driver: libertas - Marvell Libertas 802.11b/g cards, OLPC firmware
 
 File: libertas/lbtf_sdio.bin
-Info: v9.0.7.p4
+Version: 9.0.7.p4
 
 File: lbtf_usb.bin
-Info: v5.132.3.p1
+Version: 5.132.3.p1
 
 File: libertas/usb8388_olpc.bin
-Info: v5.110.22.p23
+Version: 5.110.22.p23
 
 Licence: Redistributable. See LICENCE.OLPC for details.
 
@@ -717,61 +724,61 @@ Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
 Driver: iwlwifi - Intel Wireless Wifi
 
 File: iwlwifi-3945-2.ucode
-Info: v15.32.2.9
+Version: 15.32.2.9
 
 File: iwlwifi-4965-2.ucode
-Info: v228.61.2.24
+Version: 228.61.2.24
 
 File: iwlwifi-5000-1.ucode
-Info: v5.4.A.11 (aka v5.4.1.16)
+Version: 5.4.A.11 (aka 5.4.1.16)
 
 File: iwlwifi-5000-2.ucode
-Info: v8.24.2.12
+Version: 8.24.2.12
 
 File: iwlwifi-5000-5.ucode
-Info: v8.83.5.1
+Version: 8.83.5.1
 
 File: iwlwifi-5150-2.ucode
-Info: v8.24.2.2
+Version: 8.24.2.2
 
 File: iwlwifi-1000-3.ucode
-Info: v128.50.3.1
+Version: 128.50.3.1
 
 File: iwlwifi-1000-5.ucode
-Info: v39.31.5.1
+Version: 39.31.5.1
 
 File: iwlwifi-6000-4.ucode
-Info: v9.221.4.1
+Version: 9.221.4.1
 
 File: iwlwifi-6050-4.ucode
-Info: v9.201.4.1
+Version: 9.201.4.1
 
 File: iwlwifi-6050-5.ucode
-Info: v41.28.5.1
+Version: 41.28.5.1
 
 File: iwlwifi-6000g2a-5.ucode
-Info: v17.168.5.3
+Version: 17.168.5.3
 
 File: iwlwifi-6000g2b-5.ucode
-Info: v17.168.5.1
+Version: 17.168.5.1
 
 File: iwlwifi-6000g2b-6.ucode
-Info: v18.168.6.1
+Version: 18.168.6.1
 
 File: iwlwifi-135-6.ucode
-Info: v18.168.6.1
+Version: 18.168.6.1
 
 File: iwlwifi-100-5.ucode
-Info: v39.31.5.1
+Version: 39.31.5.1
 
 File: iwlwifi-105-6.ucode
-Info: v18.168.6.1
+Version: 18.168.6.1
 
 File: iwlwifi-2030-6.ucode
-Info: v18.168.6.1
+Version: 18.168.6.1
 
 File: iwlwifi-2000-6.ucode
-Info: v18.168.6.1
+Version: 18.168.6.1
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1139,7 +1146,7 @@ Found in hex form in kernel source.
 Driver: netxen_nic - NetXen Multi port (1/10) Gigabit Ethernet NIC
 
 File: phanfw.bin
-Info: v4.0.579
+Version: 4.0.579
 
 Licence: Redistributable. See LICENCE.phanfw for details.
 
@@ -1253,7 +1260,7 @@ Provided from the author, Bernd Porr <BerndPorr@f2s.com>
 Driver: xc5000 - Xceive 5000 Tuner driver
 
 File: dvb-fe-xc5000-1.6.114.fw
-Info: v1.6.114
+Version: 1.6.114
 
 Licence: Redistributable. See LICENCE.xc5000 for details
 
@@ -1262,7 +1269,7 @@ Licence: Redistributable. See LICENCE.xc5000 for details
 Driver: dib0700 - DiBcom dib0700 USB DVB bridge driver
 
 File: dvb-usb-dib0700-1.20.fw
-Info: v1.20
+Version: 1.20
 
 Licence: Redistributable. See LICENCE.dib0700 for details
 
@@ -1271,7 +1278,7 @@ Licence: Redistributable. See LICENCE.dib0700 for details
 Driver: ath3k - DFU Driver for Atheros bluetooth chipset AR3011
 
 File: ath3k-1.fw
-Info: v1.0
+Version: 1.0
 
 Fix EEPROM radio table issue and change PID to 3005
 
@@ -1538,7 +1545,7 @@ Driver: ueagle-atm - Driver for USB ADSL Modems based on Eagle IV Chipset
 File: ueagle-atm/CMV4p.bin.v2
 File: ueagle-atm/DSP4p.bin
 File: ueagle-atm/eagleIV.fw
-Info: v1.0
+Version: 1.0
 
 Licence: Redistributable. See LICENCE.ueagle-atm4-firmware for details
 
@@ -1567,7 +1574,7 @@ File: ueagle-atm/CMVei.bin
 File: ueagle-atm/CMVepFR04.bin  
 File: ueagle-atm/DSP9i.bin	    
 File: ueagle-atm/eagleII.fw
-Info: v1.1
+Version: 1.1
 
 Licence: Redistributable. Based on 
          https://mail.gna.org/public/eagleusb-dev/2004-11/msg00172.html
@@ -1889,7 +1896,7 @@ File: myri10ge_eth_z8e.dat
 File: myri10ge_ethp_z8e.dat
 File: myri10ge_rss_eth_z8e.dat
 File: myri10ge_rss_ethp_z8e.dat
-Info: v1.4.52
+Version: 1.4.52
 
 License: Redistributable.  See LICENCE.myri10ge_firmware for details.
 
