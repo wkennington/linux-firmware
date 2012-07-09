@@ -1808,7 +1808,7 @@ File: rtl_nic/rtl8168f-2.fw
 Version: 0.0.4
 
 File: rtl_nic/rtl8411-1.fw
-Version: 0.0.2
+Version: 0.0.3
 
 File: rtl_nic/rtl8402-1.fw
 Version: 0.0.1
