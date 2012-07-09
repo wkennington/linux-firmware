@@ -1816,6 +1816,9 @@ Version: 0.0.1
 File: rtl_nic/rtl8106e-1.fw
 Version: 0.0.1
 
+File: rtl_nic/rtl8168g-1.fw
+Version: 0.0.1
+
 Licence:
  * Copyright © 2011, Realtek Semiconductor Corporation
  *
