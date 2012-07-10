@@ -1854,6 +1854,8 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 Driver:Atheros AR300x UART HCI Bluetooth Chip driver
 
+File: ar3k/1020201/PS_ASIC.pst
+File: ar3k/1020201/RamPatch.txt
 File: ar3k/1020200/ar3kbdaddr.pst
 File: ar3k/1020200/PS_ASIC.pst
 File: ar3k/1020200/RamPatch.txt
