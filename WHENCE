@@ -2034,3 +2034,15 @@ useful, but WITHOUT ANY WARRANTY; without even the implied warranty
 of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 --------------------------------------------------------------------------
+
+Driver: carl9170 -- Atheros AR9170 802.11 draft-n USB driver
+
+File: carl9170-1.fw
+Version: 1.9.6
+Source: carl9170fw/
+
+Downloaded from http://linuxwireless.org/en/users/Drivers/carl9170
+
+Licence: GPLv2
+
+--------------------------------------------------------------------------
