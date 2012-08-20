@@ -1879,6 +1879,8 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 Driver: ath6kl - Atheros support for AR6003
 
+File: ath6k/AR6004/hw1.3/fw-3.bin
+File: ath6k/AR6004/hw1.3/bdata.bin
 File: ath6k/AR6004/hw1.2/fw-2.bin
 File: ath6k/AR6004/hw1.2/bdata.bin
 File: ath6k/AR6003/hw1.0/otp.bin.z77
