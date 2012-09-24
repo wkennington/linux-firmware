@@ -1149,7 +1149,7 @@ Found in hex form in kernel source.
 Driver: netxen_nic - NetXen Multi port (1/10) Gigabit Ethernet NIC
 
 File: phanfw.bin
-Version: 4.0.579
+Version: 4.0.588
 
 Licence: Redistributable. See LICENCE.phanfw for details.
 
