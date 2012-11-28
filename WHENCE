@@ -2013,3 +2013,20 @@ File: ar5523.bin
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
+
+Driver: s5p-mfc - Samsung MFC video encoder/decoder driver
+
+File: s5p-mfc/s5p-mfc.fw
+File: s5p-mfc/s5p-mfc-v6.fw
+
+Licence:
+Samsung grants permission to use and redistribute these firmware
+files for use with Exynos series devices, but not as part of the Linux
+kernel or in any other form which would require these files themselves
+to be covered by the terms of the GNU General Public License.
+
+These firmware files are distributed in the hope that they will be
+useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
