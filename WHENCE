@@ -1740,6 +1740,8 @@ Driver: wl18xx - Texas Instruments 802.11 WLAN driver for WiLink8 chips
 
 File: ti-connectivity/wl18xx-fw.bin
 Version: 8.2.0.0.100
+File: ti-connectivity/wl18xx-fw-2.bin
+Version: 8.5.0.0.55
 
 Licence: See LICENCE.ti-connectivity for details.
 
