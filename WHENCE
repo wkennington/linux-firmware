@@ -1611,6 +1611,7 @@ Driver: brcmsmac - Broadcom 802.11n softmac wireless LAN driver.
 
 File: brcm/bcm43xx-0.fw
 File: brcm/bcm43xx_hdr-0.fw
+Version: 610.812
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
