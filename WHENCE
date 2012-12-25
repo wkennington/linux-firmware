@@ -429,13 +429,13 @@ Version: 3.03.28 IPX
 File: ql2322_fw.bin
 Version: 3.03.28 IPX
 File: ql2400_fw.bin
-Version: 5.06.05 MID
+Version: 5.08.00 MID
 File: ql2500_fw.bin
-Version: 5.06.05 MIDQ
+Version: 5.08.00 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
-Available from ftp://ftp.qlogic.com/outgoing/linux/firmware/
+Available from http://ldriver.qlogic.com/firmware/ 
 
 --------------------------------------------------------------------------
 
