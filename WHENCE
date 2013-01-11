@@ -1811,6 +1811,14 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8188ee - Realtek 802.11n WLAN driver for RTL8188EE
+
+Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_88ee_linux_mac80211_0010.0109.2013
+File: rtlwifi/rtl8188efw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
 
 Driver: r8169 - RealTek 8169/8168/8101 ethernet driver.
 
