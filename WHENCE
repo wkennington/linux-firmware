@@ -2043,6 +2043,6 @@ Source: carl9170fw/
 
 Downloaded from http://linuxwireless.org/en/users/Drivers/carl9170
 
-Licence: GPLv2
+Licence: GPLv2. Some build scripts use the New BSD (3-clause) licence.
 
 --------------------------------------------------------------------------
