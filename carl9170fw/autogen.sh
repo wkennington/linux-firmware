@@ -35,8 +35,8 @@ case "$1" in
 			tools/src/checksum carlfw/carl9170.fw
 		fi
 
-		sudo install -m 644 carlfw/carl9170.fw \
-			/lib/firmware/carl9170-$CONFIG_CARL9170FW_RELEASE_VERSION.fw
+		install -m 644 carlfw/carl9170.fw \
+			../carl9170-$CONFIG_CARL9170FW_RELEASE_VERSION.fw
 		echo "done."
 	;;
 
