@@ -31,6 +31,8 @@ case "$1" in
 		   [ "$CONFIG_CARL9170FW_BUILD_MINIBOOT" = "y" ]; then
 			echo -n "Apply miniboot..."
 			tools/src/miniboot a carlfw/carl9170.fw minifw/miniboot.fw
+			echo -n "Add checksum..."
+			tools/src/checksum carlfw/carl9170.fw
 		fi
 
 		sudo install -m 644 carlfw/carl9170.fw \
