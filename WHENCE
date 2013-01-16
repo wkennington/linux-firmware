@@ -667,11 +667,11 @@ File: libertas/sd8686_v8.bin
 File: libertas/sd8686_v8_helper.bin
 File: libertas/sd8686_v9.bin
 File: libertas/sd8686_v9_helper.bin
-File: libertas/sd8688.bin
-File: libertas/sd8688_helper.bin
 File: libertas/usb8388_v5.bin
 File: libertas/usb8388_v9.bin
 File: libertas/usb8682.bin
+File: mrvl/sd8688.bin
+File: mrvl/sd8688_helper.bin
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Extracted from
 Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
