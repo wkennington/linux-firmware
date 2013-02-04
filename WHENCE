@@ -1485,6 +1485,11 @@ File: radeon/VERDE_mc.bin
 File: radeon/VERDE_me.bin
 File: radeon/VERDE_pfp.bin
 File: radeon/VERDE_rlc.bin
+File: radeon/OLAND_ce.bin
+File: radeon/OLAND_mc.bin
+File: radeon/OLAND_me.bin
+File: radeon/OLAND_pfp.bin
+File: radeon/OLAND_rlc.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
 
