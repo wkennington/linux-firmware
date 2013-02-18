@@ -695,13 +695,15 @@ Available from http://dev.laptop.org/pub/firmware/libertas/
 
 --------------------------------------------------------------------------
 
-Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g cards
+Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g/n cards
 
 File: mwl8k/fmimage_8687.fw
 File: mwl8k/helper_8687.fw
 File: mwl8k/fmimage_8366.fw
 File: mwl8k/fmimage_8366_ap-1.fw
 File: mwl8k/fmimage_8366_ap-2.fw
+File: mwl8k/fmimage_8366_ap-3.fw
+Version: 5.2.8.16
 File: mwl8k/helper_8366.fw
 
 Licence: Redistributable. See LICENCE.Marvell for details.  8687 images
