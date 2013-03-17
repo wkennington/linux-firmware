@@ -1502,8 +1502,6 @@ Licence: Redistributable. See LICENSE.radeon for details.
 Driver: s2255drv
 
 File: f2255usb.bin
-File: s2250_loader.fw
-File: s2250.fw
 
 Licence:
   Sensoray grants permission to use and redistribute these firmware
@@ -2110,3 +2108,26 @@ File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
 --------------------------------------------------------------------------
+
+Driver: go7007
+
+File: go7007/s2250-1.fw
+File: go7007/s2250-2.fw
+
+Licence:
+  Sensoray grants permission to use and redistribute these firmware
+  files for use with Sensoray devices, but not as a part of the Linux
+  kernel or in any other form which would require these files themselves
+  to be covered by the terms of the GNU General Public License.
+  These firmware files are distributed in the hope that they will be
+  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+File: go7007/go7007fw.bin
+File: go7007/go7007tv.bin
+File: go7007/lr192.fw
+File: go7007/px-m402u.fw
+File: go7007/px-tv402u.fw
+File: go7007/wis-startrek.fw
+
+Licence: Redistributable. See LICENCE.go7007_firmware for details
