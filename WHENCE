@@ -1434,12 +1434,14 @@ Driver: radeon - ATI Radeon
 
 File: radeon/R600_rlc.bin
 File: radeon/R700_rlc.bin
+File: radeon/RV710_uvd.bin
 File: radeon/CEDAR_me.bin
 File: radeon/CEDAR_pfp.bin
 File: radeon/CEDAR_rlc.bin
 File: radeon/CYPRESS_me.bin
 File: radeon/CYPRESS_pfp.bin
 File: radeon/CYPRESS_rlc.bin
+File: radeon/CYPRESS_uvd.bin
 File: radeon/JUNIPER_me.bin
 File: radeon/JUNIPER_pfp.bin
 File: radeon/JUNIPER_rlc.bin
@@ -1449,6 +1451,7 @@ File: radeon/REDWOOD_rlc.bin
 File: radeon/PALM_me.bin
 File: radeon/PALM_pfp.bin
 File: radeon/SUMO_rlc.bin
+File: radeon/SUMO_uvd.bin
 File: radeon/BARTS_mc.bin
 File: radeon/BARTS_me.bin
 File: radeon/BARTS_pfp.bin
@@ -1480,6 +1483,7 @@ File: radeon/TAHITI_mc.bin
 File: radeon/TAHITI_me.bin
 File: radeon/TAHITI_pfp.bin
 File: radeon/TAHITI_rlc.bin
+File: radeon/TAHITI_uvd.bin
 File: radeon/VERDE_ce.bin
 File: radeon/VERDE_mc.bin
 File: radeon/VERDE_me.bin
