@@ -2080,3 +2080,14 @@ Downloaded from http://linuxwireless.org/en/users/Drivers/carl9170
 Licence: GPLv2. Some build scripts use the New BSD (3-clause) licence.
 
 --------------------------------------------------------------------------
+
+Driver: snd-hda-codec-ca0132 - Creative Sound Core3D codec
+
+File: ctefx.bin
+File: ctspeq.bin
+
+Licence: Redistributable. See LICENCE.ca0132 for details
+
+Found also in alsa-firmware package.
+
+--------------------------------------------------------------------------
