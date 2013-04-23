@@ -1869,6 +1869,9 @@ Version: 0.0.1
 File: rtl_nic/rtl8106e-1.fw
 Version: 0.0.1
 
+File: rtl_nic/rtl8106e-2.fw
+Version: 0.0.1
+
 File: rtl_nic/rtl8168g-1.fw
 Version: 0.0.3
 
