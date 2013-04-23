@@ -1875,8 +1875,11 @@ Version: 0.0.3
 File: rtl_nic/rtl8168g-2.fw
 Version: 0.0.1
 
+File: rtl_nic/rtl8168g-3.fw
+Version: 0.0.1
+
 Licence:
- * Copyright © 2011, Realtek Semiconductor Corporation
+ * Copyright © 2011-2013, Realtek Semiconductor Corporation
  *
  * Permission is hereby granted for the distribution of this firmware
  * data in hexadecimal or equivalent format, provided this copyright
