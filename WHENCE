@@ -1494,6 +1494,11 @@ File: radeon/OLAND_mc.bin
 File: radeon/OLAND_me.bin
 File: radeon/OLAND_pfp.bin
 File: radeon/OLAND_rlc.bin
+File: radeon/HAINAN_ce.bin
+File: radeon/HAINAN_mc.bin
+File: radeon/HAINAN_me.bin
+File: radeon/HAINAN_pfp.bin
+File: radeon/HAINAN_rlc.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
 
