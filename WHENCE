@@ -568,6 +568,7 @@ Found in hex form in kernel source.
 Driver: cxgb4 - Chelsio Terminator 4 1G/10G Ethernet adapter
 
 File: cxgb4/t4fw-1.6.2.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.6.2.0.bin
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
@@ -672,7 +673,9 @@ File: libertas/usb8388_v5.bin
 File: libertas/usb8388_v9.bin
 File: libertas/usb8682.bin
 File: mrvl/sd8688.bin
+Link: libertas/sd8688.bin -> ../mrvl/sd8688.bin
 File: mrvl/sd8688_helper.bin
+Link: libertas/sd8688_helper.bin -> ../mrvl/sd8688_helper.bin
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Extracted from
 Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
@@ -1237,11 +1240,9 @@ rt3290.bin is a specific firmware support the RT3290 chip. Firmware Version 37
 
 Driver: rt2860sta - Ralink RT3090 wireless MACs
 
-File: rt3090.bin
+Link: rt3090.bin -> rt2860.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
-
-This is a link to rt2860.bin for compatibility.
 
 --------------------------------------------------------------------------
 
@@ -1257,12 +1258,11 @@ Binary file supplied by Shiang Tu <shiang_tu@ralinktech.com>. Firmware Version 2
 
 Driver: rt2870sta - Ralink RT2870, RT3070, RT3071 wireless MACs
 
-File: rt3070.bin
+Link: rt3070.bin -> rt2870.bin
 File: rt3071.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-rt3070.bin is a link to rt2870.bin for compatibility.
 rt3071.bin is a copy of bytes 4096-8191 of rt2870.bin for compatibility.
 
 --------------------------------------------------------------------------
@@ -1716,8 +1716,8 @@ Version: 7.3.10.2.133 (PLT-only)
 
 File: ti-connectivity/wl127x-nvs.bin
 File: ti-connectivity/wl128x-nvs.bin
-sl:   ti-connectivity/wl12xx-nvs.bin -> wl127x-nvs.bin
-sl:   ti-connectivity/wl1271-nvs.bin -> wl127x-nvs.bin
+Link: ti-connectivity/wl12xx-nvs.bin -> wl127x-nvs.bin
+Link: ti-connectivity/wl1271-nvs.bin -> wl127x-nvs.bin
 
 Licence: See LICENCE.ti-connectivity for details.
 
@@ -2147,6 +2147,8 @@ Driver: go7007
 
 File: go7007/s2250-1.fw
 File: go7007/s2250-2.fw
+Link: s2250.fw -> go7007/s2250-2.fw
+Link: s2250_loader.fw -> go7007/s2250-1.fw
 
 Licence:
   Sensoray grants permission to use and redistribute these firmware
