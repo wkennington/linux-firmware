@@ -801,6 +801,12 @@ Version: 18.168.6.1
 File: iwlwifi-2000-6.ucode
 Version: 18.168.6.1
 
+File: iwlwifi-7260-7.ucode
+Version: 22.0.7.0
+
+File: iwlwifi-3160-7.ucode
+Version: 22.0.7.0
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://intellinuxwireless.org/?n=Downloads
