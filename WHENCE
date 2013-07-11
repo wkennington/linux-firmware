@@ -2180,3 +2180,14 @@ File: go7007/wis-startrek.fw
 Licence: Redistributable. See LICENCE.go7007_firmware for details
 
 --------------------------------------------------------------------------
+
+Driver: microcode_amd - AMD CPU Microcode Update Driver for Linux
+
+File: amd-ucode/microcode_amd.bin
+Version: 2013-07-10
+File: amd-ucode/microcode_amd_fam15h.bin
+Version: 2013-07-10
+
+License: Redistributable. See LICENSE.amd-ucode for details
+
+--------------------------------------------------------------------------
