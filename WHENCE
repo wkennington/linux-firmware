@@ -1525,6 +1525,14 @@ File: radeon/HAINAN_me.bin
 File: radeon/HAINAN_pfp.bin
 File: radeon/HAINAN_rlc.bin
 File: radeon/HAINAN_smc.bin
+File: radeon/BONAIRE_ce.bin
+File: radeon/BONAIRE_mc.bin
+File: radeon/BONAIRE_me.bin
+File: radeon/BONAIRE_mec.bin
+File: radeon/BONAIRE_pfp.bin
+File: radeon/BONAIRE_rlc.bin
+File: radeon/BONAIRE_sdma.bin
+File: radeon/BONAIRE_uvd.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
 
