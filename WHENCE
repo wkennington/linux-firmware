@@ -2152,7 +2152,7 @@ Found also in alsa-firmware package.
 
 Driver: btusb - Bluetooth USB driver
 
-File: intel/ibt-default-37.7.bseq
+File: intel/ibt-hw-37.7.bseq
 File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
