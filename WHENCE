@@ -1540,6 +1540,12 @@ File: radeon/KABINI_mec.bin
 File: radeon/KABINI_pfp.bin
 File: radeon/KABINI_rlc.bin
 File: radeon/KABINI_sdma.bin
+File: radeon/KAVERI_ce.bin
+File: radeon/KAVERI_me.bin
+File: radeon/KAVERI_mec.bin
+File: radeon/KAVERI_pfp.bin
+File: radeon/KAVERI_rlc.bin
+File: radeon/KAVERI_sdma.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
 
