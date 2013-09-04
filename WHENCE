@@ -2254,3 +2254,25 @@ rights and obligations in its use are described as follows:
 5. Moxa(r) is worldwide registered trademark.
 
 --------------------------------------------------------------------------
+
+Driver: cw1200 - ST-E CW1100/CW1200 WLAN driver
+
+File: sdd_sagrad_1091_1098.bin
+
+License:
+  Copyright (c) 2011-2013 Sagrad, Inc.
+
+  This SDD ("Static Dynamic Data") file is licensed strictly for use with
+  the Sagrad WiFi modules (such as the SG901-1091/1098) that utilize the
+  cw1200 driver. There is no warranty expressed or implied about its 
+  fitness for any purpose.
+
+  Permission is hereby granted for the distribution of this SDD file as
+  part of Linux or other Open Source operating system kernel in text or
+  binary form as required.
+
+  (Please note that the actual device firmware is separately licensed by 
+   ST-E, who has not provided explicit permission for general redistibution)
+
+--------------------------------------------------------------------------
+
