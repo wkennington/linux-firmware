@@ -2225,15 +2225,15 @@ License: Redistributable. See LICENSE.amd-ucode for details
 
 Driver: mxuport - MOXA UPort USB Serial hub driver
 
-File: moxa/moxa-04e2.fw
-File: moxa/moxa-04e3.fw
-File: moxa/moxa-0582.fw
-File: moxa/moxa-05aa.fw
-File: moxa/moxa-05ab.fw
-File: moxa/moxa-064d.fw
-File: moxa/moxa-0652.fw
-File: moxa/moxa-0675.fw
-File: moxa/moxa-067a.fw
+File: moxa/moxa-1250.fw
+File: moxa/moxa-1251.fw
+File: moxa/moxa-1410.fw
+File: moxa/moxa-1450.fw
+File: moxa/moxa-1451.fw
+File: moxa/moxa-1613.fw
+File: moxa/moxa-1618.fw
+File: moxa/moxa-1653.fw
+File: moxa/moxa-1658.fw
 
 License:
 The software accompanying this license statement (the “Software”)
