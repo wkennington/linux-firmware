@@ -2287,3 +2287,30 @@ License:
 
 --------------------------------------------------------------------------
 
+Driver: BFA/BNA - Brocade Adapter FC/FCOE drivers
+
+File: cbfw-3.2.1.1.bin
+FIle: ctfw-3.2.1.1.bin
+FIle: ct2fw-3.2.1.1.bin
+
+Licence:
+
+This file contains firmware data derived from proprietary unpublished
+source code, Copyright (c) 2013 Brocade Communications Systems, Inc.
+
+Permission is hereby granted for the distribution of this firmware data
+in hexadecimal or equivalent format, provided this copyright notice is
+accompanying it.
+
+Found in hex form in kernel source.
+
+Brocade grants permission to use and redistribute these firmware files
+for use with Brocade devices, but not as a part of the Linux
+kernel or in any other form which would require these files themselves
+to be covered by the terms of the GNU General Public License.
+These firmware files are distributed in the hope that they will be
+useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
