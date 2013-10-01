@@ -1694,9 +1694,9 @@ Driver: brcmfmac - Broadcom 802.11n fullmac wireless LAN driver.
 
 File: brcm/bcm4329-fullmac-4.bin
 File: brcm/brcmfmac43236b.bin
-File: brcm/brcmfmac4329.bin
-File: brcm/brcmfmac4330.bin
-File: brcm/brcmfmac4334.bin
+File: brcm/brcmfmac4329-sdio.bin
+File: brcm/brcmfmac4330-sdio.bin
+File: brcm/brcmfmac4334-sdio.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
