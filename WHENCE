@@ -1858,6 +1858,9 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 Driver: rtl8192cu - Realtek 802.11n WLAN driver for RTL8192CU
 
 File: rtlwifi/rtl8192cufw.bin
+FILE: rtlwifi/rtl8192cufw_A.bin
+FILE: rtlwifi/rtl8192cufw_B.bin
+FILE: rtlwifi/rtl8192cufw_TMSC.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
