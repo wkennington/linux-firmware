@@ -1715,6 +1715,24 @@ Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: wl1251 - Texas Instruments 802.11 WLAN driver for WiLink4 chips
+
+File: ti-connectivity/wl1251-fw.bin
+Version: 4.0.4.3.7
+
+File: ti-connectivity/wl1251-nvs.bin
+
+Licence: See LICENCE.wl1251 for details.
+
+The published NVS files are for testing only.  Every device needs to
+have a unique NVS which is properly calibrated for best results.
+
+The driver expects to find the firmwares under a ti-connectivity subdirectory.
+So if your system looks for firmwares in /lib/firmware, the firmwares for
+wl12xx chips must be located in /lib/firmware/ti-connectivity/.
+
+--------------------------------------------------------------------------
+
 Driver: wl12xx - Texas Instruments 802.11 WLAN driver for WiLink6/7 chips
 
 File: ti-connectivity/wl1271-fw.bin
