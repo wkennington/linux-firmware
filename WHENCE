@@ -2304,6 +2304,10 @@ rights and obligations in its use are described as follows:
 
 Driver: cw1200 - ST-E CW1100/CW1200 WLAN driver
 
+File: wsm_22.bin
+Version: WSM395
+Licence: Redistributable. See LICENSE.cw1200 for details.
+
 File: sdd_sagrad_1091_1098.bin
 
 License:
@@ -2318,8 +2322,7 @@ License:
   part of Linux or other Open Source operating system kernel in text or
   binary form as required.
 
-  (Please note that the actual device firmware is separately licensed by 
-   ST-E, who has not provided explicit permission for general redistibution)
+  (Please note that the actual device firmware is separately licensed)
 
 --------------------------------------------------------------------------
 
