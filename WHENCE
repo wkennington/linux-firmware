@@ -2198,9 +2198,9 @@ Driver: btusb - Bluetooth USB driver
 File: intel/ibt-hw-37.7.bseq
 Version: 1316.02.00
 File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
-Version: 1334.02.2E
+Version: 1344.01.33
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
-Version: 1334.02.2E
+Version: 1344.01.33
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
