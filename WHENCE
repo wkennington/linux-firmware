@@ -2333,6 +2333,9 @@ Driver: BFA/BNA - Brocade Adapter FC/FCOE drivers
 File: cbfw-3.2.1.1.bin
 FIle: ctfw-3.2.1.1.bin
 FIle: ct2fw-3.2.1.1.bin
+File: cbfw-3.2.3.0.bin
+FIle: ctfw-3.2.3.0.bin
+FIle: ct2fw-3.2.3.0.bin
 
 Licence:
 
