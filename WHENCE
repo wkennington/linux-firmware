@@ -1923,6 +1923,19 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: r8723au - Realtek 802.11n WLAN driver for RTL8723AU
+
+Info: Taken from Realtek driver rtl8723A_WiFi_linux_v4.1.3_6044.20121224
+      Firmware is embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8723aufw_A.bin
+File: rtlwifi/rtl8723aufw_B.bin
+File: rtlwifi/rtl8723aufw_B_NoBT.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
 Driver: rtl8188ee - Realtek 802.11n WLAN driver for RTL8188EE
 
 Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_88ee_linux_mac80211_0010.0109.2013
