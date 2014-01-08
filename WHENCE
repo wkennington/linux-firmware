@@ -1557,6 +1557,14 @@ File: radeon/KAVERI_mec.bin
 File: radeon/KAVERI_pfp.bin
 File: radeon/KAVERI_rlc.bin
 File: radeon/KAVERI_sdma.bin
+File: radeon/HAWAII_ce.bin
+File: radeon/HAWAII_mc.bin
+File: radeon/HAWAII_me.bin
+File: radeon/HAWAII_mec.bin
+File: radeon/HAWAII_pfp.bin
+File: radeon/HAWAII_rlc.bin
+File: radeon/HAWAII_sdma.bin
+File: radeon/HAWAII_smc.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
 
