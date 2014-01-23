@@ -1962,6 +1962,15 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8821ae - Realtek 802.11n WLAN driver for RTL8821AE
+
+Info: Taken from Realtek version wifi_driver_8821ae_0018.1129.2013.tar.gz
+File: rtlwifi/rtl8821aefw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
 Driver: r8169 - RealTek 8169/8168/8101 ethernet driver.
 
 File: rtl_nic/rtl8168d-1.fw
