@@ -2113,7 +2113,11 @@ File: myri10ge_eth_z8e.dat
 File: myri10ge_ethp_z8e.dat
 File: myri10ge_rss_eth_z8e.dat
 File: myri10ge_rss_ethp_z8e.dat
-Version: 1.4.52
+File: myri10ge_eth_big_z8e.dat
+File: myri10ge_ethp_big_z8e.dat
+File: myri10ge_rss_eth_big_z8e.dat
+File: myri10ge_rss_ethp_big_z8e.dat
+Version: 1.4.57
 
 License: Redistributable.  See LICENCE.myri10ge_firmware for details.
 
