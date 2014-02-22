@@ -1900,9 +1900,9 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 Driver: rtl8192cu - Realtek 802.11n WLAN driver for RTL8192CU
 
 File: rtlwifi/rtl8192cufw.bin
-FILE: rtlwifi/rtl8192cufw_A.bin
-FILE: rtlwifi/rtl8192cufw_B.bin
-FILE: rtlwifi/rtl8192cufw_TMSC.bin
+File: rtlwifi/rtl8192cufw_A.bin
+File: rtlwifi/rtl8192cufw_B.bin
+File: rtlwifi/rtl8192cufw_TMSC.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2385,11 +2385,11 @@ License:
 Driver: BFA/BNA - Brocade Adapter FC/FCOE drivers
 
 File: cbfw-3.2.1.1.bin
-FIle: ctfw-3.2.1.1.bin
-FIle: ct2fw-3.2.1.1.bin
+File: ctfw-3.2.1.1.bin
+File: ct2fw-3.2.1.1.bin
 File: cbfw-3.2.3.0.bin
-FIle: ctfw-3.2.3.0.bin
-FIle: ct2fw-3.2.3.0.bin
+File: ctfw-3.2.3.0.bin
+File: ct2fw-3.2.3.0.bin
 
 Licence:
 
