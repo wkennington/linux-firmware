@@ -2270,6 +2270,10 @@ File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
 Version: auto.WP_1303_02_patch_0.1.54.1 (0x36)
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
 Version: auto.WP_1303_02_patch_0.1.54.1 (0x36)
+File: intel/ibt-hw-37.8.bseq
+Version: 1339_02.00
+File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
+Version: STP2_C0_1339_02_patch_13.1 (0x0D)
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
