@@ -818,6 +818,9 @@ Version: 22.1.7.0
 File: iwlwifi-3160-8.ucode
 Version: 22.24.8.0
 
+File: iwlwifi-7265-8.ucode
+Version: 22.24.8.0
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi/?n=Downloads
