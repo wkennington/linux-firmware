@@ -2425,3 +2425,17 @@ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 --------------------------------------------------------------------------
 
+Driver: rsi -- Redpine Signals Inc 91x driver
+
+File: rsi_91x.fw
+
+Licence:
+ * Firmware is:
+ *	Derived from proprietary unpublished source code,
+ *	Copyright (C) 2014 Redpine Signals Inc.
+ *
+ *	Permission is hereby granted for the distribution of this firmware
+ *	as part of Linux or other Open Source operating system kernel
+ *	provided this copyright notice is accompanying it.
+
+--------------------------------------------------------------------------
