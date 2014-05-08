@@ -1588,6 +1588,12 @@ File: radeon/HAWAII_pfp.bin
 File: radeon/HAWAII_rlc.bin
 File: radeon/HAWAII_sdma.bin
 File: radeon/HAWAII_smc.bin
+File: radeon/MULLINS_ce.bin
+File: radeon/MULLINS_me.bin
+File: radeon/MULLINS_mec.bin
+File: radeon/MULLINS_pfp.bin
+File: radeon/MULLINS_rlc.bin
+File: radeon/MULLINS_sdma.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
 
