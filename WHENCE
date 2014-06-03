@@ -2459,6 +2459,12 @@ useful, but WITHOUT ANY WARRANTY; without even the implied warranty
 of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 --------------------------------------------------------------------------
+Driver: qat_dh895xxcc - Intel(R) QAT crypto accelerator
+
+File: qat_895xcc.bin
+
+Licence: Redistributable. See LICENCE.qat_dh895xcc_firmware for details
+--------------------------------------------------------------------------
 
 Driver: rsi -- Redpine Signals Inc 91x driver
 
