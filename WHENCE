@@ -2250,11 +2250,11 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 Driver: s5p-mfc - Samsung MFC video encoder/decoder driver
 
-File: s5p-mfc/s5p-mfc.fw
-File: s5p-mfc/s5p-mfc-v6.fw
-File: s5p-mfc/s5p-mfc-v6-v2.fw
-File: s5p-mfc/s5p-mfc-v7.fw
-File: s5p-mfc/s5p-mfc-v8.fw
+File: s5p-mfc.fw
+File: s5p-mfc-v6.fw
+File: s5p-mfc-v6-v2.fw
+File: s5p-mfc-v7.fw
+File: s5p-mfc-v8.fw
 
 Licence:
 Samsung grants permission to use and redistribute aforementioned firmware
