@@ -2306,7 +2306,7 @@ Version: WP_1345_01_patch_0.0.13.1
 File: intel/ibt-hw-37.8.bseq
 Version: 1339_02.00
 File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
-Version: STP2_C0_1339_02_patch_13.1 (0x0D)
+Version: STP2_C0_1339_02_patch_27.1
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
