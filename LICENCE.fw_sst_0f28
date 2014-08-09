@@ -38,13 +38,3 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
-
---------------------------------------------------------------------------
-
-Driver: snd_soc_sst_acpi
-
-File: intel/fw_sst_0f28.bin-48kHz_i2s_master
-
-License: Redistributable. See LICENCE.fw_sst_0f28 for details
-
---------------------------------------------------------------------------

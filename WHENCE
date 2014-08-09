@@ -2495,3 +2495,11 @@ File: r8a779x_usb3_v1.dlmem
 Licence: Redistributable. See LICENCE.r8a779x_usb3 for details.
 
 --------------------------------------------------------------------------
+
+Driver: snd_soc_sst_acpi
+
+File: intel/fw_sst_0f28.bin-48kHz_i2s_master
+
+License: Redistributable. See LICENCE.fw_sst_0f28 for details
+
+--------------------------------------------------------------------------
