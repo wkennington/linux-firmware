@@ -2503,3 +2503,10 @@ File: intel/fw_sst_0f28.bin-48kHz_i2s_master
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
 --------------------------------------------------------------------------
+
+Driver: as102 - Abilis Systems Single DVB-T Receiver
+
+File: as102_data1_st.hex
+File: as102_data2_st.hex
+
+License: Redistributable. See LICENCE.Abilis for details
