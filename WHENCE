@@ -1323,7 +1323,10 @@ Driver: xc5000 - Xceive 5000 Tuner driver
 File: dvb-fe-xc5000-1.6.114.fw
 Version: 1.6.114
 
-Licence: Redistributable. See LICENCE.xc5000 for details
+File: dvb-fe-xc5000c-4.1.30.7.fw
+Version: 4.1.30.7
+
+Licence: Redistributable. See LICENCE.xc5000 and LICENCE.xc5000c for details
 
 --------------------------------------------------------------------------
 
