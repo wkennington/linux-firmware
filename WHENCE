@@ -2521,3 +2521,14 @@ File: as102_data1_st.hex
 File: as102_data2_st.hex
 
 License: Redistributable. See LICENCE.Abilis for details
+
+--------------------------------------------------------------------------
+
+Driver: it9135 -- ITEtech IT913x DVB-T USB driver
+
+File: dvb-usb-it9135-01.fw
+File: dvb-usb-it9135-02.fw
+
+Licence: Redistributable. See LICENCE.it913x for details
+
+--------------------------------------------------------------------------
