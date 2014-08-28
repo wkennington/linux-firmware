@@ -1482,12 +1482,15 @@ Found in hex form in kernel source.
 Driver: radeon - ATI Radeon
 
 File: radeon/R600_rlc.bin
+File: radeon/R600_uvd.bin
+File: radeon/RS780_uvd.bin
 File: radeon/R700_rlc.bin
 File: radeon/RV710_uvd.bin
 File: radeon/RV710_smc.bin
 File: radeon/RV730_smc.bin
 File: radeon/RV740_smc.bin
 File: radeon/RV770_smc.bin
+File: radeon/RV770_uvd.bin
 File: radeon/CEDAR_me.bin
 File: radeon/CEDAR_pfp.bin
 File: radeon/CEDAR_rlc.bin
