@@ -2053,7 +2053,7 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 Driver: rtl8723be - Realtek 802.11n WLAN driver for RTL8723BE
 
-Info: Taken from driver sent to me from Realtek
+Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 File: rtlwifi/rtl8723befw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
