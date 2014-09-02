@@ -2006,6 +2006,7 @@ Driver: rtl8192ce - Realtek 802.11n WLAN driver for RTL8192CE
 File: rtlwifi/rtl8192cfw.bin
 File: rtlwifi/rtl8192cfwU.bin
 File: rtlwifi/rtl8192cfwU_B.bin
+Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
