@@ -2034,7 +2034,7 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 Driver: rtl8192de - Realtek 802.11n WLAN driver for RTL8192DE
 
-Info: updated from Realtek version rtl_92ce_92se_92de_linux_mac80211_0004.0816.2011
+Info: Updated from Realtek version rtl_92ce_92se_92de_8723ae_linux_mac80211_0007.0809.2012
 File: rtlwifi/rtl8192defw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
