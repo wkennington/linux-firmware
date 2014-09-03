@@ -2846,3 +2846,19 @@ File: i915/skl_guc_ver1.bin
 Version: Guc API/ABI ver 1 - release 1059 for Skylake
 
 License: Redistributable. See LICENSE.i915 for details
+
+--------------------------------------------------------------------------
+
+Driver: nouveau - NVIDIA GK20A GPU driver
+
+File: nvidia/gk20a/fecs_data.bin
+File: nvidia/gk20a/fecs_inst.bin
+File: nvidia/gk20a/gpccs_data.bin
+File: nvidia/gk20a/gpccs_inst.bin
+File: nvidia/gk20a/sw_bundle_init.bin
+File: nvidia/gk20a/sw_ctx.bin
+File: nvidia/gk20a/sw_method_init.bin
+File: nvidia/gk20a/sw_nonctx.bin
+
+Licence: Redistributable. See LICENCE.nvidia for details
+
