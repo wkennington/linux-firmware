@@ -2151,6 +2151,18 @@ Version: 0.0.1
 File: rtl_nic/rtl8168g-3.fw
 Version: 0.0.1
 
+File: rtl_nic/rtl8168h-1.fw
+Version: 0.0.1
+
+File: rtl_nic/rtl8168h-2.fw
+Version: 0.0.1
+
+File: rtl_nic/rtl8107e-1.fw
+Version: 0.0.1
+
+File: rtl_nic/rtl8107e-2.fw
+Version: 0.0.1
+
 Licence:
  * Copyright © 2011-2013, Realtek Semiconductor Corporation
  *
