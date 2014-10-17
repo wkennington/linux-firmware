@@ -729,11 +729,11 @@ Version: 14.66.35.p52
 File: mrvl/sd8797_uapsta.bin
 Version: 14.66.11.p151
 
+File: mrvl/usb8797_uapsta.bin
+Version: 14.68.29.p38
+
 File: mrvl/sd8897_uapsta.bin
 Version: 15.68.4.p103
-
-File: mrvl/usb8797_uapsta.bin
-Version: 14.68.29.p26
 
 File: mrvl/usb8897_uapsta.bin
 Version: 15.68.4.p103
