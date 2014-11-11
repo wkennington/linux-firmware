@@ -741,6 +741,9 @@ Version: 15.68.4.p103
 File: mrvl/pcie8897_uapsta.bin
 Version: 15.68.4.p103
 
+File: mrvl/sd8887_uapsta.bin
+Version: 15.68.7.p5
+
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
 
