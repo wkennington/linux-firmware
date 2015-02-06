@@ -747,6 +747,12 @@ Version: 15.68.4.p112
 File: mrvl/sd8887_uapsta.bin
 Version: 15.68.7.p5
 
+File: mrvl/sd8801_uapsta.bin
+Version: 14.68.36.p60
+
+File: mrvl/usb8801_uapsta.bin
+Version: 14.68.36.p60
+
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
 
