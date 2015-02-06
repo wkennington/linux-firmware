@@ -2668,7 +2668,7 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
 --------------------------------------------------------------------------
 
-Driver smsmdtv - Siano MDTV Core module
+Driver: smsmdtv - Siano MDTV Core module
 
 File: cmmb_vega_12mhz.inp
 File: cmmb_venice_12mhz.inp
