@@ -468,6 +468,10 @@ File: htc_9271.fw
 Version: 1.3.1
 File: htc_7010.fw
 Version: 1.3.1
+File: ath9k_htc/htc_7010-1.4.0.fw
+Version: 1.4.0
+File: ath9k_htc/htc_9271-1.4.0.fw
+Version: 1.4.0
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
