@@ -2295,6 +2295,15 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
 
+Driver: ath10k - Qualcomm Atheros support for QCA988x family of chips
+
+File: ath10k/QCA988X/hw2.0/board.bin
+File: ath10k/QCA988X/hw2.0/firmware-4.bin
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+
+--------------------------------------------------------------------------
+
 Driver: myri10ge - Myri10GE 10GbE NIC driver
 
 File: myri10ge_eth_z8e.dat
