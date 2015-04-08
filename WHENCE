@@ -2725,8 +2725,9 @@ Licence: Redistributable. See LICENCE.siano for details
 
 --------------------------------------------------------------------------
 
-Driver: xhci-tegra -- NVIDIA Tegra124 XHCI driver
+Driver: xhci-tegra -- NVIDIA Tegra XHCI driver
 
 File: nvidia/tegra124/xusb.bin
+File: nvidia/tegra210/xusb.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
