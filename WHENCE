@@ -2238,13 +2238,21 @@ File: ar3k/AthrBT_0x31010000.dfu
 File: ar3k/ramps_0x31010000_40.dfu
 File: ar3k/AthrBT_0x11020000.dfu
 File: ar3k/ramps_0x11020000_40.dfu
-File: ar3k/AthrBT_0x01020201.dfu
 File: ar3k/ramps_0x01020201_26.dfu
 File: ar3k/ramps_0x01020201_40.dfu
 File: ar3k/AthrBT_0x41020000.dfu
 File: ar3k/ramps_0x41020000_40.dfu
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: DFU Driver for Atheros bluetooth chipset AR3012
+
+File: ar3k/AthrBT_0x01020201.dfu
+File: ar3k/1020201coex/ramps_0x01020201_26_HighPriority.dfu
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ar3k for details
 
 --------------------------------------------------------------------------
 
