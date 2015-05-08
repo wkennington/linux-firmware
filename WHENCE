@@ -832,7 +832,7 @@ File: iwlwifi-7260-10.ucode
 Version: 23.15.10.0
 
 File: iwlwifi-7260-12.ucode
-Version: 25.15.12.0
+Version: 25.17.12.0
 
 File: iwlwifi-3160-7.ucode
 Version: 22.1.7.0
@@ -847,7 +847,7 @@ File: iwlwifi-3160-10.ucode
 Version: 23.15.10.0
 
 File: iwlwifi-3160-12.ucode
-Version: 25.15.12.0
+Version: 25.17.12.0
 
 File: iwlwifi-7265-8.ucode
 Version: 22.24.8.0
@@ -859,13 +859,13 @@ File: iwlwifi-7265-10.ucode
 Version: 23.15.10.0
 
 File: iwlwifi-7265-12.ucode
-Version: 25.15.12.0
+Version: 25.17.12.0
 
 File: iwlwifi-7265D-10.ucode
 Version: 23.15.10.0
 
 File: iwlwifi-7265D-12.ucode
-Version: 25.15.12.0
+Version: 25.17.12.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
