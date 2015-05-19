@@ -17,8 +17,11 @@ diff or preferably a git pull request to:
 and also cc: to related mailing lists.
 
 Your commit should include an update to the WHENCE file clearly
-identifying the licence under which the firmware is available, and
-that it is redistributable. If the licence is long and involved, it's
+identifying the license under which the firmware is available, and
+that it is redistributable. Being redistributable includes ensuring
+the firmware license provided includes an implicit or explicit
+patent grant to end users to ensure full functionality of device
+operation with the firmware. If the license is long and involved, it's
 permitted to include it in a separate file and refer to it from the
 WHENCE file.
 And if it were possible, a changelog of the firmware itself.
