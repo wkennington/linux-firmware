@@ -1604,6 +1604,7 @@ File: radeon/TAHITI_pfp.bin
 File: radeon/TAHITI_rlc.bin
 File: radeon/TAHITI_uvd.bin
 File: radeon/TAHITI_smc.bin
+File: radeon/TAHITI_vce.bin
 File: radeon/VERDE_ce.bin
 File: radeon/VERDE_mc.bin
 File: radeon/VERDE_mc2.bin
