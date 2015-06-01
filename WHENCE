@@ -575,6 +575,8 @@ File: cxgb4/t4fw-1.13.32.0.bin
 Link: cxgb4/t4fw.bin -> t4fw-1.13.32.0.bin
 File: cxgb4/t5fw-1.13.32.0.bin
 Link: cxgb4/t5fw.bin -> t5fw-1.13.32.0.bin
+File: cxgb4/aq1202_fw.cld
+File: cxgb4/bcm8483.bin
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
