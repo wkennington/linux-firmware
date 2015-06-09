@@ -2772,3 +2772,13 @@ File: nvidia/tegra210/xusb.bin
 Version: v50.07
 
 Licence: Redistributable. See LICENCE.nvidia for details
+
+--------------------------------------------------------------------------
+
+Driver: atusb - ATUSB IEEE 802.15.4 transceiver driver
+
+File: atusb/atusb-0.2.dfu
+Version: 0.2
+Info: atusb/ChangeLog
+
+Licence: GPLv2+
