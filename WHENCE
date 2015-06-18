@@ -2778,6 +2778,7 @@ Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
 
+<<<<<<< HEAD
 Driver: atusb - ATUSB IEEE 802.15.4 transceiver driver
 
 File: atusb/atusb-0.2.dfu
@@ -2806,3 +2807,16 @@ File: qca/rampatch_00130302.bin
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
 --------------------------------------------------------------------------
+
+Driver: liquidio -- Cavium LiquidIO driver
+
+File: liquidio/lio_210nv_nic.bin
+Version: v1.1.9
+
+File: liquidio/lio_210sv_nic.bin
+Version: v1.1.9
+
+File: liquidio/lio_410nv_nic.bin
+Version: v1.1.9
+
+Licence: Redistributable. See LICENCE.cavium for details
