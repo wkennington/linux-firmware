@@ -2763,9 +2763,10 @@ Driver: i915 -- Intel Integrated Graphics driver
 
 File: i915/skl_dmc_ver1_04.bin
 File: i915/skl_dmc_ver1_16.bin
+File: i915/skl_dmc_ver1_18.bin
 
 File: i915/skl_dmc_ver1.bin
-Version: DMC API/ABI ver 1 - release 16 for Skylake
+Version: DMC API/ABI ver 1 - release 18 for Skylake
 
 File: i915/bxt_dmc_ver1_04.bin
 
