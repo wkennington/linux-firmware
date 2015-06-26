@@ -2490,6 +2490,10 @@ File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
 Version: STP2_C0_1339_02_patch_43.1
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
 Version: STP2_D0_1417_04_patch_15.1
+File: intel/ibt-11-5.ddc
+Version: LnP/SfP_REL0190
+File: intel/ibt-11-5.sfi
+Version: LnP/SfP_REL0190
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
