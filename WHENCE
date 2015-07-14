@@ -2779,6 +2779,7 @@ Licence: Redistributable. See LICENCE.nvidia for details
 --------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Driver: atusb - ATUSB IEEE 802.15.4 transceiver driver
 
 File: atusb/atusb-0.2.dfu
@@ -2820,3 +2821,26 @@ File: liquidio/lio_410nv_nic.bin
 Version: v1.1.9
 
 Licence: Redistributable. See LICENCE.cavium for details
+
+--------------------------------------------------------------------------
+
+Driver: i915 -- Intel Integrated Graphics driver
+
+File: i915/skl_dmc_ver1_04.bin
+File: i915/skl_dmc_ver1_16.bin
+File: i915/skl_dmc_ver1_18.bin
+
+File: i915/skl_dmc_ver1.bin
+Version: DMC API/ABI ver 1 - release 18 for Skylake
+
+File: i915/bxt_dmc_ver1_04.bin
+
+File: i915/bxt_dmc_ver1.bin
+Version: DMC API/ABI ver 1 - release 04 for Broxton
+
+File: i915/skl_guc_ver1_1059.bin
+
+File: i915/skl_guc_ver1.bin
+Version: Guc API/ABI ver 1 - release 1059 for Skylake
+
+License: Redistributable. See LICENSE.i915 for details
