@@ -1,5 +1,5 @@
 ;   usbdux_firmware.asm
-;   Copyright (C) 2010,2011 Bernd Porr, Bernd.Porr@f2s.com
+;   Copyright (C) 2010,2015 Bernd Porr, mail@berndporr.me.uk
 ;   For usbduxsigma.c 0.5+
 ;
 ;   This program is free software; you can redistribute it and/or modify
@@ -21,7 +21,7 @@
 ; Description: University of Stirling USB DAQ & INCITE Technology Limited
 ; Devices: [ITL] USB-DUX-SIGMA (usbduxsigma.ko)
 ; Author: Bernd Porr <Bernd.Porr@f2s.com>
-; Updated: 24 Jul 2011
+; Updated: 19 Jul 2015
 ; Status: testing
 ;
 ;;;
