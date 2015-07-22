@@ -20,8 +20,8 @@
 ; Firmware: usbduxsigma_firmware.asm for usbduxsigma.c
 ; Description: University of Stirling USB DAQ & INCITE Technology Limited
 ; Devices: [ITL] USB-DUX-SIGMA (usbduxsigma.ko)
-; Author: Bernd Porr <Bernd.Porr@f2s.com>
-; Updated: 19 Jul 2015
+; Author: Bernd Porr <mail@berndporr.me.uk>
+; Updated: 20 Jul 2015
 ; Status: testing
 ;
 ;;;
@@ -129,7 +129,6 @@ ep0ack_isr:
 spare_isr:	
 ep0in_isr:	
 ep0out_isr:	
-ep1in_isr:	
 ibn_isr:	
 ep0ping_isr:	
 ep1ping_isr:	
@@ -168,6 +167,49 @@ ep4_isr:
 	pop	dps
 	
 	reti
+
+
+ep1in_isr:	
+	push	dps
+	push	dpl
+	push	dph
+	push	dpl1
+	push	dph1
+	push	acc
+	push	psw
+		
+	mov	dptr,#0E7C0h	; EP1in
+	mov	a,IOB		; get DIO D
+	movx	@dptr,a		; store it
+	inc	dptr		; next byte
+	mov	a,IOC		; get DIO C
+	movx	@dptr,a		; store it
+	inc	dptr		; next byte
+	mov	a,IOD		; get DIO B
+	movx	@dptr,a		; store it
+	inc	dptr		; next byte
+	mov	a,#0		; just zero
+	movx	@dptr,a		; pad it up
+
+	;; clear INT2
+	mov	a,EXIF		; FIRST clear the USB (INT2) interrupt request
+	clr	acc.4
+	mov	EXIF,a		; Note: EXIF reg is not 8051 bit-addressable
+
+	mov	DPTR,#EPIRQ	; 
+	mov	a,#00000100b	; clear the ep1in
+	movx	@DPTR,a
+
+	pop	psw
+	pop	acc 
+	pop	dph1 
+	pop	dpl1
+	pop	dph 
+	pop	dpl 
+	pop	dps
+	reti
+
+
 
 ;;; this is triggered when DRY goes low
 isr0:	
@@ -476,11 +518,11 @@ initeps:
 
 	;; enable interrupts
 	mov	dptr,#EPIE	; interrupt enable
-	mov	a,#10001000b	; enable irq for ep1out,8
+	mov	a,#10001100b	; enable irq for ep1out,8,ep1in
 	movx	@dptr,a		; do it
 
 	mov	dptr,#EPIRQ	; clear IRQs
-	mov	a,#10001000b
+	mov	a,#10001100b
 	movx	@dptr,a
 	
         mov     DPTR,#USBIE	; USB int enables register
