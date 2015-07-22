@@ -39,6 +39,8 @@
 	.equ	DPTRL,85H
 	.equ	DPTRH,86h
 	.equ	ASYNC_ON,87h
+	.equ	INTERVAL,88h	; uframe/frame interval
+	.equ	INTCTR,89h	; interval counter
 
 ;;; actual code
 	.org	0000h		; after reset the processor starts here
@@ -546,7 +548,18 @@ sof_isr:
 	push	07h		; R7
 
 	clr	IE.7		; make sure that no other int's disturbe us
+
+	mov	r0,#INTCTR	; interval counter
+	mov	a,@r0		; get the value
+	dec	a		; decrement
+	mov	@r0,a		; save it again
+	jz	sof_adc		; we do ADC functions
+	ljmp	epfull		; we skip all adc functions
 	
+sof_adc:
+	mov	r1,#INTERVAL	; get the interval
+	mov	a,@r1		; get it
+	mov	@r0,a		; save it in the counter
 	mov	a,EP2468STAT
 	anl	a,#20H		; full?
 	jnz	epfull		; EP6-buffer is full
@@ -762,6 +775,7 @@ ep1out_jmp:
 	sjmp	nothing		; a=6
 	sjmp	pwm_on		; a=7
 	sjmp	pwm_off		; a=8
+	sjmp	startadcint	; a=9
 
 nothing:
 	ljmp	over_da
@@ -790,11 +804,24 @@ initsgADchannel:
 		
 	sjmp	over_da
 
+startadcint:
+	mov	dptr,#0e781h	; FIFO buffer of EP1OUT from 2nd byte
+
+	movx	a,@dptr		; interval is the 1st byte
+	inc	dptr		; data pointer
+	sjmp	startadc2	; the other paramters as with startadc
 	
 ;;; config AD:
 ;;; we write to the registers of the A/D converter
 startadc:
 	mov	dptr,#0e781h	; FIFO buffer of EP1OUT from 2nd byte
+
+	mov	a,#1		; interval is 1 here all the time
+startadc2:	
+	mov	r0,#INTERVAL	; set it
+	mov	@r0,a
+	mov	r0,#INTCTR	; the counter is also just one
+	mov	@r0,a
 
 	movx	a,@dptr		; get length of channel list
 	inc	dptr
