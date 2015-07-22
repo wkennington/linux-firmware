@@ -8,5 +8,6 @@ all:
 install:
 	mkdir -p $(DESTDIR)$(FIRMWAREDIR)
 	cp -r * $(DESTDIR)$(FIRMWAREDIR)
-	rm -f $(DESTDIR)/usbdux/*dux $(DESTDIR)/*/*.asm
+	rm -f $(DESTDIR)$(FIRMWAREDIR)/usbdux/*dux \
+		$(DESTDIR)$(FIRMWAREDIR)/*/*.asm
 	rm $(DESTDIR)$(FIRMWAREDIR)/{WHENCE,LICENSE.*,LICENCE.*}
