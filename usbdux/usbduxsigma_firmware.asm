@@ -30,17 +30,20 @@
 	
 	.inc	fx2-include.asm
 
-;;; a couple of flags
+;;; a couple of flags in high memory
 	.equ	CMD_FLAG,80h	; flag for the next in transfer
 	.equ	PWMFLAG,81h	; PWM on or off?
 	.equ	MAXSMPL,82H	; maximum number of samples, n channellist
 	.equ	MUXSG0,83H	; content of the MUXSG0 register
-	.equ	SMPLCTR,84h
-	.equ	DPTRL,85H
-	.equ	DPTRH,86h
-	.equ	ASYNC_ON,87h
 	.equ	INTERVAL,88h	; uframe/frame interval
 	.equ	INTCTR,89h	; interval counter
+	.equ	DABUFFER,0F0h	; buffer with DA values
+
+;;; in precious low memory but accessible within one clock cycle
+	.equ	DPTRL,70H
+	.equ	DPTRH,71h
+	.equ	ASYNC_ON,72h
+	.equ	SMPLCTR,73h
 
 ;;; actual code
 	.org	0000h		; after reset the processor starts here
@@ -229,31 +232,24 @@ isr0:
 	push	06h		; R6
 	push	07h		; R7
 
-	mov	r0,#ASYNC_ON
-	mov	a,@r0
+	mov	a,ASYNC_ON
 	jz	noepsubmit
 
 	mov	DPS,#0
-	mov	r0,#DPTRL
-	mov	dpl,@r0
-	inc	r0
-	mov	dph,@r0
+	mov	dpl,DPTRL
+	mov	dph,DPTRH
 
 	lcall	readADCch	; read one channel
 
-	mov	r0,#DPTRL
-	mov	@r0,dpl
-	inc	r0
-	mov	@r0,dph
+	mov	DPTRL,dpl
+	mov	DPTRH,dph
 
-	mov	r0,#SMPLCTR
-	mov	a,@r0
+	mov	a,SMPLCTR
 	dec	a
-	mov	@r0,a
+	mov	SMPLCTR,a
 	jnz	noepsubmit
 
-	mov	r0,#ASYNC_ON
-	mov	@r0,#0
+	mov	ASYNC_ON,#0
 
 	clr	IOA.7		; START = 0
 	
@@ -303,9 +299,6 @@ main:
         mov     a,#00000011b    ; allows skip
         lcall   syncdelaywr
 
-	mov	IP,#0		; all std 8051 int have low priority
-	mov	EIP,#0FFH	; all FX2 interrupts have high priority
-	
 	mov	dptr,#INTSETUP	; IRQ setup register
 	mov	a,#08h		; enable autovector
 	lcall	syncdelaywr
@@ -313,6 +306,9 @@ main:
 	mov	dptr,#PORTCCFG
 	mov	a,#0
 	lcall	syncdelaywr
+
+	mov	IP,#01H		; int0 has highest interrupt priority
+	mov	EIP,#0		; all USB interrupts have low priority
 
 	lcall	initAD		; init the ports to the converters
 
@@ -341,8 +337,10 @@ initAD:
 	mov	r0,#MAXSMPL	; length of channellist
 	mov	@r0,#0		; we don't want to accumlate samples
 
-	mov	r0,#ASYNC_ON	; async enable
-	mov	@r0,#0		; we don't want to accumlate samples
+	mov	ASYNC_ON,#0	; async enable
+
+	mov	r0,#DABUFFER
+	mov	@r0,#0
 
 	mov	OEA,#11100000b	; PortA7,A6,A5 Outputs
 	mov	IOA,#01100000b	; /CS = 1 and START = 0
@@ -589,8 +587,6 @@ sof_isr:
 	push	06h		; R6
 	push	07h		; R7
 
-	clr	IE.7		; make sure that no other int's disturbe us
-
 	mov	r0,#INTCTR	; interval counter
 	mov	a,@r0		; get the value
 	dec	a		; decrement
@@ -631,18 +627,14 @@ sof_adc:
 	mov	a,#0		; just zero
 	movx	@dptr,a		; pad it up
 	inc	dptr		; algin along a 32 bit word
-	mov	r0,#DPTRL
-	mov	@r0,dpl
-	inc	r0
-	mov	@r0,dph
+	mov	DPTRL,dpl
+	mov	DPTRH,dph
 
 	mov	r0,#MAXSMPL
 	mov	a,@r0
-	mov	r0,#SMPLCTR
-	mov	@r0,a
+	mov	SMPLCTR,a
 
-	mov	r0,#ASYNC_ON
-	mov	@r0,#1		; enable data collection
+	mov	ASYNC_ON,#1
 
 epfull:
 	;; do the D/A conversion
@@ -658,7 +650,13 @@ epfull:
 	lcall	syncdelaywr	; wait for the rec to sync
 	lcall	syncdelaywr	; wait for the rec to sync
 
-epempty:	
+epempty:
+	mov	a,IOA		; conversion running?
+	jb	ACC.7,sofend
+
+	lcall	DAsend
+
+sofend:	
 	;; clear INT2
 	mov	a,EXIF		; FIRST clear the USB (INT2) interrupt request
 	clr	acc.4
@@ -669,8 +667,6 @@ epempty:
 	movx	@DPTR,a
 
 nosof:
-	setb	IE.7		; re-enable global interrupts
-	
 	pop	07h
 	pop	06h
 	pop	05h
@@ -795,8 +791,6 @@ ep1out_isr:
 	push	06h		; R6
 	push	07h		; R7
 
-	clr	IE.7		; block other interrupts
-		
 	mov	dptr,#0E780h	; FIFO buffer of EP1OUT
 	movx	a,@dptr		; get the first byte
 	mov	r0,#CMD_FLAG	; pointer to the command byte
@@ -831,8 +825,7 @@ pwm_off:
 	sjmp	over_da
 
 initsgADchannel:
-	mov	r0,#ASYNC_ON
-	mov	@r0,#0		; make sure that no async activity is on
+	mov	ASYNC_ON,#0
 	
 	mov	dptr,#0e781h	; FIFO buffer of EP1OUT
 	lcall	configADC	; configures the ADC esp sel the channel
@@ -869,13 +862,11 @@ startadc2:
 	inc	dptr
 	mov	r0,#MAXSMPL
 	mov	@r0,a 		; length of the channel list
-	mov	r0,#SMPLCTR
-	mov	@r0,a
+	mov	SMPLCTR,a
 
 	lcall	configADC	; configures all registers
 
-	mov	r0,#ASYNC_ON	; async enable
-	mov	@r0,#1		; enable it
+	mov	ASYNC_ON,#1	; async enable
 
 	lcall	reset_ep6	; reset FIFO
 	
@@ -958,8 +949,6 @@ over_da:
 	mov	a,#00001000b	; clear the ep1outirq
 	movx	@DPTR,a
 
-	setb	IE.7		; re-enable interrupts
-
 	pop	07h
 	pop	06h
 	pop	05h
@@ -979,19 +968,45 @@ over_da:
 
 
 	
-;;; all channels
+;;; save all DA channels from the endpoint buffer in a local buffer
 dalo:
 	movx	a,@dptr		; number of bytes to send out
 	inc	dptr		; pointer to the first byte
+	mov	r1,#DABUFFER	; buffer for DA values
+	mov	@r1,a		; save it
+	inc	r1		; inc pointer to local buffer
 	mov	r0,a		; counter
-nextDA:	
+nextDAlo:	
 	movx	a,@dptr		; get the byte
 	inc	dptr		; point to the high byte
-	mov	r3,a		; store in r3 for writeDA
+	mov	@r1,a		; save it in the buffer
+	inc	r1
 	movx	a,@dptr		; get the channel number
 	inc	dptr		; get ready for the next channel
+	mov	@r1,a		; save it
+	inc	r1
+	djnz	r0,nextDAlo	; next channel
+	ret
+
+
+;;; write to the DA converter
+DAsend:
+	mov	r1,#DABUFFER	; buffer of the DA values
+	mov	a,@r1		; get the channel count
+	jz	DAret		; nothing to do
+	inc	r1		; pointer to the first byte
+	mov	r0,a		; counter
+nextDA:	
+	mov	a,@r1		; get the byte
+	inc	r1		; point to the high byte
+	mov	r3,a		; store in r3 for writeDA
+	mov	a,@r1		; get the channel number
+	inc	r1		; get ready for the next channel
+	push	1		; is modified in the subroutine
 	lcall	writeDA		; write value to the DAC
+	pop	1		; get the pointer back
 	djnz	r0,nextDA	; next channel
+DAret:	
 	ret
 
 
@@ -1014,7 +1029,7 @@ writeDA3:
 	rr	a		; shift to the upper to the lower
 	djnz	r1,writeDA3
 	orl	a,r2		; merge with the channel info
-	clr	IOA.6		; /SYNC of the DA to 0
+	clr	IOA.6		; /SYNC (/CS) of the DA to 0
 	lcall	sendSPI		; send it out to the SPI
 	mov	a,r3		; get data again
 	anl	a,#00001111b	; get the lower nibble
@@ -1024,7 +1039,7 @@ writeDA4:
 	djnz	r1,writeDA4
 	anl	a,#11110000b	; make sure that's empty
 	lcall	sendSPI
-	setb	IOA.6		; /SYNC of the DA to 1
+	setb	IOA.6		; /SYNC (/CS) of the DA to 1
 noDA:	ret
 	
 
