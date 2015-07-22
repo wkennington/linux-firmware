@@ -1,5 +1,5 @@
 ;   usbdux_firmware.asm
-;   Copyright (C) 2010,2011,2015 Bernd Porr, mail@berndporr.me.uk
+;   Copyright (C) 2010,2011 Bernd Porr, Bernd.Porr@f2s.com
 ;   For usbduxsigma.c 0.5+
 ;
 ;   This program is free software; you can redistribute it and/or modify
@@ -20,8 +20,8 @@
 ; Firmware: usbduxsigma_firmware.asm for usbduxsigma.c
 ; Description: University of Stirling USB DAQ & INCITE Technology Limited
 ; Devices: [ITL] USB-DUX-SIGMA (usbduxsigma.ko)
-; Author: Bernd Porr <mail@berndporr.me.uk>
-; Updated: 25 Jun 2015
+; Author: Bernd Porr <Bernd.Porr@f2s.com>
+; Updated: 24 Jul 2011
 ; Status: testing
 ;
 ;;;
@@ -35,14 +35,21 @@
 	.equ	PWMFLAG,81h	; PWM on or off?
 	.equ	MAXSMPL,82H	; maximum number of samples, n channellist
 	.equ	MUXSG0,83H	; content of the MUXSG0 register
+	.equ	SMPLCTR,84h
+	.equ	DPTRL,85H
+	.equ	DPTRH,86h
+	.equ	ASYNC_ON,87h
 
 ;;; actual code
 	.org	0000h		; after reset the processor starts here
 	ljmp	main		; jump to the main loop
 
+	.org	0003h
+	ljmp	isr0		; external interrupt 0: /DRY
+
 	.org	0043h		; the IRQ2-vector
 	ljmp	jmptbl		; irq service-routine
-	
+
 	.org	0100h		; start of the jump table
 
 jmptbl:	ljmp	sudav_isr
@@ -160,6 +167,85 @@ ep4_isr:
 	
 	reti
 
+;;; this is triggered when DRY goes low
+isr0:	
+	push	dps
+	push	dpl
+	push	dph
+	push	dpl1
+	push	dph1
+	push	acc
+	push	psw
+	push	00h		; R0
+	push	01h		; R1
+	push	02h		; R2
+	push	03h		; R3
+	push	04h		; R4
+	push	05h		; R5
+	push	06h		; R6
+	push	07h		; R7
+
+	mov	r0,#ASYNC_ON
+	mov	a,@r0
+	jz	noepsubmit
+
+	mov	DPS,#0
+	mov	r0,#DPTRL
+	mov	dpl,@r0
+	inc	r0
+	mov	dph,@r0
+
+	lcall	readADCch	; read one channel
+
+	mov	r0,#DPTRL
+	mov	@r0,dpl
+	inc	r0
+	mov	@r0,dph
+
+	mov	r0,#SMPLCTR
+	mov	a,@r0
+	dec	a
+	mov	@r0,a
+	jnz	noepsubmit
+
+	mov	r0,#ASYNC_ON
+	mov	@r0,#0
+
+	clr	IOA.7		; START = 0
+	
+	;; arm the endpoint and send off the data
+	mov	DPTR,#EP6BCH	; byte count H
+	mov	a,#0		; is zero
+	lcall	syncdelaywr	; wait until we can write again
+	
+	mov	r0,#MAXSMPL	; number of samples to transmit
+	mov	a,@r0		; get them
+	rl	a		; a=a*2
+	rl	a		; a=a*2
+	add	a,#4		; four bytes for DIO
+	mov	DPTR,#EP6BCL	; byte count L
+	lcall	syncdelaywr	; wait until we can write again
+
+noepsubmit:
+	pop	07h
+	pop	06h
+	pop	05h
+	pop	04h		; R4
+	pop	03h		; R3
+	pop	02h		; R2
+	pop	01h		; R1
+	pop	00h		; R0
+	pop	psw
+	pop	acc 
+	pop	dph1 
+	pop	dpl1
+	pop	dph 
+	pop	dpl 
+	pop	dps
+
+	reti
+
+	
 		
 ;;; main program
 ;;; basically only initialises the processor and
@@ -209,6 +295,9 @@ mloop2:	nop
 ;;; initialise the ports for the AD-converter
 initAD:
 	mov	r0,#MAXSMPL	; length of channellist
+	mov	@r0,#0		; we don't want to accumlate samples
+
+	mov	r0,#ASYNC_ON	; async enable
 	mov	@r0,#0		; we don't want to accumlate samples
 
 	mov	OEA,#11100000b	; PortA7,A6,A5 Outputs
@@ -379,6 +468,10 @@ initeps:
 	mov	a,#11100000b	; BULK data from here to the host
 	movx	@DPTR,a		;
 
+	mov	dptr,#PORTACFG
+	mov	a,#1		; interrupt on pin A0
+	lcall	syncdelaywr
+
 	;; enable interrupts
 	mov	dptr,#EPIE	; interrupt enable
 	mov	a,#10001000b	; enable irq for ep1out,8
@@ -392,8 +485,10 @@ initeps:
         mov     a,#2            ; enables SOF (1ms/125us interrupt)
         movx    @DPTR,a         ; 
 
+	setb	TCON.0		; make INT0 edge triggered, falling edge
+
 	mov	EIE,#00000001b	; enable INT2/USBINT in the 8051's SFR
-	mov	IE,#80h		; IE, enable all interrupts
+	mov	IE,#81h		; IE, enable all interrupts and INT0
 
 	ret
 
@@ -401,10 +496,6 @@ initeps:
 ;;; Reads one ADC channel from the converter and stores
 ;;; the result at dptr
 readADCch:
-	;; we do polling: we wait until DATA READY is zero
-	mov	a,IOA		; get /DRDY
-	jb	ACC.0,readADCch	; wait until data ready (DRDY=0)
-	
 	;; reading data is done by just dropping /CS and start reading and
 	;; while keeping the IN signal to the ADC inactive
 	clr	IOA.5		; /cs to 0
@@ -460,7 +551,8 @@ sof_isr:
 	anl	a,#20H		; full?
 	jnz	epfull		; EP6-buffer is full
 
-	clr	IOA.7		; stop converter, START = 0
+	mov	a,IOA		; conversion running?
+	jb	ACC.7,epfull
 
 	;; make sure that we are starting with the first channel
 	mov	r0,#MUXSG0	;
@@ -471,8 +563,6 @@ sof_isr:
 
 	setb	IOA.7		; start converter, START = 1
 	
-	;; get the data from the ADC as fast as possible and transfer it
-	;; to the EP buffer
 	mov	dptr,#0f800h	; EP6 buffer
 	mov	a,IOD		; get DIO D
 	movx	@dptr,a		; store it
@@ -486,30 +576,18 @@ sof_isr:
 	mov	a,#0		; just zero
 	movx	@dptr,a		; pad it up
 	inc	dptr		; algin along a 32 bit word
+	mov	r0,#DPTRL
+	mov	@r0,dpl
+	inc	r0
+	mov	@r0,dph
 
-	mov	r0,#MAXSMPL	; number of samples to transmit
-	mov	a,@r0		; get them
-	mov	r1,a		; counter
+	mov	r0,#MAXSMPL
+	mov	a,@r0
+	mov	r0,#SMPLCTR
+	mov	@r0,a
 
-	;; main loop, get all the data
-eptrans:	
-	lcall	readADCch	; get one reading
-	djnz	r1,eptrans	; do until we have all content transf'd
-
-	clr	IOA.7		; stop converter, START = 0
-
-	;; arm the endpoint and send off the data
-	mov	DPTR,#EP6BCH	; byte count H
-	mov	a,#0		; is zero
-	lcall	syncdelaywr	; wait until we can write again
-	
-	mov	r0,#MAXSMPL	; number of samples to transmit
-	mov	a,@r0		; get them
-	rl	a		; a=a*2
-	rl	a		; a=a*2
-	add	a,#4		; four bytes for DIO
-	mov	DPTR,#EP6BCL	; byte count L
-	lcall	syncdelaywr	; wait until we can write again
+	mov	r0,#ASYNC_ON
+	mov	@r0,#1		; enable data collection
 
 epfull:
 	;; do the D/A conversion
@@ -697,6 +775,9 @@ pwm_off:
 	sjmp	over_da
 
 initsgADchannel:
+	mov	r0,#ASYNC_ON
+	mov	@r0,#0		; make sure that no async activity is on
+	
 	mov	dptr,#0e781h	; FIFO buffer of EP1OUT
 	lcall	configADC	; configures the ADC esp sel the channel
 
@@ -719,8 +800,13 @@ startadc:
 	inc	dptr
 	mov	r0,#MAXSMPL
 	mov	@r0,a 		; length of the channel list
+	mov	r0,#SMPLCTR
+	mov	@r0,a
 
 	lcall	configADC	; configures all registers
+
+	mov	r0,#ASYNC_ON	; async enable
+	mov	@r0,#1		; enable it
 
 	lcall	reset_ep6	; reset FIFO
 	
@@ -915,8 +1001,12 @@ ep8_jmp:
 
 	;; read one A/D channel
 ep8_sglchannel:
-	mov 	DPTR,#0fc01h	; EP8 FIFO
 	setb	IOA.7		; start converter, START = 1
+	;; we do polling: we wait until DATA READY is zero
+sglchwait:	
+	mov	a,IOA		; get /DRDY
+	jb	ACC.0,sglchwait	; wait until data ready (DRDY=0)
+	mov 	DPTR,#0fc01h	; EP8 FIFO
 	lcall	readADCch	; get one reading
 	clr	IOA.7		; stop the converter, START = 0
 
