@@ -2868,3 +2868,13 @@ File: nvidia/gk20a/sw_nonctx.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
+--------------------------------------------------------------------------
+
+Driver: wilc1000 - Atmel 802.11n WLAN driver for WILC1000
+
+File: atmel/wilc1000_fw.bin
+File: atmel/wilc1000_ap_fw.bin
+File: atmel/wilc1000_p2p_fw.bin
+
+License: Redistributable. See LICENCE.atmel for details
+
