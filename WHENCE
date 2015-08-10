@@ -2878,3 +2878,14 @@ File: atmel/wilc1000_p2p_fw.bin
 
 License: Redistributable. See LICENCE.atmel for details
 
+--------------------------------------------------------------------------
+
+Driver: hfi1 - Intel OPA Gen 1 adapter
+
+File: hfi1_dc8051.fw
+File: hfi1_fabric.fw
+File: hfi1_pcie.fw
+File: hfi1_sbus.fw
+
+Licence: Redistributable. See LICENCE.hfi1_firmware for details
+
