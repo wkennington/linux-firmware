@@ -2265,6 +2265,8 @@ File: ar3k/ramps_0x01020201_26.dfu
 File: ar3k/ramps_0x01020201_40.dfu
 File: ar3k/AthrBT_0x41020000.dfu
 File: ar3k/ramps_0x41020000_40.dfu
+File: ar3k/AthrBT_0x11020100.dfu
+File: ar3k/ramps_0x11020100_40.dfu
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
