@@ -2839,9 +2839,10 @@ File: i915/skl_dmc_ver1_16.bin
 File: i915/skl_dmc_ver1_18.bin
 File: i915/skl_dmc_ver1_19.bin
 File: i915/skl_dmc_ver1_20.bin
+File: i915/skl_dmc_ver1_21.bin
 
 File: i915/skl_dmc_ver1.bin
-Version: DMC API/ABI ver 1 - release 20 for Skylake
+Version: DMC API/ABI ver 1 - release 21 for Skylake
 
 File: i915/bxt_dmc_ver1_04.bin
 File: i915/bxt_dmc_ver1_05.bin
