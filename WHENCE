@@ -2848,9 +2848,13 @@ File: i915/bxt_dmc_ver1.bin
 Version: DMC API/ABI ver 1 - release 05 for Broxton
 
 File: i915/skl_guc_ver1_1059.bin
+File: i915/skl_guc_ver4_3.bin
 
 File: i915/skl_guc_ver1.bin
 Version: Guc API/ABI ver 1 - release 1059 for Skylake
+
+File: i915/skl_guc_ver4.bin
+Version: Guc API/ABI ver 4 - release 3 for Skylake
 
 License: Redistributable. See LICENSE.i915 for details
 
