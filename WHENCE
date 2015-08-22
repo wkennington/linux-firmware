@@ -2975,3 +2975,15 @@ Driver: knav_qmss_queue - TI Keystone 2 QMSS driver
 File: ti-keystone/ks2_qmss_pdsp_acc48_k2_le_1_0_0_9.bin
 
 Licence: Redistributable. See LICENCE.ti-keystone for details.
+
+--------------------------------------------------------------------------
+
+Driver: mwlwifi - Marvell mac80211 driver for 80211ac cards.
+
+File: mwlwifi/88W8864.bin
+Version: 7.2.8.6
+
+File: mwlwifi/88W8897.bin
+Version: 8.2.0.10
+
+Licence: Redistributable. See LICENCE.Marvell for details.
