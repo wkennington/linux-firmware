@@ -1740,6 +1740,57 @@ Licence: Redistributable. See LICENSE.radeon for details.
 
 --------------------------------------------------------------------------
 
+Driver: amdgpu - AMD Radeon
+
+File: amdgpu/topaz_ce.bin
+File: amdgpu/topaz_mc.bin
+File: amdgpu/topaz_me.bin
+File: amdgpu/topaz_mec2.bin
+File: amdgpu/topaz_mec.bin
+File: amdgpu/topaz_pfp.bin
+File: amdgpu/topaz_rlc.bin
+File: amdgpu/topaz_sdma1.bin
+File: amdgpu/topaz_sdma.bin
+File: amdgpu/topaz_smc.bin
+File: amdgpu/tonga_ce.bin
+File: amdgpu/tonga_mc.bin
+File: amdgpu/tonga_me.bin
+File: amdgpu/tonga_mec2.bin
+File: amdgpu/tonga_mec.bin
+File: amdgpu/tonga_pfp.bin
+File: amdgpu/tonga_rlc.bin
+File: amdgpu/tonga_sdma1.bin
+File: amdgpu/tonga_sdma.bin
+File: amdgpu/tonga_smc.bin
+File: amdgpu/tonga_uvd.bin
+File: amdgpu/tonga_vce.bin
+File: amdgpu/carrizo_ce.bin
+File: amdgpu/carrizo_me.bin
+File: amdgpu/carrizo_mec2.bin
+File: amdgpu/carrizo_mec.bin
+File: amdgpu/carrizo_pfp.bin
+File: amdgpu/carrizo_rlc.bin
+File: amdgpu/carrizo_sdma1.bin
+File: amdgpu/carrizo_sdma.bin
+File: amdgpu/carrizo_uvd.bin
+File: amdgpu/carrizo_vce.bin
+File: amdgpu/fiji_ce.bin
+File: amdgpu/fiji_mc.bin
+File: amdgpu/fiji_me.bin
+File: amdgpu/fiji_mec2.bin
+File: amdgpu/fiji_mec.bin
+File: amdgpu/fiji_pfp.bin
+File: amdgpu/fiji_rlc.bin
+File: amdgpu/fiji_sdma1.bin
+File: amdgpu/fiji_sdma.bin
+File: amdgpu/fiji_smc.bin
+File: amdgpu/fiji_uvd.bin
+File: amdgpu/fiji_vce.bin
+
+Licence: Redistributable. See LICENSE.amdgpu for details.
+
+--------------------------------------------------------------------------
+
 Driver: s2255drv
 
 File: f2255usb.bin
