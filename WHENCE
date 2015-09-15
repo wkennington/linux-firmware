@@ -2947,3 +2947,10 @@ File: hfi1_sbus.fw
 
 Licence: Redistributable. See LICENCE.hfi1_firmware for details
 
+--------------------------------------------------------------------------
+
+Driver: knav_qmss_queue - TI Keystone 2 QMSS driver
+
+File: ti-keystone/ks2_qmss_pdsp_acc48_k2_le_1_0_0_9.bin
+
+Licence: See LICENCE.ti-keystone for details.
