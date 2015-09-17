@@ -2896,9 +2896,10 @@ Version: DMC API/ABI ver 1 - release 21 for Skylake
 
 File: i915/bxt_dmc_ver1_04.bin
 File: i915/bxt_dmc_ver1_05.bin
+File: i915/bxt_dmc_ver1_06.bin
 
 File: i915/bxt_dmc_ver1.bin
-Version: DMC API/ABI ver 1 - release 05 for Broxton
+Version: DMC API/ABI ver 1 - release 06 for Broxton
 
 File: i915/skl_guc_ver1_1059.bin
 File: i915/skl_guc_ver4_3.bin
