@@ -2887,8 +2887,6 @@ Licence: Redistributable. See LICENCE.cavium for details
 
 Driver: i915 -- Intel Integrated Graphics driver
 
-File: i915/skl_dmc_ver1_19.bin
-File: i915/skl_dmc_ver1_20.bin
 File: i915/skl_dmc_ver1_21.bin
 File: i915/skl_dmc_ver1_22.bin
 
