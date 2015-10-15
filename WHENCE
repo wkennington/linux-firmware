@@ -2395,6 +2395,9 @@ File: ath10k/QCA988X/hw2.0/firmware-4.bin
 Version: 10.2.4.45
 File: ath10k/QCA988X/hw2.0/firmware-5.bin
 Version: 10.2.4.70.9-2
+File: ath10k/QCA6174/hw2.1/board.bin
+File: ath10k/QCA6174/hw2.1/firmware-5.bin
+Version: WLAN.RM.1.1-00141
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
