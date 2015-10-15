@@ -2401,6 +2401,9 @@ Version: WLAN.RM.1.1-00141
 File: ath10k/QCA6174/hw3.0/board.bin
 File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
+File: ath10k/QCA99X0/hw2.0/board.bin
+File: ath10k/QCA99X0/hw2.0/firmware-5.bin
+Version: 10.4.1.00030-1
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
