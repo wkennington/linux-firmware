@@ -2392,6 +2392,7 @@ Driver: ath10k - Qualcomm Atheros support for QCA988x family of chips
 
 File: ath10k/QCA988X/hw2.0/board.bin
 File: ath10k/QCA988X/hw2.0/firmware-4.bin
+Version: 10.2.4.45
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
