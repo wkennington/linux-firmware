@@ -888,7 +888,8 @@ Driver: cx231xx - Conexant Cx23100/101/102 USB broadcast A/V decoder
 
 File: v4l-cx231xx-avcore-01.fw
 
-Licence:
+Licence: Redistributable.
+
   Conexant grants permission to use and redistribute these firmware
   files for use with Conexant devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -1091,7 +1092,8 @@ File: v4l-cx23418-apu.fw
 File: v4l-cx23418-cpu.fw
 File: v4l-cx23418-dig.fw
 
-Licence:
+Licence: Redistributable.
+
   Conexant grants permission to use and redistribute these firmware
   files for use with Conexant devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -1106,7 +1108,8 @@ Driver: cx23885 - Conexant PCI Express Broadcast A/V decoder
 
 File: v4l-cx23885-avcore-01.fw
 
-Licence:
+Licence: Redistributable.
+
   Conexant grants permission to use and redistribute these firmware
   files for use with Conexant devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -1121,7 +1124,8 @@ Driver: cx23840 - Conexant sideport Broadcast A/V decoder
 
 File: v4l-cx25840.fw
 
-Licence:
+Licence: Redistributable.
+
   Conexant grants permission to use and redistribute these firmware
   files for use with Conexant devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -1788,7 +1792,8 @@ Driver: s2255drv
 
 File: f2255usb.bin
 
-Licence:
+Licence: Redistributable.
+
   Sensoray grants permission to use and redistribute these firmware
   files for use with Sensoray devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -1972,7 +1977,7 @@ Version: 4.0.4.3.7
 
 File: ti-connectivity/wl1251-nvs.bin
 
-Licence: See LICENCE.wl1251 for details.
+Licence: Redistributable. See LICENCE.wl1251 for details.
 
 The published NVS files are for testing only.  Every device needs to
 have a unique NVS which is properly calibrated for best results.
@@ -2034,7 +2039,7 @@ File: ti-connectivity/wl128x-nvs.bin
 Link: ti-connectivity/wl12xx-nvs.bin -> wl127x-nvs.bin
 Link: ti-connectivity/wl1271-nvs.bin -> wl127x-nvs.bin
 
-Licence: See LICENCE.ti-connectivity for details.
+Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
 The NVS file includes two parts:
 	 - radio calibration
@@ -2068,7 +2073,7 @@ Version: 8.8.0.0.13
 File: ti-connectivity/wl18xx-fw-4.bin
 Version: 8.9.0.0.39
 
-Licence: See LICENCE.ti-connectivity for details.
+Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
 The driver expects to find the firmwares under a ti-connectivity
 subdirectory.  So if your system looks for firmwares in /lib/firmware,
@@ -2081,7 +2086,7 @@ Driver: TI_ST - Texas Instruments bluetooth driver
 
 File: ti-connectivity/TIInit_7.2.31.bts
 
-Licence: See LICENCE.ti-connectivity for details.
+Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
 	TIInit_7.2.31.bts version 7.2.31
 
@@ -2093,7 +2098,8 @@ Driver: tlg2300 - Telgent 2300 V4L/DVB driver.
 
 File: tlg2300_firmware.bin
 
-Licence:
+Licence: Redistributable.
+
   Telegent System grants permission to use and redistribute these
   firmware files for use with devices containing the chip tlg2300, but
   not as a part of the Linux kernel or in any other form which would
@@ -2437,7 +2443,8 @@ Driver: drxk - Micronas DRX-K demodulator driver
 
 File: dvb-usb-terratec-h5-drxk.fw
 
-Licence:
+Licence: Redistributable.
+
 TERRATEC grants permission to use and redistribute these firmware
 files for use with TERRATEC devices, but not as part of the Linux
 kernel or in any other form which would require these files themselves
@@ -2490,7 +2497,8 @@ File: s5p-mfc-v6-v2.fw
 File: s5p-mfc-v7.fw
 File: s5p-mfc-v8.fw
 
-Licence:
+Licence: Redistributable.
+
 Samsung grants permission to use and redistribute aforementioned firmware
 files for the use with Exynos series devices, but not as part of the Linux
 kernel, or in any other form which would require these files themselves
@@ -2579,7 +2587,8 @@ Driver: rp2 -- Comtrol RocketPort 2 serial driver
 
 File: rp2.fw
 
-Licence:
+Licence: Redistributable.
+
 Copyright (C) 2013 Comtrol Corporation
 
 Comtrol grants permission to use and redistribute these firmware
@@ -2645,7 +2654,8 @@ File: moxa/moxa-1618.fw
 File: moxa/moxa-1653.fw
 File: moxa/moxa-1658.fw
 
-License:
+License: Redistributable.
+
 The software accompanying this license statement (the “Software”)
 is the property of Moxa Inc. (the “Moxa”), and is protected by
 United States and International Copyright Laws and International
@@ -2952,4 +2962,4 @@ Driver: knav_qmss_queue - TI Keystone 2 QMSS driver
 
 File: ti-keystone/ks2_qmss_pdsp_acc48_k2_le_1_0_0_9.bin
 
-Licence: See LICENCE.ti-keystone for details.
+Licence: Redistributable. See LICENCE.ti-keystone for details.
