@@ -1400,7 +1400,7 @@ Driver: dib0700 - DiBcom dib0700 USB DVB bridge driver
 File: dvb-usb-dib0700-1.20.fw
 Version: 1.20
 
-Licence: Redistributable. See LICENCE.dib0700 for details
+Licence: Redistributable. See LICENSE.dib0700 for details
 
 --------------------------------------------------------------------------
 
@@ -2622,7 +2622,7 @@ File: go7007/px-m402u.fw
 File: go7007/px-tv402u.fw
 File: go7007/wis-startrek.fw
 
-Licence: Redistributable. See LICENCE.go7007_firmware for details
+Licence: Redistributable. See LICENCE.go7007 for details
 
 --------------------------------------------------------------------------
 
@@ -2675,7 +2675,7 @@ Driver: cw1200 - ST-E CW1100/CW1200 WLAN driver
 
 File: wsm_22.bin
 Version: WSM395
-Licence: Redistributable. See LICENSE.cw1200 for details.
+Licence: Redistributable. See LICENCE.cw1200 for details.
 
 File: sdd_sagrad_1091_1098.bin
 
@@ -2939,7 +2939,7 @@ File: atmel/wilc1000_fw.bin
 File: atmel/wilc1000_ap_fw.bin
 File: atmel/wilc1000_p2p_fw.bin
 
-License: Redistributable. See LICENCE.atmel for details
+License: Redistributable. See LICENSE.atmel for details
 
 --------------------------------------------------------------------------
 
@@ -2950,7 +2950,7 @@ File: hfi1_fabric.fw
 File: hfi1_pcie.fw
 File: hfi1_sbus.fw
 
-Licence: Redistributable. See LICENCE.hfi1_firmware for details
+Licence: Redistributable. See LICENSE.hfi1_firmware for details
 
 --------------------------------------------------------------------------
 
