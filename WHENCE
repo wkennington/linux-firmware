@@ -1111,7 +1111,6 @@ Licence:
 Driver: cx23885 - Conexant PCI Express Broadcast A/V decoder
 
 File: v4l-cx23885-avcore-01.fw
-File: v4l-cx23885-enc.fw
 
 Licence:
   Conexant grants permission to use and redistribute these firmware
