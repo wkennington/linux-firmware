@@ -82,11 +82,7 @@ File: qlogic/1040.bin
 File: qlogic/1280.bin
 File: qlogic/12160.bin
 
-Licence: Allegedly GPLv2+, but no source visible. Marked:
-
-                   QLOGIC LINUX SOFTWARE
-  QLogic ISP1280/ device driver for Linux 2.2.x and 2.4.x
-  Copyright (C) 2001 Qlogic Corporation (www.qlogic.com)
+Licence: Redistributable. See LICENCE.qla1280 for details
 
 --------------------------------------------------------------------------
 
