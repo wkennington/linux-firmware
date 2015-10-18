@@ -588,9 +588,7 @@ File: e100/d101m_ucode.bin
 File: e100/d101s_ucode.bin
 File: e100/d102e_ucode.bin
 
-Licence: Unknown
-
-Found in hex form in kernel source.
+Licence: Redistributable. See LICENCE.e100 for details
 
 --------------------------------------------------------------------------
 
