@@ -1704,13 +1704,19 @@ File: radeon/bonaire_mec.bin
 File: radeon/bonaire_pfp.bin
 File: radeon/bonaire_rlc.bin
 File: radeon/bonaire_sdma.bin
+File: radeon/bonaire_sdma1.bin
 File: radeon/bonaire_smc.bin
+File: radeon/bonaire_uvd.bin
+File: radeon/bonaire_vce.bin
 File: radeon/kabini_ce.bin
 File: radeon/kabini_me.bin
 File: radeon/kabini_mec.bin
 File: radeon/kabini_pfp.bin
 File: radeon/kabini_rlc.bin
 File: radeon/kabini_sdma.bin
+File: radeon/kabini_sdma1.bin
+File: radeon/kabini_uvd.bin
+File: radeon/kabini_vce.bin
 File: radeon/kaveri_ce.bin
 File: radeon/kaveri_me.bin
 File: radeon/kaveri_mec.bin
@@ -1718,6 +1724,9 @@ File: radeon/kaveri_mec2.bin
 File: radeon/kaveri_pfp.bin
 File: radeon/kaveri_rlc.bin
 File: radeon/kaveri_sdma.bin
+File: radeon/kaveri_sdma1.bin
+File: radeon/kaveri_uvd.bin
+File: radeon/kaveri_vce.bin
 File: radeon/hawaii_ce.bin
 File: radeon/hawaii_mc.bin
 File: radeon/hawaii_me.bin
@@ -1725,13 +1734,19 @@ File: radeon/hawaii_mec.bin
 File: radeon/hawaii_pfp.bin
 File: radeon/hawaii_rlc.bin
 File: radeon/hawaii_sdma.bin
+File: radeon/hawaii_sdma1.bin
 File: radeon/hawaii_smc.bin
+File: radeon/hawaii_uvd.bin
+File: radeon/hawaii_vce.bin
 File: radeon/mullins_ce.bin
 File: radeon/mullins_me.bin
 File: radeon/mullins_mec.bin
 File: radeon/mullins_pfp.bin
 File: radeon/mullins_rlc.bin
 File: radeon/mullins_sdma.bin
+File: radeon/mullins_sdma1.bin
+File: radeon/mullins_uvd.bin
+File: radeon/mullins_vce.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
 
@@ -1783,6 +1798,14 @@ File: amdgpu/fiji_sdma.bin
 File: amdgpu/fiji_smc.bin
 File: amdgpu/fiji_uvd.bin
 File: amdgpu/fiji_vce.bin
+File: amdgpu/stoney_ce.bin
+File: amdgpu/stoney_me.bin
+File: amdgpu/stoney_mec.bin
+File: amdgpu/stoney_pfp.bin
+File: amdgpu/stoney_rlc.bin
+File: amdgpu/stoney_sdma.bin
+File: amdgpu/stoney_uvd.bin
+File: amdgpu/stoney_vce.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
