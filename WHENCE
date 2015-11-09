@@ -1886,6 +1886,22 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
+Driver: qed - QLogic 4xxxx Ethernet Driver Core Module.
+
+File: qed_init_values_zipped-8.4.2.0.bin
+
+Licence:
+  This file contains firmware data derived from proprietary unpublished
+  source code.
+  Copyright (c) 2015 QLogic Corporation.
+
+  Permission is hereby granted for the distribution of this firmware data
+  in hexadecimal or equivalent format, provided this copyright notice is
+  accompanying it.
+
+Found in hex form in kernel source.
+--------------------------------------------------------------------------
+
 Driver: ueagle-atm - Driver for USB ADSL Modems based on Eagle IV Chipset
 
 File: ueagle-atm/CMV4p.bin.v2
