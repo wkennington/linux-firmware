@@ -1917,7 +1917,6 @@ Licence:
   in hexadecimal or equivalent format, provided this copyright notice is
   accompanying it.
 
-Found in hex form in kernel source.
 --------------------------------------------------------------------------
 
 Driver: ueagle-atm - Driver for USB ADSL Modems based on Eagle IV Chipset
@@ -2796,8 +2795,6 @@ Copyright (c) 2014-2015 QLogic Corporation.
 Permission is hereby granted for the distribution of this firmware data
 in hexadecimal or equivalent format, provided this copyright notice is
 accompanying it.
-
-Found in hex form in kernel source.
 
 QLogic grants permission to use and redistribute these firmware files
 for use with QLogic BR-series devices, but not as a part of the Linux
