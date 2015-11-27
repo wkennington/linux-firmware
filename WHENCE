@@ -1332,6 +1332,17 @@ Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
 Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
+---------------------------------------------------------------------------
+
+Driver: mt7601u - MediaTek MT7601U Wireless MACs
+
+File: mt7601u.bin
+Version: 34
+
+Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
+
+Downloaded from http://www.mediatek.com/en/downloads/
+
 --------------------------------------------------------------------------
 
 Driver: rt2800pci - Ralink RT2860, RT2890, RT3090, RT3290, RT5390 wireless MACs
