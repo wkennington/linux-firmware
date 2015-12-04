@@ -1297,7 +1297,7 @@ Source: av7110/Makefile
 
 Licence: GPLv2 or later
 
-ARM assembly source code from http://www.linuxtv.org/downloads/firmware/Boot.S
+ARM assembly source code from https://linuxtv.org/downloads/firmware/Boot.S
 
 --------------------------------------------------------------------------
 
