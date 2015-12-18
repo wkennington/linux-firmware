@@ -1928,6 +1928,7 @@ Found in hex form in kernel source.
 Driver: qed - QLogic 4xxxx Ethernet Driver Core Module.
 
 File: qed/qed_init_values_zipped-8.4.2.0.bin
+File: qed/qed_init_values_zipped-8.7.3.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
