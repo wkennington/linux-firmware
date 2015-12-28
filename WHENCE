@@ -2728,6 +2728,18 @@ License: Redistributable. See LICENSE.amd-ucode for details
 
 --------------------------------------------------------------------------
 
+Driver: mxu11x0 - MOXA UPort 11x0 USB Serial hub driver
+
+File: moxa/moxa-1110.fw
+File: moxa/moxa-1130.fw
+File: moxa/moxa-1131.fw
+File: moxa/moxa-1150.fw
+File: moxa/moxa-1151.fw
+
+License: Redistributable. See LICENSE.moxa for details
+
+--------------------------------------------------------------------------
+
 Driver: mxuport - MOXA UPort USB Serial hub driver
 
 File: moxa/moxa-1250.fw
