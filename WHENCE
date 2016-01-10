@@ -2908,8 +2908,8 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 Driver: snd-soc-skl
 
 File: intel/dsp_fw_release.bin
-Version: 8.20.00.669
-md5sum: 039c718077ea3c3a4253110a0554f422
+Version: 8.20.00.827
+md5sum: 2a2166e169098c8620cb15ea0f850ed9
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
