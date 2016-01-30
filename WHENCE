@@ -2669,9 +2669,9 @@ Version: WP_1345_01_patch_0.0.34.1
 File: intel/ibt-hw-37.8.bseq
 Version: 1339_02.00
 File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
-Version: BT_StonePeak_C0_REL_55_0001
+Version: BT_StonePeak_C0_REL_57_0002
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
-Version: BT_StonePeak_D0_REL_32_0002
+Version: BT_StonePeak_D0_REL_35_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
 Version: STP_D1_REL_13
 File: intel/ibt-11-5.ddc
