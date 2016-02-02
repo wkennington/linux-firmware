@@ -2333,6 +2333,14 @@ File: rtlwifi/rtl8723bu_nic.bin
 File: rtlwifi/rtl8723bu_wowlan.bin
 File: rtlwifi/rtl8723bu_ap_wowlan.bin
 
+Info: rtl8192eu taken from Realtek driver
+      rtl8192EU_linux_v4.3.1.1_11320.20140505
+      Firmware is embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8192eu_nic.bin
+File: rtlwifi/rtl8192eu_wowlan.bin
+File: rtlwifi/rtl8192eu_ap_wowlan.bin
+
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
