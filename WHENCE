@@ -3059,7 +3059,7 @@ License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
 
-Driver: nouveau - NVIDIA GK20A GPU driver
+Driver: nouveau - NVIDIA GPU driver
 
 File: nvidia/gk20a/fecs_data.bin
 File: nvidia/gk20a/fecs_inst.bin
@@ -3069,6 +3069,51 @@ File: nvidia/gk20a/sw_bundle_init.bin
 File: nvidia/gk20a/sw_ctx.bin
 File: nvidia/gk20a/sw_method_init.bin
 File: nvidia/gk20a/sw_nonctx.bin
+File: nvidia/gm200/acr/bl.bin
+File: nvidia/gm200/acr/ucode_load.bin
+File: nvidia/gm200/acr/ucode_unload.bin
+File: nvidia/gm200/gr/fecs_bl.bin
+File: nvidia/gm200/gr/fecs_data.bin
+File: nvidia/gm200/gr/fecs_inst.bin
+File: nvidia/gm200/gr/fecs_sig.bin
+File: nvidia/gm200/gr/gpccs_bl.bin
+File: nvidia/gm200/gr/gpccs_data.bin
+File: nvidia/gm200/gr/gpccs_inst.bin
+File: nvidia/gm200/gr/gpccs_sig.bin
+File: nvidia/gm200/gr/sw_bundle_init.bin
+File: nvidia/gm200/gr/sw_ctx.bin
+File: nvidia/gm200/gr/sw_method_init.bin
+File: nvidia/gm200/gr/sw_nonctx.bin
+File: nvidia/gm204/acr/bl.bin
+File: nvidia/gm204/acr/ucode_load.bin
+File: nvidia/gm204/acr/ucode_unload.bin
+File: nvidia/gm204/gr/fecs_bl.bin
+File: nvidia/gm204/gr/fecs_data.bin
+File: nvidia/gm204/gr/fecs_inst.bin
+File: nvidia/gm204/gr/fecs_sig.bin
+File: nvidia/gm204/gr/gpccs_bl.bin
+File: nvidia/gm204/gr/gpccs_data.bin
+File: nvidia/gm204/gr/gpccs_inst.bin
+File: nvidia/gm204/gr/gpccs_sig.bin
+File: nvidia/gm204/gr/sw_bundle_init.bin
+File: nvidia/gm204/gr/sw_ctx.bin
+File: nvidia/gm204/gr/sw_method_init.bin
+File: nvidia/gm204/gr/sw_nonctx.bin
+File: nvidia/gm206/acr/bl.bin
+File: nvidia/gm206/acr/ucode_load.bin
+File: nvidia/gm206/acr/ucode_unload.bin
+File: nvidia/gm206/gr/fecs_bl.bin
+File: nvidia/gm206/gr/fecs_data.bin
+File: nvidia/gm206/gr/fecs_inst.bin
+File: nvidia/gm206/gr/fecs_sig.bin
+File: nvidia/gm206/gr/gpccs_bl.bin
+File: nvidia/gm206/gr/gpccs_data.bin
+File: nvidia/gm206/gr/gpccs_inst.bin
+File: nvidia/gm206/gr/gpccs_sig.bin
+File: nvidia/gm206/gr/sw_bundle_init.bin
+File: nvidia/gm206/gr/sw_ctx.bin
+File: nvidia/gm206/gr/sw_method_init.bin
+File: nvidia/gm206/gr/sw_nonctx.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
