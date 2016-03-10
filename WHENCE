@@ -897,11 +897,23 @@ Version: 25.30.13.0
 File: iwlwifi-7265D-16.ucode
 Version 16.242414.0
 
+File: iwlwifi-7265D-21.ucode
+Version 21.302800.0
+
+File: iwlwifi-3168-21.ucode
+Version 21.302800.0
+
 File: iwlwifi-8000C-13.ucode
 Version: 25.30.13.0
 
 File: iwlwifi-8000C-16.ucode
 Version 16.242414.0
+
+File: iwlwifi-8000C-21.ucode
+Version 21.302800.0
+
+File: iwlwifi-8265-21.ucode
+Version 21.302800.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
