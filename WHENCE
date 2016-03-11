@@ -3067,6 +3067,10 @@ Version: Guc API/ABI ver 1 - release 1059 for Skylake
 File: i915/skl_guc_ver4.bin
 Version: Guc API/ABI ver 4 - release 3 for Skylake
 
+File: i915/skl_guc_ver6_1.bin
+File: i915/skl_guc_ver6.bin
+Version: Guc API/ABI ver 6 - release 1 for Skylake
+
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
