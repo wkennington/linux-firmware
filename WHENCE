@@ -1393,10 +1393,12 @@ Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 Driver: rt2800usb - Ralink RT2870, RT3070, RT3071, RT3072, RT5370 wireless MACs
 
 File: rt2870.bin
+Version: 36
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-Binary file supplied by Shiang Tu <shiang_tu@ralinktech.com>. Firmware Version 29
+Binary file supplied originally by Shiang Tu <shiang_tu@ralinktech.com>, latest
+from http://www.mediatek.com/en/downloads1/downloads/
 
 --------------------------------------------------------------------------
 
