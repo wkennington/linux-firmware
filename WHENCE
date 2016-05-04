@@ -1370,12 +1370,15 @@ Downloaded from http://www.mediatek.com/en/downloads/
 Driver: rt2800pci - Ralink RT2860, RT2890, RT3090, RT3290, RT5390 wireless MACs
 
 File: rt2860.bin
+Version: 40
+
 File: rt3290.bin
+Version: 37
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-Binary file supplied by Shiang Tu <shiang_tu@ralinktech.com>. Firmware Version 34
-rt3290.bin is a specific firmware support the RT3290 chip. Firmware Version 37
+Binary file supplied originally by Shiang Tu <shiang_tu@ralinktech.com>, latest
+from http://www.mediatek.com/en/downloads1/downloads/
 
 --------------------------------------------------------------------------
 
