@@ -2722,9 +2722,9 @@ Driver: btusb - Bluetooth USB driver
 File: intel/ibt-hw-37.7.bseq
 Version: 1316.02.00
 File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
-BT_WilkinsPeak_B3_REL_85_0001
+Version: BT_WilkinsPeak_B3_REL_86_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
-BT_WilkinsPeak_B3_REL_85_0001
+Version: BT_WilkinsPeak_B3_REL_86_0001
 File: intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
 Version: BT_WilkinsPeak_B5_REL_37_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
