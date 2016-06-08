@@ -2740,7 +2740,7 @@ Version: BT_StonePeak_D1_REL_20_0001
 File: intel/ibt-11-5.ddc
 Version: LnP/SfP_REL0257
 File: intel/ibt-11-5.sfi
-Version: LnP/SfP_REL0257
+Version: BT_LightningPeak_REL0330
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
