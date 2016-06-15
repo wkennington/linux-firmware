@@ -2741,6 +2741,10 @@ File: intel/ibt-11-5.ddc
 Version: LnP/SfP_REL0257
 File: intel/ibt-11-5.sfi
 Version: BT_LightningPeak_REL0330
+File: intel/ibt-11-16.ddc
+Version: BT_WindStormPeak_REL0060
+File: intel/ibt-11-16.sfi
+Version: BT_WindStormPeak_REL0060
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
