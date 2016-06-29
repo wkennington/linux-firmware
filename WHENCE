@@ -3012,8 +3012,8 @@ md5sum: 472607996014603dca939877bf085d48
 License: Redistributable. See LICENCE.adsp_sst for details
 
 File: intel/dsp_fw_bxt.bin
-Version: 9.00.00.430
-md5sum: a307e8a10045ce78e0744d7479c715a7
+Version: 9.00.00.702
+md5sum: 15cf66d804f8d275a607108bb4b57c42
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
