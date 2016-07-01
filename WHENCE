@@ -3097,27 +3097,17 @@ Licence: Redistributable. See LICENCE.cavium for details
 
 Driver: i915 -- Intel Integrated Graphics driver
 
-File: i915/skl_dmc_ver1_23.bin
 File: i915/skl_dmc_ver1_26.bin
-
 File: i915/skl_dmc_ver1.bin
 Version: DMC API/ABI ver 1 - release 26 for Skylake
 
-File: i915/bxt_dmc_ver1_04.bin
-File: i915/bxt_dmc_ver1_05.bin
-File: i915/bxt_dmc_ver1_06.bin
 File: i915/bxt_dmc_ver1_07.bin
-
 File: i915/bxt_dmc_ver1.bin
 Version: DMC API/ABI ver 1 - release 07 for Broxton
 
 File: i915/kbl_dmc_ver1_01.bin
-
 File: i915/kbl_dmc_ver1.bin
 Version: DMC API/ABI ver 1 - release 01 for Kabylake
-
-File: i915/skl_guc_ver1_1059.bin
-File: i915/skl_guc_ver4_3.bin
 
 File: i915/skl_guc_ver1.bin
 Version: Guc API/ABI ver 1 - release 1059 for Skylake
