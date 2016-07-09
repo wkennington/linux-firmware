@@ -3192,6 +3192,21 @@ File: nvidia/gm20b/gr/sw_bundle_init.bin
 File: nvidia/gm20b/gr/sw_ctx.bin
 File: nvidia/gm20b/gr/sw_method_init.bin
 File: nvidia/gm20b/gr/sw_nonctx.bin
+File: nvidia/gp100/acr/bl.bin
+File: nvidia/gp100/acr/ucode_load.bin
+File: nvidia/gp100/acr/ucode_unload.bin
+File: nvidia/gp100/gr/fecs_bl.bin
+File: nvidia/gp100/gr/fecs_data.bin
+File: nvidia/gp100/gr/fecs_inst.bin
+File: nvidia/gp100/gr/fecs_sig.bin
+File: nvidia/gp100/gr/gpccs_bl.bin
+File: nvidia/gp100/gr/gpccs_data.bin
+File: nvidia/gp100/gr/gpccs_inst.bin
+File: nvidia/gp100/gr/gpccs_sig.bin
+File: nvidia/gp100/gr/sw_bundle_init.bin
+File: nvidia/gp100/gr/sw_ctx.bin
+File: nvidia/gp100/gr/sw_method_init.bin
+File: nvidia/gp100/gr/sw_nonctx.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
