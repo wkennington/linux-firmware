@@ -3041,6 +3041,12 @@ md5sum: 15cf66d804f8d275a607108bb4b57c42
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
+File: intel/dsp_fw_kbl.bin
+Version: 09.21.00.701
+md5sum: 7d937bb2919031a8a4ed5427b5e6a108
+
+License: Redistributable. See LICENCE.adsp_sst for details
+
 --------------------------------------------------------------------------
 
 Driver: smsmdtv - Siano MDTV Core module
