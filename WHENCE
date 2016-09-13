@@ -742,13 +742,13 @@ File: mrvl/usb8797_uapsta.bin
 Version: 14.68.29.p49
 
 File: mrvl/sd8897_uapsta.bin
-Version: 15.68.7.p53
+Version: 15.68.7.p77
 
 File: mrvl/usb8897_uapsta.bin
 Version: 15.68.4.p103
 
 File: mrvl/pcie8897_uapsta.bin
-Version: 15.68.7.p53
+Version: 15.68.7.p77
 
 File: mrvl/sd8887_uapsta.bin
 Version: 15.68.7.p5
@@ -758,6 +758,12 @@ Version: 14.68.36.p60
 
 File: mrvl/usb8801_uapsta.bin
 Version: 14.68.36.p60
+
+File: mrvl/pcieuart8997_combo_v4.bin
+Version: 16.68.1.p70
+
+File: mrvl/pcieusb8997_combo_v4.bin
+Version: 16.68.1.p70
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
