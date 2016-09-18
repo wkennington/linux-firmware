@@ -5,6 +5,9 @@ FIRMWAREDIR = /lib/firmware
 
 all:
 
+check:
+	./check_whence.py
+
 install:
 	mkdir -p $(DESTDIR)$(FIRMWAREDIR)
 	cp -r * $(DESTDIR)$(FIRMWAREDIR)
