@@ -172,7 +172,7 @@ Source: keyspan_pda/xircom_pgs.S
 
 Source: keyspan_pda/Makefile
 
-Licence: GPLv2+
+Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
 
 Compiled from original 8051 source into Intel HEX, used in our binary ihex form.
 
@@ -389,7 +389,7 @@ Source: dsp56k/bootstrap.asm
 Source: dsp56k/Makefile
 Source: dsp56k/concat-bootstrap.pl
 
-Licence: GPLv2 or later
+Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
 
 DSP56001 assembler, buildable with a56 from
 http://www.zdomain.com/a56.html
@@ -1137,7 +1137,7 @@ File: cis/SW_555_SER.cis
 File: cis/SW_7xx_SER.cis
 File: cis/SW_8xx_SER.cis
 
-Licence: GPLv3
+Licence: GPLv3. See GPL-3 for details.
 
 Copyright Sierra Wireless
 
@@ -1349,7 +1349,7 @@ File: av7110/bootcode.bin
 Source: av7110/Boot.S
 Source: av7110/Makefile
 
-Licence: GPLv2 or later
+Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
 
 ARM assembly source code from https://linuxtv.org/downloads/firmware/Boot.S
 
@@ -1455,7 +1455,7 @@ Source: usbdux/usbduxfast_firmware.asm
 Source: usbdux/usbdux_firmware.asm
 Source: usbdux/usbduxsigma_firmware.asm
 
-Licence: GPLv2. See source code in usbdux/ subdirectory.
+Licence: GPLv2. See GPL-2 for details.
 
 Provided from the author, Bernd Porr <BerndPorr@f2s.com>
 
@@ -2709,7 +2709,7 @@ Source: isci/create_fw.h
 Source: isci/probe_roms.h
 Source: isci/Makefile
 
-Licence: GPLv2
+Licence: GPLv2. See GPL-2 for details.
 
 --------------------------------------------------------------------------
 
@@ -2750,7 +2750,7 @@ Source: carl9170fw/
 
 Downloaded from http://linuxwireless.org/en/users/Drivers/carl9170
 
-Licence: GPLv2. Some build scripts use the New BSD (3-clause) licence.
+Licence: GPLv2. Some build scripts use the New BSD (3-clause) licence.. See GPL-2 for details.
 
 --------------------------------------------------------------------------
 
@@ -3114,7 +3114,7 @@ File: atusb/atusb-0.2.dfu
 Version: 0.2
 Info: atusb/ChangeLog
 
-Licence: GPLv2+
+Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
 
 --------------------------------------------------------------------------
 
