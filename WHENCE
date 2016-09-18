@@ -469,8 +469,7 @@ Version: 1.4.0
 File: ath9k_htc/htc_9271-1.4.0.fw
 Version: 1.4.0
 
-Licence: Redistributable (full source code is available under free
-software licences). See LICENCE.open-ath9k-htc-firmware for details
+Licence: Free software. See LICENCE.open-ath9k-htc-firmware for details
 
 --------------------------------------------------------------------------
 
@@ -2959,7 +2958,8 @@ File: qat_c3xxx_mmp.bin
 File: qat_c62x.bin
 File: qat_c62x_mmp.bin
 
-Licence: Redistributable. See LICENCE.qat_firmware
+Licence: Redistributable. See LICENCE.qat_firmware for details
+
 --------------------------------------------------------------------------
 
 Driver: rsi -- Redpine Signals Inc 91x driver
