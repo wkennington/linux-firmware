@@ -221,17 +221,14 @@ Version: 1.0.0.191
 Info: DATE= 2002oct28
 
 File: emi62/loader.fw
-Source: EMILOAD.HEX
 Version: 1.0.2.002
 Info: DATE=10.01.2002
 
 File: emi62/midi.fw
-Source: EMI62MFW.HEX
 Version: 1.04.062
 Info: DATE=16.10.2002
 
 File: emi62/spdif.fw
-Source: EMI62SFW.HEX
 Version: 1.04.062
 Info: DATE=16.10.2002
 
