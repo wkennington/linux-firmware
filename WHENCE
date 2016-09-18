@@ -3227,10 +3227,8 @@ File: nvidia/gm20b/gr/fecs_bl.bin
 File: nvidia/gm20b/gr/fecs_data.bin
 File: nvidia/gm20b/gr/fecs_inst.bin
 File: nvidia/gm20b/gr/fecs_sig.bin
-File: nvidia/gm20b/gr/gpccs_bl.bin
 File: nvidia/gm20b/gr/gpccs_data.bin
 File: nvidia/gm20b/gr/gpccs_inst.bin
-File: nvidia/gm20b/gr/gpccs_sig.bin
 File: nvidia/gm20b/gr/sw_bundle_init.bin
 File: nvidia/gm20b/gr/sw_ctx.bin
 File: nvidia/gm20b/gr/sw_method_init.bin
