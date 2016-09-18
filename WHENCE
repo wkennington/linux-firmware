@@ -2964,6 +2964,7 @@ File: qat_c3xxx.bin
 File: qat_c3xxx_mmp.bin
 File: qat_c62x.bin
 File: qat_c62x_mmp.bin
+Link: qat_mmp.bin -> qat_895xcc_mmp.bin
 
 Licence: Redistributable. See LICENCE.qat_firmware for details
 
