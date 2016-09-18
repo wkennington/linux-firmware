@@ -1074,13 +1074,7 @@ File: cis/NE2K.cis
 File: cis/tamarack.cis
 File: cis/PE-200.cis
 File: cis/PE520.cis
-Source: cis/src/LA-PCM.cis
-Source: cis/src/PCMLM28.cis
-Source: cis/src/DP83903.cis
-Source: cis/src/NE2K.cis
-Source: cis/src/tamarack.cis
-Source: cis/src/PE-200.cis
-Source: cis/src/PE520.cis
+Source: cis/
 
 Licence: Dual GPLv2/MPL
 
@@ -1450,10 +1444,7 @@ Driver: usbdux/usbduxfast/usbduxsigma - usbdux data acquisition cards
 File: usbdux_firmware.bin
 File: usbduxfast_firmware.bin
 File: usbduxsigma_firmware.bin
-Source: usbdux/fx2-include.asm
-Source: usbdux/usbduxfast_firmware.asm
-Source: usbdux/usbdux_firmware.asm
-Source: usbdux/usbduxsigma_firmware.asm
+Source: usbdux/
 
 Licence: GPLv2. See GPL-2 for details.
 
@@ -2704,10 +2695,7 @@ Licence: Redistributable. See LICENCE.ene_firmware for details.
 Driver: isci -- Intel C600 SAS controller driver
 
 File: isci/isci_firmware.bin
-Source: isci/create_fw.c
-Source: isci/create_fw.h
-Source: isci/probe_roms.h
-Source: isci/Makefile
+Source: isci/
 
 Licence: GPLv2. See GPL-2 for details.
 
