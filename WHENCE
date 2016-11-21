@@ -3337,6 +3337,9 @@ File: nvidia/gm20b/gr/sw_bundle_init.bin
 File: nvidia/gm20b/gr/sw_ctx.bin
 File: nvidia/gm20b/gr/sw_method_init.bin
 File: nvidia/gm20b/gr/sw_nonctx.bin
+File: nvidia/gm20b/pmu/desc.bin
+File: nvidia/gm20b/pmu/image.bin
+File: nvidia/gm20b/pmu/sig.bin
 File: nvidia/gp100/acr/bl.bin
 File: nvidia/gp100/acr/ucode_load.bin
 File: nvidia/gp100/acr/ucode_unload.bin
