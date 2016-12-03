@@ -1837,6 +1837,7 @@ Licence: Redistributable. See LICENSE.radeon for details.
 Driver: amdgpu - AMD Radeon
 
 File: amdgpu/topaz_ce.bin
+File: amdgpu/topaz_k_smc.bin
 File: amdgpu/topaz_mc.bin
 File: amdgpu/topaz_me.bin
 File: amdgpu/topaz_mec2.bin
@@ -1847,6 +1848,7 @@ File: amdgpu/topaz_sdma1.bin
 File: amdgpu/topaz_sdma.bin
 File: amdgpu/topaz_smc.bin
 File: amdgpu/tonga_ce.bin
+File: amdgpu/tonga_k_smc.bin
 File: amdgpu/tonga_mc.bin
 File: amdgpu/tonga_me.bin
 File: amdgpu/tonga_mec2.bin
