@@ -3130,6 +3130,10 @@ Driver: atusb - ATUSB IEEE 802.15.4 transceiver driver
 
 File: atusb/atusb-0.2.dfu
 Version: 0.2
+File: atusb/atusb-0.3.dfu
+Version: 0.3
+File: atusb/rzusb-0.3.bin
+Version: 0.3
 Info: atusb/ChangeLog
 
 Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
