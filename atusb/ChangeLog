@@ -7,8 +7,12 @@ ChangeLog:
 		* Remove FCS frame check from firmware and leave it to the driver
 		* Use extended operation mode for TX for automatic ACK handling
 
-To flash the firmware you need dfu-util on the host:
-dfu-util -d 20b7:1540 -D atusb-0.3.dfu
+To flash the firmware you need dfu-util on the host. Issue
+
+    dfu-util -d 20b7:1540 -D atusb-0.3.dfu
+
+right after plugging the device into the USB port while the red led is still
+on.
 
 For the Atmel Raven USB dongle a full JTAG setup is needed to flash the
 firmware as no DFU bootloader is available there.
