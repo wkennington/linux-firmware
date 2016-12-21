@@ -3303,10 +3303,13 @@ License: Redistributable. See LICENSE.atmel for details
 Driver: hfi1 - Intel OPA Gen 1 adapter
 
 File: hfi1_dc8051.fw
-Version: 0.35
+Version: 0.47
 File: hfi1_fabric.fw
+Version: 0x1055
 File: hfi1_pcie.fw
+Version: 0x4755
 File: hfi1_sbus.fw
+Version: 0x10130001
 File: hfi1_platform.dat
 
 Licence: Redistributable. See LICENSE.hfi1_firmware for details
