@@ -2399,6 +2399,19 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8723bs - Realtek 802.11n WLAN driver for RTL8723BS
+
+Info: Firmware files extracted from data statements in Realtek driver
+      v4.3.5.5_12290.20140916_BTCOEX20140507-4E40.
+File: rtlwifi/rtl8723bs_bt.bin
+File: rtlwifi/rtl8723bs_nic.bin
+File: rtlwifi/rtl8723bs_ap_wowlan.bin
+File: rtlwifi/rtl8723bs_wowlan.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
 Driver: rtl8xxxu - Realtek 802.11n WLAN driver for RTL8XXX USB devices
 
 Info: rtl8723au taken from Realtek driver
