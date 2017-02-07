@@ -3218,6 +3218,9 @@ Version: HuC API/APB ver 1 - release 7 for Broxton
 File: i915/kbl_huc_ver02_00_1810.bin
 Version: HuC API/APB ver 2 - for Kabylake
 
+File: i915/bxt_guc_ver8_7.bin
+Version: Guc API/APB ver 8 - release 7 for Broxton
+
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
