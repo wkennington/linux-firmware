@@ -3212,6 +3212,9 @@ Version: Guc API/ABI ver 6 - release 1 for Skylake
 File: i915/skl_huc_ver01_07_1398.bin
 Version: HuC API/ABI ver 1 - release 7 for Skylake
 
+File: i915/bxt_huc_ver01_07_1398.bin
+Version: HuC API/APB ver 1 - release 7 for Broxton
+
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
