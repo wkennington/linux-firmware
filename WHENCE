@@ -1920,6 +1920,18 @@ File: amdgpu/polaris11_smc.bin
 File: amdgpu/polaris11_smc_sk.bin
 File: amdgpu/polaris11_uvd.bin
 File: amdgpu/polaris11_vce.bin
+File: amdgpu/polaris12_ce.bin
+File: amdgpu/polaris12_mc.bin
+File: amdgpu/polaris12_me.bin
+File: amdgpu/polaris12_mec.bin
+File: amdgpu/polaris12_mec2.bin
+File: amdgpu/polaris12_pfp.bin
+File: amdgpu/polaris12_rlc.bin
+File: amdgpu/polaris12_sdma.bin
+File: amdgpu/polaris12_sdma1.bin
+File: amdgpu/polaris12_smc.bin
+File: amdgpu/polaris12_uvd.bin
+File: amdgpu/polaris12_vce.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
