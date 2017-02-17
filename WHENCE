@@ -3237,6 +3237,21 @@ File: i915/skl_guc_ver6_1.bin
 File: i915/skl_guc_ver6.bin
 Version: Guc API/ABI ver 6 - release 1 for Skylake
 
+File: i915/skl_huc_ver01_07_1398.bin
+Version: HuC API/ABI ver 1 - release 7 for Skylake
+
+File: i915/bxt_huc_ver01_07_1398.bin
+Version: HuC API/APB ver 1 - release 7 for Broxton
+
+File: i915/kbl_huc_ver02_00_1810.bin
+Version: HuC API/APB ver 2 - for Kabylake
+
+File: i915/bxt_guc_ver8_7.bin
+Version: Guc API/APB ver 8 - release 7 for Broxton
+
+File: i915/kbl_guc_ver9_14.bin
+Version: Guc API/APB ver 9 release 14 for Kabylake
+
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
