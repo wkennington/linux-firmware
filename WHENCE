@@ -569,14 +569,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.16.26.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.16.26.0.bin
+File: cxgb4/t4fw-1.16.33.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.16.33.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.16.26.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.16.26.0.bin
-File: cxgb4/t6fw-1.16.26.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.16.26.0.bin
+File: cxgb4/t5fw-1.16.33.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.16.33.0.bin
+File: cxgb4/t6fw-1.16.33.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.16.33.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
