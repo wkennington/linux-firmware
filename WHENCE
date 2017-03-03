@@ -3092,6 +3092,12 @@ Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v1037.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
+File: intel/dsp_fw_glk_v1814.bin
+Version: 9.92.01.1814
+Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v1814.bin
+
+License: Redistributable. See LICENCE.adsp_sst for details
+
 --------------------------------------------------------------------------
 
 Driver: smsmdtv - Siano MDTV Core module
