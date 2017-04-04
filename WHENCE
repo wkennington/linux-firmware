@@ -3447,6 +3447,24 @@ File: nvidia/gp107/nvdec/scrubber.bin
 File: nvidia/gp107/sec2/desc.bin
 File: nvidia/gp107/sec2/image.bin
 File: nvidia/gp107/sec2/sig.bin
+File: nvidia/gp10b/acr/bl.bin
+File: nvidia/gp10b/acr/ucode_load.bin
+File: nvidia/gp10b/gr/fecs_bl.bin
+File: nvidia/gp10b/gr/fecs_data.bin
+File: nvidia/gp10b/gr/fecs_inst.bin
+File: nvidia/gp10b/gr/fecs_sig.bin
+File: nvidia/gp10b/gr/gpccs_bl.bin
+File: nvidia/gp10b/gr/gpccs_data.bin
+File: nvidia/gp10b/gr/gpccs_inst.bin
+File: nvidia/gp10b/gr/gpccs_sig.bin
+File: nvidia/gp10b/gr/sw_bundle_init.bin
+File: nvidia/gp10b/gr/sw_ctx.bin
+File: nvidia/gp10b/gr/sw_method_init.bin
+File: nvidia/gp10b/gr/sw_nonctx.bin
+File: nvidia/gp10b/pmu/desc.bin
+File: nvidia/gp10b/pmu/image.bin
+File: nvidia/gp10b/pmu/sig.bin
+
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
