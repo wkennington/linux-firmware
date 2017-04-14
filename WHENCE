@@ -2856,7 +2856,8 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 Found in vendor driver, linux_bt_usb_2.11.20140423_8723be.rar
 From https://github.com/troy-tan/driver_store
-Files rtl_bt/rtl8822b_* came directly from Realtek.
+Files rtl_bt/rtl8822b_* came directly from Realtek. These files are
+updated on April 14, 2017.
 
 --------------------------------------------------------------------------
 
