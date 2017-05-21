@@ -3573,3 +3573,13 @@ File: netronome/nic_AMDA0097-0001_8x10.nffw
 Version: v0.6.1
 
 Licence: Redistributable. See LICENCE.Netronome for details
+
+--------------------------------------------------------------------------
+
+Driver: wil6210 - Qualcomm Atheros support for 11ad family of chips
+
+File: wil6210.fw
+File: wil6210.brd
+Version: 4.1.0.55
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
