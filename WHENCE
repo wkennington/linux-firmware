@@ -3033,6 +3033,9 @@ Driver: rsi -- Redpine Signals Inc 91x driver
 
 File: rsi_91x.fw
 
+File: rsi/rs9113_wlan_qspi.rps
+Version: 1.5.3
+
 Licence:
  * Firmware is:
  *	Derived from proprietary unpublished source code,
