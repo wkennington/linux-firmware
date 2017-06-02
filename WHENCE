@@ -3230,16 +3230,16 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: liquidio -- Cavium LiquidIO driver
 
 File: liquidio/lio_23xx_nic.bin
-Version: v1.5.1
+Version: v1.6.0
 
 File: liquidio/lio_210nv_nic.bin
-Version: v1.5.1
+Version: v1.6.0
 
 File: liquidio/lio_210sv_nic.bin
-Version: v1.5.1
+Version: v1.6.0
 
 File: liquidio/lio_410nv_nic.bin
-Version: v1.5.1
+Version: v1.6.0
 
 Licence: Redistributable. See LICENCE.cavium for details
 
