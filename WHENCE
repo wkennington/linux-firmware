@@ -3494,6 +3494,7 @@ Driver: wilc1000 - Atmel 802.11n WLAN driver for WILC1000
 File: atmel/wilc1000_fw.bin
 File: atmel/wilc1000_ap_fw.bin
 File: atmel/wilc1000_p2p_fw.bin
+File: atmel/wilc1000_wifi_firmware.bin
 
 License: Redistributable. See LICENSE.atmel for details
 
