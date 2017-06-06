@@ -3196,6 +3196,16 @@ Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
 
+Driver: tegra-vic -- NVIDIA Tegra VIC driver
+
+File: nvidia/tegra124/vic03_ucode.bin
+File: nvidia/tegra210/vic04_ucode.bin
+File: nvidia/tegra186/vic04_ucode.bin
+
+Licence: Redistributable. See LICENCE.nvidia for details
+
+--------------------------------------------------------------------------
+
 Driver: atusb - ATUSB IEEE 802.15.4 transceiver driver
 
 File: atusb/atusb-0.2.dfu
