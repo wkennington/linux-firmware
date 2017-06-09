@@ -422,9 +422,9 @@ Version: 3.03.28 IPX
 File: ql2322_fw.bin
 Version: 3.03.28 IPX
 File: ql2400_fw.bin
-Version: 8.06.00 MID
+Version: 8.07.00 MID
 File: ql2500_fw.bin
-Version: 8.06.00 MIDQ
+Version: 8.07.00 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
