@@ -3150,7 +3150,9 @@ File: intel/dsp_fw_kbl_v701.bin
 Version: 9.21.00.701
 File: intel/dsp_fw_kbl_v1037.bin
 Version: 09.21.00.1037
-Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v1037.bin
+File: intel/dsp_fw_kbl_v2042.bin
+Version: 9.21.00.2042_46
+Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v2042.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
