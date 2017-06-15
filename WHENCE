@@ -3588,3 +3588,21 @@ File: wil6210.brd
 Version: 4.1.0.55
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+
+--------------------------------------------------------------------------
+
+Driver: venus - Qualcomm Venus video codec accelerator
+
+File: qcom/venus-1.8/venus.mdt
+File: qcom/venus-1.8/venus.b00
+File: qcom/venus-1.8/venus.b01
+File: qcom/venus-1.8/venus.b02
+File: qcom/venus-1.8/venus.b03
+File: qcom/venus-1.8/venus.b04
+
+Version: 1.8-00109
+
+Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+Binary files supplied originally from
+https://developer.qualcomm.com/hardware/dragonboard-410c/tools
