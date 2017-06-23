@@ -3278,6 +3278,15 @@ Licence: Redistributable. See LICENCE.cavium for details
 
 --------------------------------------------------------------------------
 
+Driver: nitrox -- Cavium CNN55XX crypto driver
+
+File: cavium/cnn55xx_se.fw
+Version: v07
+
+Licence: Redistributable. See LICENCE.cavium for details
+
+--------------------------------------------------------------------------
+
 Driver: i915 -- Intel Integrated Graphics driver
 
 File: i915/skl_dmc_ver1_23.bin
