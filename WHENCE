@@ -1976,6 +1976,8 @@ File: amdgpu/vega10_sdma.bin
 File: amdgpu/vega10_sdma1.bin
 File: amdgpu/vega10_smc.bin
 File: amdgpu/vega10_sos.bin
+File: amdgpu/vega10_uvd.bin
+File: amdgpu/vega10_vce.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
