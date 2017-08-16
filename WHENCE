@@ -1963,6 +1963,19 @@ File: amdgpu/polaris12_sdma1.bin
 File: amdgpu/polaris12_smc.bin
 File: amdgpu/polaris12_uvd.bin
 File: amdgpu/polaris12_vce.bin
+File: amdgpu/vega10_acg_smc.bin
+File: amdgpu/vega10_asd.bin
+File: amdgpu/vega10_ce.bin
+File: amdgpu/vega10_gpu_info.bin
+File: amdgpu/vega10_me.bin
+File: amdgpu/vega10_mec.bin
+File: amdgpu/vega10_mec2.bin
+File: amdgpu/vega10_pfp.bin
+File: amdgpu/vega10_rlc.bin
+File: amdgpu/vega10_sdma.bin
+File: amdgpu/vega10_sdma1.bin
+File: amdgpu/vega10_smc.bin
+File: amdgpu/vega10_sos.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
