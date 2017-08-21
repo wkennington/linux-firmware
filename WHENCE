@@ -3115,20 +3115,6 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
 Driver: snd-soc-skl
 
-File: intel/dsp_fw_release_v827.bin
-Version: 8.20.00.927
-File: intel/dsp_fw_release_v869.bin
-Version; 8.20.00.869
-File: intel/dsp_fw_release_v896.bin
-Version: 8.20.00.896
-File: intel/dsp_fw_release_v927.bin
-Version: 8.20.00.927
-File: intel/dsp_fw_release_v948.bin
-Version: 8.20.00.948
-File: intel/dsp_fw_release_v951.bin
-Version: 8.20.00.951
-File: intel/dsp_fw_release_v958.bin
-Version: 8.20.00.958
 File: intel/dsp_fw_release_v969.bin
 Version: 8.20.00.969
 Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v969.bin
