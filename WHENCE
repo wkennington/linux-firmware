@@ -3121,14 +3121,6 @@ Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v969.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
-File: intel/dsp_fw_bxtn_v430.bin
-Version: 9.00.00.430
-File: intel/dsp_fw_bxtn_v702.bin
-Version: 9.00.00.702
-File: intel/dsp_fw_bxtn_v1118.bin
-Version: 9.22.00.1118
-File: intel/dsp_fw_bxtn_v2010.bin
-Version: 9.22.01.2010_44
 File: intel/dsp_fw_bxtn_v2219.bin
 Version: 9.22.01.2219_64
 Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v2219.bin
