@@ -971,6 +971,17 @@ Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
 
 --------------------------------------------------------------------------
 
+Driver: ipu3-imgu - Intel IPU3 (3rd Gen Image Processing Unit) driver
+
+File: intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
+Version: irci_irci_ecr-master_20161208_0213_20170112_1500
+md5sum: 59abc311fce49c5a180b5a8a3917912d
+Link: intel/ipu3-fw.bin -> irci_irci_ecr-master_20161208_0213_20170112_1500.bin
+
+Licence: Redistributable. See LICENSE.ipu3_firmware for details
+
+--------------------------------------------------------------------------
+
 Driver: cx231xx - Conexant Cx23100/101/102 USB broadcast A/V decoder
 
 File: v4l-cx231xx-avcore-01.fw
