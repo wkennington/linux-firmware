@@ -2458,6 +2458,15 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8822be - Realtek 802.11n WLAN driver for RTL8822BE
+
+Info: Sent to Larry Finger by Realtek engineer Ping-Ke Shih <pkshih@realtek.com>
+File: rtlwifi/rtl8822befw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
 Driver: rtl8192ee - Realtek 802.11n WLAN driver for RTL8192EE
 
 Info: Initial version taken from Realtek version
