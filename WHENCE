@@ -2079,11 +2079,12 @@ File: qed/qed_init_values_zipped-8.7.3.0.bin
 File: qed/qed_init_values_zipped-8.10.5.0.bin
 File: qed/qed_init_values_zipped-8.10.10.0.bin
 File: qed/qed_init_values_zipped-8.15.3.0.bin
+File: qed/qed_init_values_zipped-8.20.0.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
   source code.
-  Copyright (c) 2015 QLogic Corporation.
+  Copyright (c) 2015-2017 QLogic Corporation.
 
   Permission is hereby granted for the distribution of this firmware data
   in hexadecimal or equivalent format, provided this copyright notice is
