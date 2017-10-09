@@ -1874,6 +1874,8 @@ File: radeon/mullins_sdma.bin
 File: radeon/mullins_sdma1.bin
 File: radeon/mullins_uvd.bin
 File: radeon/mullins_vce.bin
+File: radeon/banks_k_2_smc.bin
+File: radeon/si58_mc.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
 
