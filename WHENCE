@@ -3342,6 +3342,9 @@ Version: Guc API/APB ver 9 release 14 for Kabylake
 File: i915/glk_dmc_ver1_04.bin
 Version: DMC API/ABI ver 1 - release 04 for Geminilake
 
+File: i915/cnl_dmc_ver1_06.bin
+Version: DMC API/ABI ver 1 - release 06 for Cannonlake
+
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
