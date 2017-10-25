@@ -3339,6 +3339,9 @@ Version: HuC API/APB ver 2 - for Kabylake
 File: i915/bxt_guc_ver8_7.bin
 Version: Guc API/APB ver 8 - release 7 for Broxton
 
+File: i915/bxt_guc_ver9_29.bin
+Version: Guc API/APB ver 9 - release 29 for Broxton
+
 File: i915/kbl_guc_ver9_14.bin
 Version: Guc API/APB ver 9 release 14 for Kabylake
 
