@@ -3314,6 +3314,10 @@ File: i915/kbl_dmc_ver1_01.bin
 File: i915/kbl_dmc_ver1.bin
 Version: DMC API/ABI ver 1 - release 01 for Kabylake
 
+File: i915/kbl_dmc_ver1_04.bin
+File: i915/kbl_dmc_ver1_04.bin
+Version: DMC API/ABI ver 1 - release 04 for Kabylake
+
 File: i915/skl_guc_ver1.bin
 Version: Guc API/ABI ver 1 - release 1059 for Skylake
 
