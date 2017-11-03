@@ -2015,6 +2015,7 @@ Licence: Redistributable. See LICENSE.amdgpu for details.
 Driver: s2255drv
 
 File: f2255usb.bin
+Version: 1.2.8
 
 Licence: Redistributable.
 
