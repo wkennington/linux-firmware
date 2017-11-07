@@ -3191,7 +3191,9 @@ License: Redistributable. See LICENCE.adsp_sst for details
 
 File: intel/dsp_fw_glk_v1814.bin
 Version: 9.92.01.1814
-Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v1814.bin
+File: intel/dsp_fw_glk_v2880.bin
+Version: 9.22.00.2880
+Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v2880.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
