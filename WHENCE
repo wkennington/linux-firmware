@@ -3655,6 +3655,15 @@ File: qcom/venus-1.8/venus.b04
 
 Version: 1.8-00109
 
+File: qcom/venus-4.2/venus.mdt
+File: qcom/venus-4.2/venus.b00
+File: qcom/venus-4.2/venus.b01
+File: qcom/venus-4.2/venus.b02
+File: qcom/venus-4.2/venus.b03
+File: qcom/venus-4.2/venus.b04
+
+Version: 4.2
+
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
