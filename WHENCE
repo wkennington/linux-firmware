@@ -3679,6 +3679,13 @@ File: qcom/a300_pfp.fw
 Link: a300_pfp.fw -> qcom/a300_pfp.fw
 File: qcom/a300_pm4.fw
 Link: a300_pm4.fw -> qcom/a300_pm4.fw
+File: qcom/a530_pfp.fw
+File: qcom/a530_pm4.fw
+File: qcom/a530v3_gpmu.fw2
+File: qcom/a530_zap.b00
+File: qcom/a530_zap.b01
+File: qcom/a530_zap.b02
+File: qcom/a530_zap.mdt
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
