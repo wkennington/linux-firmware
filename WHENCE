@@ -3315,6 +3315,10 @@ File: i915/kbl_dmc_ver1_01.bin
 File: i915/kbl_dmc_ver1.bin
 Version: DMC API/ABI ver 1 - release 01 for Kabylake
 
+File: i915/kbl_dmc_ver1_04.bin
+File: i915/kbl_dmc_ver1_04.bin
+Version: DMC API/ABI ver 1 - release 04 for Kabylake
+
 File: i915/skl_guc_ver1.bin
 Version: Guc API/ABI ver 1 - release 1059 for Skylake
 
@@ -3324,6 +3328,9 @@ Version: Guc API/ABI ver 4 - release 3 for Skylake
 File: i915/skl_guc_ver6_1.bin
 File: i915/skl_guc_ver6.bin
 Version: Guc API/ABI ver 6 - release 1 for Skylake
+
+File: i915/skl_guc_ver9_33.bin
+Version: Guc API/ABI ver 9 - release 33 for Skylake
 
 File: i915/skl_huc_ver01_07_1398.bin
 Version: HuC API/ABI ver 1 - release 7 for Skylake
@@ -3337,8 +3344,20 @@ Version: HuC API/APB ver 2 - for Kabylake
 File: i915/bxt_guc_ver8_7.bin
 Version: Guc API/APB ver 8 - release 7 for Broxton
 
+File: i915/bxt_guc_ver9_29.bin
+Version: Guc API/APB ver 9 - release 29 for Broxton
+
 File: i915/kbl_guc_ver9_14.bin
 Version: Guc API/APB ver 9 release 14 for Kabylake
+
+File: i915/kbl_guc_ver9_39.bin
+Version: Guc API/APB ver 9 release 39 for Kabylake
+
+File: i915/glk_dmc_ver1_04.bin
+Version: DMC API/ABI ver 1 - release 04 for Geminilake
+
+File: i915/cnl_dmc_ver1_06.bin
+Version: DMC API/ABI ver 1 - release 06 for Cannonlake
 
 License: Redistributable. See LICENSE.i915 for details
 
