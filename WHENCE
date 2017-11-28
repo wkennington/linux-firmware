@@ -2025,6 +2025,16 @@ File: amdgpu/vega10_smc.bin
 File: amdgpu/vega10_sos.bin
 File: amdgpu/vega10_uvd.bin
 File: amdgpu/vega10_vce.bin
+File: amdgpu/raven_asd.bin
+File: amdgpu/raven_ce.bin
+File: amdgpu/raven_gpu_info.bin
+File: amdgpu/raven_me.bin
+File: amdgpu/raven_mec.bin
+File: amdgpu/raven_mec2.bin
+File: amdgpu/raven_pfp.bin
+File: amdgpu/raven_rlc.bin
+File: amdgpu/raven_sdma.bin
+File: amdgpu/raven_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
