@@ -2941,6 +2941,22 @@ File: intel/ibt-12-16.ddc
 Version: BT_WindStormPeak_REL0101
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL0101
+File: intel/ibt-17-16-1.sfi
+Version: BT_JeffersonPeak_B0_B0_REL0186
+File: intel/ibt-17-16-1.ddc
+Version: BT_JeffersonPeak_B0_B0_REL0186
+File: intel/ibt-17-2.sfi
+Version: BT_JeffersonPeak_B0_B0_REL0186
+File: intel/ibt-17-2.ddc
+Version: BT_JeffersonPeak_B0_B0_REL0186
+File: intel/ibt-17-0-1.sfi
+Version: BT_JeffersonPeak_A0_B0_REL0186
+File: intel/ibt-17-0-1.ddc
+Version: BT_JeffersonPeak_A0_B0_REL0186
+File: intel/ibt-17-1.sfi
+Version: BT_JeffersonPeak_A0_B0_REL0186
+File: intel/ibt-17-1.ddc
+Version: BT_JeffersonPeak_A0_B0_REL0186
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
