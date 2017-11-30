@@ -2934,9 +2934,9 @@ Version: BT_StonePeak_D0_REL_37_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
 Version: BT_StonePeak_D1_REL_28_0001
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0370
+Version: LnP/SfP_REL0432
 File: intel/ibt-11-5.sfi
-Version: BT_LightningPeak_REL0370
+Version: BT_LightningPeak_REL0432
 File: intel/ibt-12-16.ddc
 Version: BT_WindStormPeak_REL0173
 File: intel/ibt-12-16.sfi
