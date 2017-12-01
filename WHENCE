@@ -2240,6 +2240,11 @@ File: brcm/brcmfmac4371-pcie.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
+File: brcm/brcmfmac4373-sdio.bin
+File: brcm/brcmfmac4373.bin
+
+Licence: Redistributable. See LICENCE.cypress for details.
+
 --------------------------------------------------------------------------
 
 Driver: tda7706 - FM radio Highly integrated tuner for AM/FM car-radio
