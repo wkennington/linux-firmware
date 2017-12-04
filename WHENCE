@@ -3231,6 +3231,11 @@ File: intel/dsp_fw_glk_v2880.bin
 Version: 9.22.00.2880
 Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v2880.bin
 
+File: intel/dsp_fw_cnl_v1191.bin
+Version: 10.00.00.1191
+File: intel/dsp_fw_cnl.bin
+Link: intel/dsp_fw_cnl.bin -> intel/dsp_fw_cnl_v1191.bin
+
 License: Redistributable. See LICENCE.adsp_sst for details
 
 --------------------------------------------------------------------------
