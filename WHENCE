@@ -3367,6 +3367,9 @@ Driver: liquidio -- Cavium LiquidIO driver
 File: liquidio/lio_23xx_nic.bin
 Version: v1.7.0
 
+File: liquidio/lio_23xx_vsw.bin
+Version: v1.7.0
+
 File: liquidio/lio_210nv_nic.bin
 Version: v1.7.0
 
