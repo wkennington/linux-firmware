@@ -3452,6 +3452,8 @@ Version: DMC API/ABI ver 1 - release 04 for Geminilake
 File: i915/cnl_dmc_ver1_06.bin
 Version: DMC API/ABI ver 1 - release 06 for Cannonlake
 
+File: i915/cnl_dmc_ver1_07.bin
+Version: DMC API/ABI ver 1 - release 07 for Cannonlake
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
