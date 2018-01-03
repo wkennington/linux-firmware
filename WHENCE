@@ -2469,6 +2469,15 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8723de - Realtek 802.11ac WLAN driver for RTL8723DE
+
+Info: Supplied by Vendor at https://github.com/pkshih/rtlwifi_rtl8723de
+File: rtlwifi/rtl8723defw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
 Driver: r8723au - Realtek 802.11n WLAN driver for RTL8723AU
 
 Info: Taken from Realtek driver rtl8723A_WiFi_linux_v4.1.3_6044.20121224
