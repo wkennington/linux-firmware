@@ -2294,11 +2294,11 @@ Version: 6.5.2.0.15 (Multi-role)
 File: ti-connectivity/wl127x-fw-4-plt.bin
 Version: 6.3.5.0.98 (PLT-only)
 File: ti-connectivity/wl127x-fw-5-sr.bin
-Version: 6.3.10.0.141 (Single-role)
+Version: 6.3.10.0.142 (Single-role)
 File: ti-connectivity/wl127x-fw-5-mr.bin
-Version: 6.5.7.0.49 (Multi-role)
+Version: 6.5.7.0.50 (Multi-role)
 File: ti-connectivity/wl127x-fw-5-plt.bin
-Version: 6.3.10.0.141 (PLT-only)
+Version: 6.3.10.0.142 (PLT-only)
 
 File: ti-connectivity/wl128x-fw.bin
 Version: 7.1.5.50.74 (STA-only)
@@ -2315,11 +2315,11 @@ Version: 7.5.2.0.15 (Multi-role)
 File: ti-connectivity/wl128x-fw-4-plt.bin
 Version: 7.3.5.0.98 (PLT)
 File: ti-connectivity/wl128x-fw-5-sr.bin
-Version: 7.3.10.0.141 (Single-role)
+Version: 7.3.10.0.142 (Single-role)
 File: ti-connectivity/wl128x-fw-5-mr.bin
-Version: 7.5.7.0.49 (Multi-role)
+Version: 7.5.7.0.50 (Multi-role)
 File: ti-connectivity/wl128x-fw-5-plt.bin
-Version: 7.3.10.2.141 (PLT-only)
+Version: 7.3.10.2.142 (PLT-only)
 
 File: ti-connectivity/wl127x-nvs.bin
 File: ti-connectivity/wl128x-nvs.bin
