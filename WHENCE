@@ -2952,9 +2952,9 @@ Version: LnP/SfP_REL0432
 File: intel/ibt-11-5.sfi
 Version: BT_LightningPeak_REL0432
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0173
+Version: BT_WindStormPeak_REL0185
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0173
+Version: BT_WindStormPeak_REL0185
 File: intel/ibt-17-16-1.sfi
 Version: BT_JeffersonPeak_B0_B0_REL0186
 File: intel/ibt-17-16-1.ddc
