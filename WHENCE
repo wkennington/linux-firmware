@@ -2781,7 +2781,7 @@ Version: 10.4-3.5.3-00053
 Licence: ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9887/hw1.0/board.bin
 File: ath10k/QCA9887/hw1.0/firmware-5.bin
-Version: 10.2.4-1.0-00029
+Version: 10.2.4-1.0-00037
 Licence: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
