@@ -2751,7 +2751,7 @@ File: ath10k/QCA988X/hw2.0/firmware-4.bin
 Version: 10.2.4.45
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA988X/hw2.0/firmware-5.bin
-Version: 10.2.4.70.54
+Version: 10.2.4-1.0-00037
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw2.1/board.bin
 File: ath10k/QCA6174/hw2.1/board-2.bin
@@ -2764,12 +2764,12 @@ File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA6174/hw3.0/firmware-6.bin
-Version: WLAN.RM.4.4.1-00051-QCARMSWP-1
+Version: WLAN.RM.4.4.1-00079-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
 File: ath10k/QCA9377/hw1.0/board.bin
 File: ath10k/QCA9377/hw1.0/board-2.bin
 File: ath10k/QCA9377/hw1.0/firmware-5.bin
-Version: WLAN.TF.1.0-00267-1
+Version: WLAN.TF.1.0-00002-QCATFSWPZ-5
 Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA99X0/hw2.0/board.bin
 File: ath10k/QCA99X0/hw2.0/firmware-5.bin
@@ -2777,19 +2777,19 @@ Version: 10.4.1.00030-1
 Licence: ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA4019/hw1.0/board-2.bin
 File: ath10k/QCA4019/hw1.0/firmware-5.bin
-Version: 10.4-3.4-00082
+Version: 10.4-3.5.3-00053
 Licence: ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9887/hw1.0/board.bin
 File: ath10k/QCA9887/hw1.0/firmware-5.bin
-Version: 10.2.4-1.0-00029
+Version: 10.2.4-1.0-00037
 Licence: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
-Version: 10.4-3.5.1-00014
+Version: 10.4-3.5.3-00053
 Licence: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9984/hw1.0/board-2.bin
 File: ath10k/QCA9984/hw1.0/firmware-5.bin
-Version: 10.4-3.4-00082
+Version: 10.4-3.5.3-00053
 Licence: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
