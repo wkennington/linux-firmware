@@ -3898,6 +3898,7 @@ Driver: mlxsw_spectrum - Mellanox Spectrum switch
 
 File: mellanox/mlxsw_spectrum-13.1420.122.mfa2
 File: mellanox/mlxsw_spectrum-13.1530.152.mfa2
+File: mellanox/mlxsw_spectrum-13.1620.192.mfa2
 
 Licence:
  Copyright (c) 2017 Mellanox Technologies, Ltd. All rights reserved.
