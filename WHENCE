@@ -8,6 +8,14 @@ kernel.
 
 --------------------------------------------------------------------------
 
+Driver: BCM-0bb4-0306 Cypress Bluetooth firmware for HTC Vive
+
+File: brcm/BCM-0bb4-0306.hcd
+
+Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
+
+--------------------------------------------------------------------------
+
 Driver: ambassador -- Madge Ambassador (Collage PCI 155 Server) ATM NIC.
 
 File: atmsar11.fw
