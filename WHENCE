@@ -3304,7 +3304,9 @@ File: intel/dsp_fw_kbl_v3266.bin
 Version: 9.21.00.3266_144
 File: intel/dsp_fw_kbl_v3420.bin
 Version: 9.21.00.3420_163
-Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3420.bin
+File: intel/dsp_fw_kbl_v3402.bin
+Version: 9.21.00.3402_161
+Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
