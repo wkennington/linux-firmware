@@ -3278,7 +3278,9 @@ Driver: snd-soc-skl
 
 File: intel/dsp_fw_release_v969.bin
 Version: 8.20.00.969
-Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v969.bin
+File: intel/dsp_fw_release_v3402.bin
+Version: 9.21.00.3402_161
+Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
