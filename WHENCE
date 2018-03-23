@@ -3286,7 +3286,9 @@ License: Redistributable. See LICENCE.adsp_sst for details
 
 File: intel/dsp_fw_bxtn_v2219.bin
 Version: 9.22.01.2219_64
-Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v2219.bin
+File: intel/dsp_fw_bxtn_v3366.bin
+Version: 9.22.01.3366_157
+Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v3366.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
