@@ -3278,13 +3278,17 @@ Driver: snd-soc-skl
 
 File: intel/dsp_fw_release_v969.bin
 Version: 8.20.00.969
-Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v969.bin
+File: intel/dsp_fw_release_v3402.bin
+Version: 9.21.00.3402_161
+Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
 File: intel/dsp_fw_bxtn_v2219.bin
 Version: 9.22.01.2219_64
-Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v2219.bin
+File: intel/dsp_fw_bxtn_v3366.bin
+Version: 9.22.01.3366_157
+Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v3366.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3300,7 +3304,9 @@ File: intel/dsp_fw_kbl_v3266.bin
 Version: 9.21.00.3266_144
 File: intel/dsp_fw_kbl_v3420.bin
 Version: 9.21.00.3420_163
-Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3420.bin
+File: intel/dsp_fw_kbl_v3402.bin
+Version: 9.21.00.3402_161
+Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3310,7 +3316,9 @@ File: intel/dsp_fw_glk_v2880.bin
 Version: 9.22.00.2880
 File: intel/dsp_fw_glk_v2768.bin
 Version: 9.22.01.2768
-Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v2768.bin
+File: intel/dsp_fw_glk_v3366.bin
+Version: 9.22.01.3366_157
+Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v3366.bin
 
 File: intel/dsp_fw_cnl_v1191.bin
 Version: 10.00.00.1191
