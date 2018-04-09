@@ -3863,7 +3863,7 @@ Driver: wil6210 - Qualcomm Atheros support for 11ad family of chips
 
 File: wil6210.fw
 File: wil6210.brd
-Version: 4.1.0.55
+Version: 5.2.0.18
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
