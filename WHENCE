@@ -3100,9 +3100,11 @@ Driver: microcode_amd - AMD CPU Microcode Update Driver for Linux
 File: amd-ucode/microcode_amd.bin
 Version: 2013-07-10
 File: amd-ucode/microcode_amd_fam15h.bin
-Version: 2016-03-16
+Version: 2018-05-15
 File: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
+File: amd-ucode/microcode_amd_fam17h.bin
+Version: 2018-05-15
 
 License: Redistributable. See LICENSE.amd-ucode for details
 
