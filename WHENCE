@@ -1935,6 +1935,13 @@ File: amdgpu/pitcairn_me.bin
 File: amdgpu/pitcairn_pfp.bin
 File: amdgpu/pitcairn_rlc.bin
 File: amdgpu/pitcairn_smc.bin
+File: amdgpu/verde_ce.bin
+File: amdgpu/verde_k_smc.bin
+File: amdgpu/verde_mc.bin
+File: amdgpu/verde_me.bin
+File: amdgpu/verde_pfp.bin
+File: amdgpu/verde_rlc.bin
+File: amdgpu/verde_smc.bin
 File: amdgpu/hainan_ce.bin
 File: amdgpu/hainan_k_smc.bin
 File: amdgpu/hainan_mc.bin
