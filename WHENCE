@@ -1954,6 +1954,15 @@ File: amdgpu/kabini_sdma.bin
 File: amdgpu/kabini_sdma1.bin
 File: amdgpu/kabini_uvd.bin
 File: amdgpu/kabini_vce.bin
+File: amdgpu/mullins_ce.bin
+File: amdgpu/mullins_me.bin
+File: amdgpu/mullins_mec.bin
+File: amdgpu/mullins_pfp.bin
+File: amdgpu/mullins_rlc.bin
+File: amdgpu/mullins_sdma.bin
+File: amdgpu/mullins_sdma1.bin
+File: amdgpu/mullins_uvd.bin
+File: amdgpu/mullins_vce.bin
 File: amdgpu/topaz_ce.bin
 File: amdgpu/topaz_k_smc.bin
 File: amdgpu/topaz_mc.bin
