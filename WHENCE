@@ -1928,6 +1928,14 @@ File: amdgpu/hainan_me.bin
 File: amdgpu/hainan_pfp.bin
 File: amdgpu/hainan_rlc.bin
 File: amdgpu/hainan_smc.bin
+File: amdgpu/oland_ce.bin
+File: amdgpu/oland_k_smc.bin
+File: amdgpu/oland_mc.bin
+File: amdgpu/oland_me.bin
+File: amdgpu/oland_pfp.bin
+File: amdgpu/oland_rlc.bin
+File: amdgpu/oland_smc.bin
+File: amdgpu/si58_mc.bin
 File: amdgpu/banks_k_2_smc.bin
 File: amdgpu/bonaire_ce.bin
 File: amdgpu/bonaire_k_smc.bin
