@@ -1928,6 +1928,13 @@ File: amdgpu/tahiti_me.bin
 File: amdgpu/tahiti_pfp.bin
 File: amdgpu/tahiti_rlc.bin
 File: amdgpu/tahiti_smc.bin
+File: amdgpu/pitcairn_ce.bin
+File: amdgpu/pitcairn_k_smc.bin
+File: amdgpu/pitcairn_mc.bin
+File: amdgpu/pitcairn_me.bin
+File: amdgpu/pitcairn_pfp.bin
+File: amdgpu/pitcairn_rlc.bin
+File: amdgpu/pitcairn_smc.bin
 File: amdgpu/hainan_ce.bin
 File: amdgpu/hainan_k_smc.bin
 File: amdgpu/hainan_mc.bin
