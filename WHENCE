@@ -1963,6 +1963,16 @@ File: amdgpu/mullins_sdma.bin
 File: amdgpu/mullins_sdma1.bin
 File: amdgpu/mullins_uvd.bin
 File: amdgpu/mullins_vce.bin
+File: amdgpu/kaveri_ce.bin
+File: amdgpu/kaveri_me.bin
+File: amdgpu/kaveri_mec.bin
+File: amdgpu/kaveri_mec2.bin
+File: amdgpu/kaveri_pfp.bin
+File: amdgpu/kaveri_rlc.bin
+File: amdgpu/kaveri_sdma.bin
+File: amdgpu/kaveri_sdma1.bin
+File: amdgpu/kaveri_uvd.bin
+File: amdgpu/kaveri_vce.bin
 File: amdgpu/topaz_ce.bin
 File: amdgpu/topaz_k_smc.bin
 File: amdgpu/topaz_mc.bin
