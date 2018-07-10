@@ -1921,6 +1921,18 @@ Licence: Redistributable. See LICENSE.radeon for details.
 
 Driver: amdgpu - AMD Radeon
 
+File: amdgpu/bonaire_ce.bin
+File: amdgpu/bonaire_k_smc.bin
+File: amdgpu/bonaire_mc.bin
+File: amdgpu/bonaire_me.bin
+File: amdgpu/bonaire_mec.bin
+File: amdgpu/bonaire_pfp.bin
+File: amdgpu/bonaire_rlc.bin
+File: amdgpu/bonaire_sdma.bin
+File: amdgpu/bonaire_sdma1.bin
+File: amdgpu/bonaire_smc.bin
+File: amdgpu/bonaire_uvd.bin
+File: amdgpu/bonaire_vce.bin
 File: amdgpu/topaz_ce.bin
 File: amdgpu/topaz_k_smc.bin
 File: amdgpu/topaz_mc.bin
