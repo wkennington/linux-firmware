@@ -1921,6 +1921,14 @@ Licence: Redistributable. See LICENSE.radeon for details.
 
 Driver: amdgpu - AMD Radeon
 
+File: amdgpu/hainan_ce.bin
+File: amdgpu/hainan_k_smc.bin
+File: amdgpu/hainan_mc.bin
+File: amdgpu/hainan_me.bin
+File: amdgpu/hainan_pfp.bin
+File: amdgpu/hainan_rlc.bin
+File: amdgpu/hainan_smc.bin
+File: amdgpu/banks_k_2_smc.bin
 File: amdgpu/bonaire_ce.bin
 File: amdgpu/bonaire_k_smc.bin
 File: amdgpu/bonaire_mc.bin
