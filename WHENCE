@@ -1921,6 +1921,13 @@ Licence: Redistributable. See LICENSE.radeon for details.
 
 Driver: amdgpu - AMD Radeon
 
+File: amdgpu/tahiti_ce.bin
+File: amdgpu/tahiti_k_smc.bin
+File: amdgpu/tahiti_mc.bin
+File: amdgpu/tahiti_me.bin
+File: amdgpu/tahiti_pfp.bin
+File: amdgpu/tahiti_rlc.bin
+File: amdgpu/tahiti_smc.bin
 File: amdgpu/hainan_ce.bin
 File: amdgpu/hainan_k_smc.bin
 File: amdgpu/hainan_mc.bin
