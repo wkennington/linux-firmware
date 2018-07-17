@@ -3901,6 +3901,15 @@ OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
 --------------------------------------------------------------------------
 
+Driver: btmtk - MediaTek Bluetooth Driver
+
+File: mediatek/mt7622pr2h.bin
+Version: 20180621204904
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
 Driver: rk3399-dptx - ROCKCHIP rk3399 dptx firmware
 
 File: rockchip/dptx.bin
