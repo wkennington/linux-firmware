@@ -2374,6 +2374,11 @@ File: brcm/brcmfmac4373.bin
 
 Licence: Redistributable. See LICENCE.cypress for details.
 
+File: brcm/brcmfmac43430-sdio.AP6212.txt
+File: brcm/brcmfmac43430-sdio.MUR1DX.txt
+
+Licence: GPLv2. See GPL-2 for details.
+
 --------------------------------------------------------------------------
 
 Driver: tda7706 - FM radio Highly integrated tuner for AM/FM car-radio
