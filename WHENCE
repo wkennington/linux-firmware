@@ -3928,6 +3928,18 @@ Version: 0.0.2_P69
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
 
+---------------------------------------------------------------------------
+
+Driver: mt76x2u - MediaTek MT76x2u Wireless MACs
+
+File: mediatek/mt7662u.bin
+Version: 1.5
+
+File: mediatek/mt7662u_rom_patch.bin
+Version: 0.0.2_P48
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
 --------------------------------------------------------------------------
 
 Driver: nfp - Netronome Flow Processor
