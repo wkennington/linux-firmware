@@ -3916,6 +3916,15 @@ Version: 3.1
 
 Licence: Redistributable. See LICENCE.rockchip for details.
 
+--------------------------------------------------------------------------
+
+Driver: mt76x0 - MediaTek MT76x0u Wireless MACs
+
+File: mediatek/mt7610u.bin
+Version: 2.6
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
 ---------------------------------------------------------------------------
 
 Driver: mt76x2e - MediaTek MT76x2 Wireless MACs
