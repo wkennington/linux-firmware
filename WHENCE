@@ -2508,6 +2508,10 @@ the firmwares for wl18xx chips must be located in
 
 Driver: TI_ST - Texas Instruments bluetooth driver
 
+File: ti-connectivity/TIInit_6.2.31.bts
+Version: 2.44 (TI_P31.123)
+File: ti-connectivity/TIInit_6.6.15.bts
+Version: 2.14 (TI_P6_15.93)
 File: ti-connectivity/TIInit_7.2.31.bts
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
