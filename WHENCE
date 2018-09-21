@@ -3932,6 +3932,8 @@ Driver: btmtk - MediaTek Bluetooth Driver
 
 File: mediatek/mt7622pr2h.bin
 Version: 20180621204904
+File: mediatek/mt7668pr2h.bin
+Version: 20180517181834
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
