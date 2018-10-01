@@ -779,6 +779,9 @@ Version: 16.68.1.p97
 File: mrvl/usbusb8997_combo_v4.bin
 Version: V16.68.1.p162
 
+File: mrvl/sdsd8997_combo_v4.bin
+Version: W16.68.1.p179
+
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
 
