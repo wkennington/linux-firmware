@@ -1,25 +1,31 @@
-This Notice.txt file contains certain notices of software components
-included with the software that Qualcomm Atheros, Inc. (“Qualcomm Atheros”)
-is required to provide you. Except where prohibited by the open source
-license, the content of this notices file is only provided to satisfy
-Qualcomm Atheros's attribution and notice requirement; your use of these
-software components together with the Qualcomm Atheros software (Qualcomm
-Atheros software hereinafter referred to as “Software”) is subject to the
-terms of your agreement from Qualcomm Atheros. Compliance with all copyright
-laws and software license agreements included in the notice section of this
-file are the responsibility of the user. Except as may be granted by
-separate express written agreement, this file provides no license to any
-patents, trademarks, copyrights, or other intellectual property of Qualcomm
-Incorporated or any of its subsidiaries.
+=============================================================================
 
-Copyright (c) 2016 Qualcomm Atheros, Inc. All rights reserved.
+This file contains certain notices of software components included with
+the software that Qualcomm Technologies, Inc. ("QTI") is required to 
+provide you. Except where prohibited by the open source license, the 
+content of this file is provided solely to satisfy QTI's attribution 
+and notice requirement; your use of these software components 
+together with the QTI software ("Software") is subject to the terms 
+of your license from QTI. Compliance with all copyright laws and 
+software license agreements included in the notice section of this 
+file are the responsibility of the user. Except as may be granted by 
+separate express written agreement, this file provides no license to 
+any patents, trademarks, copyrights, or other intellectual property 
+of Qualcomm Incorporated or any of its subsidiaries.
 
-Qualcomm is a trademark of Qualcomm Incorporated, registered in the United
-States and other countries. All Qualcomm Incorporated trademarks are used
-with permission. Atheros is a trademark of Qualcomm Atheros, Inc.,
-registered in the United States and other countries. Other products and
-brand names may be trademarks or registered trademarks of their respective
-owners.
+Software provided with this notice is NOT A CONTRIBUTION to any open 
+source project. If alternative licensing is available for any of the 
+components with licenses or attributions provided below, a license 
+choice is made for receiving such code by QTI.
+
+Copyright (c) 2017 Qualcomm Technologies, Inc. All rights reserved.
+
+Qualcomm is a trademark of Qualcomm Incorporated, registered in the 
+United States and other countries. All Qualcomm Incorporated trademarks 
+are used with permission. Other products and brand names may be 
+trademarks or registered trademarks of their respective owners.
+
+=============================================================================
  
 NOTICES:
  
@@ -68,8 +74,6 @@ Copyright (c) 2002-2004 Sam Leffler, Errno Consulting
 *For this file, which was received with alternative licensing options for  
 * distribution, Qualcomm Atheros, Inc. has selected the BSD license.
 
-NOTICES:
-
 
 /*
  * FILE:	sha2.c
@@ -103,7 +107,7 @@ NOTICES:
  * SUCH DAMAGE.
  *
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/nan/sha2.c
+
 
 /*
  * FILE:	sha2.h
@@ -137,7 +141,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/nan/
  * SUCH DAMAGE.
  *
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/romexport/AR6320/hw.3/include/sha2.h
+
 
 /*
  * Copyright (c) 1998 The NetBSD Foundation, Inc.
@@ -175,7 +179,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/romexport/AR63
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/romexport/AR6320/hw.3/include/usb.h
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -213,7 +217,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/romexport/AR63
  * and one of these files is build and linked in to provide the functions
  * defined here.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supplicant/crypto.h
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -239,7 +243,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supp
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/config.h
+
 
 /*
  * Copyright (c) 2014 Qualcomm Atheros, Inc.
@@ -265,7 +269,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/suppl_auth_api.h
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -291,7 +295,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/wpa.h
+
 
 
 /*
@@ -318,7 +322,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/wpa_i.h
+
 
 
 /*
@@ -346,7 +350,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/
  * See README and COPYING for more details.
  */
 
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supplicant/sha256.h
+
 
 
 /*
@@ -374,7 +378,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supp
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supplicant/mywpa_ft.h
+
 
 /*
  * Copyright (c) 2014 Qualcomm Atheros, Inc.
@@ -400,7 +404,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supp
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supplicant/sha256.c
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -426,7 +430,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supp
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supplicant/mywpa.c
+
 
 /*
  * Copyright (c) 2014 Qualcomm Atheros, Inc.
@@ -453,7 +457,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supp
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supplicant/mywpa_ft.c
+
 
 /*
  * Copyright (c) 2014 Qualcomm Atheros, Inc.
@@ -480,7 +484,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supp
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supplicant/mywpa_common.h
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -506,7 +510,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supp
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/include/md5_api.h
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -539,7 +543,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/include/md5_ap
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/romexport/AR6320/hw.3/include/aes_wrap.h
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -565,7 +569,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/romexport/AR63
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/romexport/AR6320/hw.3/include/sha1.h
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -591,7 +595,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/romexport/AR63
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/romexport/AR6320/hw.3/include/common.h
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -615,7 +619,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/romexport/AR63
  * license.
  *
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/romexport/AR6320/hw.3/include/seccommon.h
+
 
 /*
  *  COPYRIGHT (C) 1986 Gary S. Brown.  You may use this program, or
@@ -658,7 +662,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/romexport/AR63
  *
  * CRC32 code derived from work by Gary S. Brown.
 */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/nan/wlan_nan_crc.c
+
 
 
 //
@@ -696,9 +700,8 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/nan/
 //
 //  @(#)queue.h 8.5 (Berkeley) 8/20/94
 // $FreeBSD: src/sys/sys/queue.h,v 1.58 2004/04/07 04:19:49 imp Exp $
-// $Id: //components/rel/wlanfw_cmn.cnss/1.0/cnss_proc/wlan/fwcommon/include/queue.h#1 $
 //
-p4://qctp411.qualcomm.com/components/rel/wlanfw_cmn.cnss/1.0.0/include/queue.h
+
 
 
 /*
@@ -748,9 +751,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_cmn.cnss/1.0.0/include/queue.h
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
 // THE POSSIBILITY OF SUCH DAMAGES.
 //
-// $Id: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/src/wlan/proto/include/if_llc.h#3 $
 // $NetBSD: if_llc.h,v 1.12 1999/11/19 20:41:19 thorpej Exp $
-// $Id: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/src/wlan/proto/include/if_llc.h#3 $
 //
 
 /*
@@ -789,7 +790,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_cmn.cnss/1.0.0/include/queue.h
  * $FreeBSD: src/sys/net/if_llc.h,v 1.9 2002/09/23 06:25:08 alfred Exp $
  */
                                                                              
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/if_llc.h
+
 
 /*
  * Copyright (c) 2012 Qualcomm Atheros, Inc.
@@ -839,7 +840,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/
 // THE POSSIBILITY OF SUCH DAMAGES.
 //
 
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/if_ethersubr.h
+
 
 /*
  * Copyright (c) 2014 Qualcomm Atheros, Inc.
@@ -865,7 +866,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/patch/AR6320/v3/sha1_patch.c
+
 
 /*
  * Copyright (c) 2014 Qualcomm Atheros, Inc.
@@ -892,7 +893,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/patch/AR6320/v
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supplicant/mywpa_common.c
+
 
 /*
  * Copyright (c) 2014 Qualcomm Atheros, Inc.
@@ -919,18 +920,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supp
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supplicant/mywpa_common.h
 
-/*
- * Copyright (c) 2011 Qualcomm Atheros, Inc.
- * All Rights Reserved.
- * Qualcomm Atheros Confidential and Proprietary.
- * $ATH_LICENSE_NULL$
- */
-
-/*original files: ccx_cckm.c and part of wpa_common.c in proprietary patch
- * of open source supplicant */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supplicant/mywpa_cckm.c
 
 /*
  * Copyright (c) 2012 Qualcomm Atheros, Inc.
@@ -979,9 +969,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supp
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
 // THE POSSIBILITY OF SUCH DAMAGES.
 //
-// $Id: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/src/wlan/proto/include/if_llc.h#3 $
 // $NetBSD: if_llc.h,v 1.12 1999/11/19 20:41:19 thorpej Exp $
-// $Id: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/src/wlan/proto/include/if_llc.h#3 $
 //
 
 /*
@@ -1019,7 +1007,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/supp
  *	@(#)if_llc.h	8.1 (Berkeley) 6/10/93
  * $FreeBSD: src/sys/net/if_llc.h,v 1.9 2002/09/23 06:25:08 alfred Exp $
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/if_llc.h
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -1080,7 +1068,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/
  * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/misc/crypto/aes.c
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -1113,7 +1101,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/misc/crypt
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/misc/crypto/aes_wrap.c
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -1139,7 +1127,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/misc/crypt
  *
  * See README and COPYING for more details.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/misc/crypto/sha1.c
+
 
 /*
  * Copyright (c) 2013 Atheros Communications Inc.
@@ -1156,7 +1144,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/misc/crypt
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/wmi/wmi_tlv_platform.c
+
 
 /*
  * Copyright (c) 2012, Atheros Communications Inc.
@@ -1173,7 +1161,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/src/wmi/
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/qvit/qvit_init_api.h
+
 
 /*
  * Copyright (c) 2013 Atheros Communications Inc.
@@ -1190,7 +1178,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_protocol_cmn.cnss/1.0.0/include/
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_cmn.cnss/1.0.0/fw_interface/include/wmi_version_whitelist.c
+
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -1200,7 +1188,6 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_cmn.cnss/1.0.0/fw_interface/incl
  */
 
 //
-// $Id: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/src/misc/crypto/md5.c#3 $
 //
 // This code implements the MD5 message-digest algorithm.
 // The algorithm is due to Ron Rivest.  This code was
@@ -1217,7 +1204,7 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_cmn.cnss/1.0.0/fw_interface/incl
 // needed on buffers full of bytes, and then call MD5Final, which
 // will fill a supplied 16-byte array with the digest.
 //
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/misc/crypto/md5.c
+
 
 
 /*===========================================================================
@@ -1227,7 +1214,6 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/misc/crypt
   ===========================================================================
 
                            EDIT HISTORY FOR FILE
-  $Header: //components/dev/wlanfw.cnss/1.0.1/dennis.rome_emu_es2_rel_fw/cnss_proc/wlan/fw/target/src/misc/binsig/rsa.c#2 $
   $DateTime: 2013/10/21 08:09:59 $ 
   $Author: changhon $
 
@@ -1237,112 +1223,9 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/misc/crypt
 
   Copyright (c) 2011 by QUALCOMM Technologies, Incorporated.  All Rights Reserved.
   =============================================================================*/
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/misc/binsig/rsa.c
+
 
 /* ==========================================================================
- * $File: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/include/cil.h $
- * $Revision: #3 $
- * $Date: 2013/08/06 $
- * $Change: 2161544 $
- *
- * Synopsys SS USB3 Linux Software Driver and documentation (hereinafter,
- * "Software") is an Unsupported proprietary work of Synopsys, Inc. unless
- * otherwise expressly agreed to in writing between Synopsys and you.
- *
- * The Software IS NOT an item of Licensed Software or Licensed Product under
- * any End User Software License Agreement or Agreement for Licensed Product
- * with Synopsys or any supplement thereto. You are permitted to use and
- * redistribute this Software in source and binary forms, with or without
- * modification, provided that redistributions of source code must retain this
- * notice. You may not view, use, disclose, copy or distribute this file or
- * any information contained herein except pursuant to this license grant from
- * Synopsys. If you do not agree with this notice, including the disclaimer
- * below, then you are not authorized to use the Software.
- *
- * THIS SOFTWARE IS BEING DISTRIBUTED BY SYNOPSYS SOLELY ON AN "AS IS" BASIS
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- * ARE HEREBY DISCLAIMED. IN NO EVENT SHALL SYNOPSYS BE LIABLE FOR ANY DIRECT,
- * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
- * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
- * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
- * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
- * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
- * DAMAGE.
- * ========================================================================== */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/include/cil.h
-
-/* ==========================================================================
- * $File: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/include/dev.h $
- * $Revision: #3 $
- * $Date: 2013/08/06 $
- * $Change: 2161544 $
- *
- * Synopsys SS USB3 Linux Software Driver and documentation (hereinafter,
- * "Software") is an Unsupported proprietary work of Synopsys, Inc. unless
- * otherwise expressly agreed to in writing between Synopsys and you.
- *
- * The Software IS NOT an item of Licensed Software or Licensed Product under
- * any End User Software License Agreement or Agreement for Licensed Product
- * with Synopsys or any supplement thereto. You are permitted to use and
- * redistribute this Software in source and binary forms, with or without
- * modification, provided that redistributions of source code must retain this
- * notice. You may not view, use, disclose, copy or distribute this file or
- * any information contained herein except pursuant to this license grant from
- * Synopsys. If you do not agree with this notice, including the disclaimer
- * below, then you are not authorized to use the Software.
- *
- * THIS SOFTWARE IS BEING DISTRIBUTED BY SYNOPSYS SOLELY ON AN "AS IS" BASIS
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- * ARE HEREBY DISCLAIMED. IN NO EVENT SHALL SYNOPSYS BE LIABLE FOR ANY DIRECT,
- * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
- * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
- * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
- * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
- * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
- * DAMAGE.
- * ========================================================================== */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/include/dev.h
-
-/* ==========================================================================
- * $File: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/include/pcd.h $
- * $Revision: #3 $
- * $Date: 2013/08/06 $
- * $Change: 2161544 $
- *
- * Synopsys SS USB3 Linux Software Driver and documentation (hereinafter,
- * "Software") is an Unsupported proprietary work of Synopsys, Inc. unless
- * otherwise expressly agreed to in writing between Synopsys and you.
- *
- * The Software IS NOT an item of Licensed Software or Licensed Product under
- * any End User Software License Agreement or Agreement for Licensed Product
- * with Synopsys or any supplement thereto. You are permitted to use and
- * redistribute this Software in source and binary forms, with or without
- * modification, provided that redistributions of source code must retain this
- * notice. You may not view, use, disclose, copy or distribute this file or
- * any information contained herein except pursuant to this license grant from
- * Synopsys. If you do not agree with this notice, including the disclaimer
- * below, then you are not authorized to use the Software.
- *
- * THIS SOFTWARE IS BEING DISTRIBUTED BY SYNOPSYS SOLELY ON AN "AS IS" BASIS
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- * ARE HEREBY DISCLAIMED. IN NO EVENT SHALL SYNOPSYS BE LIABLE FOR ANY DIRECT,
- * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
- * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
- * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
- * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
- * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
- * DAMAGE.
- * ========================================================================== */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/include/pcd.h
-
-/* ==========================================================================
- * $File: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/src/soc/usbhwcore/drv/snps/cil.c $
  * $Revision: #3 $
  * $Date: 2013/08/06 $
  * $Change: 2161544 $
@@ -1374,240 +1257,6 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/include/pcd.h
  * DAMAGE.
  * ========================================================================== */
 
-/** @file
- *
- * The Core Interface Layer provides basic services for accessing and
- * managing the DWC_usb3 hardware. These services are used by both the
- * Peripheral Controller Driver and the On The Go Driver.
- *
- * The CIL manages the memory map for the core so that the PCD and OTG drivers
- * don't have to do this separately. The CIL also performs basic services
- * that are not specific to either the Device or OTG modes of operation.
- * These services include all functionality that requires specific
- * knowledge of the CSR layout or the DMA descriptor (TRB) layout. Also
- * included are services for invoking each of the commands provided by
- * the DGCMD and DEPCMD registers (see the "Control and Status Registers"
- * chapter of the USB3 controller databook for details).
- *
- * The Core Interface Layer has the following requirements:
- * - Provides basic controller operations.
- * - Minimal use of OS services.
- * - The OS services used will be abstracted by using inline functions
- *   or macros.
- *
- */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/soc/usbhwcore/drv/snps/cil.c
-
-/* ==========================================================================
- * $File: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/src/soc/usbhwcore/drv/snps/pcd_intr.c $
- * $Revision: #3 $
- * $Date: 2013/08/06 $
- * $Change: 2161544 $
- *
- * Synopsys SS USB3 Linux Software Driver and documentation (hereinafter,
- * "Software") is an Unsupported proprietary work of Synopsys, Inc. unless
- * otherwise expressly agreed to in writing between Synopsys and you.
- *
- * The Software IS NOT an item of Licensed Software or Licensed Product under
- * any End User Software License Agreement or Agreement for Licensed Product
- * with Synopsys or any supplement thereto. You are permitted to use and
- * redistribute this Software in source and binary forms, with or without
- * modification, provided that redistributions of source code must retain this
- * notice. You may not view, use, disclose, copy or distribute this file or
- * any information contained herein except pursuant to this license grant from
- * Synopsys. If you do not agree with this notice, including the disclaimer
- * below, then you are not authorized to use the Software.
- *
- * THIS SOFTWARE IS BEING DISTRIBUTED BY SYNOPSYS SOLELY ON AN "AS IS" BASIS
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- * ARE HEREBY DISCLAIMED. IN NO EVENT SHALL SYNOPSYS BE LIABLE FOR ANY DIRECT,
- * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
- * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
- * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
- * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
- * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
- * DAMAGE.
- * ========================================================================== */
-
-/** @file
- * This file contains the implementation of the PCD Interrupt handlers.
- *
- * The PCD handles the device interrupts. Many conditions can cause a
- * device interrupt. When an interrupt occurs, the device interrupt
- * service routine determines the cause of the interrupt and
- * dispatches handling to the appropriate routine. These interrupt
- * handling routines are described below.
- */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/soc/usbhwcore/drv/snps/pcd_intr.c
-
-/* ==========================================================================
- * $File: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/include/os_dev.h $
- * $Revision: #3 $
- * $Date: 2013/08/06 $
- * $Change: 2161544 $
- *
- * Synopsys SS USB3 Linux Software Driver and documentation (hereinafter,
- * "Software") is an Unsupported proprietary work of Synopsys, Inc. unless
- * otherwise expressly agreed to in writing between Synopsys and you.
- *
- * The Software IS NOT an item of Licensed Software or Licensed Product under
- * any End User Software License Agreement or Agreement for Licensed Product
- * with Synopsys or any supplement thereto. You are permitted to use and
- * redistribute this Software in source and binary forms, with or without
- * modification, provided that redistributions of source code must retain this
- * notice. You may not view, use, disclose, copy or distribute this file or
- * any information contained herein except pursuant to this license grant from
- * Synopsys. If you do not agree with this notice, including the disclaimer
- * below, then you are not authorized to use the Software.
- *
- * THIS SOFTWARE IS BEING DISTRIBUTED BY SYNOPSYS SOLELY ON AN "AS IS" BASIS
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- * ARE HEREBY DISCLAIMED. IN NO EVENT SHALL SYNOPSYS BE LIABLE FOR ANY DIRECT,
- * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
- * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
- * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
- * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
- * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
- * DAMAGE.
- * ========================================================================== */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/include/os_dev.h
-
-/* ==========================================================================
- * $File: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/src/soc/usbhwcore/drv/snps/cil_intr.c $
- * $Revision: #3 $
- * $Date: 2013/08/06 $
- * $Change: 2161544 $
- *
- * Synopsys SS USB3 Linux Software Driver and documentation (hereinafter,
- * "Software") is an Unsupported proprietary work of Synopsys, Inc. unless
- * otherwise expressly agreed to in writing between Synopsys and you.
- *
- * The Software IS NOT an item of Licensed Software or Licensed Product under
- * any End User Software License Agreement or Agreement for Licensed Product
- * with Synopsys or any supplement thereto. You are permitted to use and
- * redistribute this Software in source and binary forms, with or without
- * modification, provided that redistributions of source code must retain this
- * notice. You may not view, use, disclose, copy or distribute this file or
- * any information contained herein except pursuant to this license grant from
- * Synopsys. If you do not agree with this notice, including the disclaimer
- * below, then you are not authorized to use the Software.
- *
- * THIS SOFTWARE IS BEING DISTRIBUTED BY SYNOPSYS SOLELY ON AN "AS IS" BASIS
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- * ARE HEREBY DISCLAIMED. IN NO EVENT SHALL SYNOPSYS BE LIABLE FOR ANY DIRECT,
- * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
- * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
- * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
- * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
- * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
- * DAMAGE.
- * ========================================================================== */
-
-/** @file
- *
- * The Core Interface Layer provides basic services for accessing and
- * managing the DWC_usb3 hardware. These services are used by both the
- * Peripheral Controller Driver and the On The Go Driver.
- *
- * This file contains the common interrupt handling functions.
- */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/soc/usbhwcore/drv/snps/cil_intr.c
-
-/* ==========================================================================
- * $File: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/src/soc/usbhwcore/drv/snps/pcd.c $
- * $Revision: #3 $
- * $Date: 2013/08/06 $
- * $Change: 2161544 $
- *
- * Synopsys SS USB3 Linux Software Driver and documentation (hereinafter,
- * "Software") is an Unsupported proprietary work of Synopsys, Inc. unless
- * otherwise expressly agreed to in writing between Synopsys and you.
- *
- * The Software IS NOT an item of Licensed Software or Licensed Product under
- * any End User Software License Agreement or Agreement for Licensed Product
- * with Synopsys or any supplement thereto. You are permitted to use and
- * redistribute this Software in source and binary forms, with or without
- * modification, provided that redistributions of source code must retain this
- * notice. You may not view, use, disclose, copy or distribute this file or
- * any information contained herein except pursuant to this license grant from
- * Synopsys. If you do not agree with this notice, including the disclaimer
- * below, then you are not authorized to use the Software.
- *
- * THIS SOFTWARE IS BEING DISTRIBUTED BY SYNOPSYS SOLELY ON AN "AS IS" BASIS
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- * ARE HEREBY DISCLAIMED. IN NO EVENT SHALL SYNOPSYS BE LIABLE FOR ANY DIRECT,
- * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
- * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
- * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
- * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
- * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
- * DAMAGE.
- * ========================================================================== */
-
-/** @file
- * This file implements the Peripheral Controller Driver.
- *
- * The Peripheral Controller Driver (PCD) is responsible for translating
- * requests from the Function Driver into the appropriate actions on the
- * DWC_usb3 controller. It isolates the Function Driver from the specifics
- * of the controller by providing an API to the Function Driver.
- *
- * The Peripheral Controller Driver for Linux will implement the Gadget API,
- * so that the existing Gadget drivers can be used. (Gadget Driver is the
- * Linux terminology for a Function Driver.)
- *
- * The Linux Gadget API is defined in the header file
- * <code><linux/usb/gadget.h></code>. The USB EP operations API is defined
- * in the structure <code>usb_ep_ops</code> and the USB Controller API is
- * defined in the structure <code>usb_gadget_ops</code>.
- *
- * An important function of the PCD is managing interrupts generated by the
- * DWC_usb3 controller. The implementation of the DWC_usb3 device mode
- * interrupt service routines is in pcd_intr.c.
- */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/soc/usbhwcore/drv/snps/pcd.c
-
-/* ==========================================================================
- * $File: //components/rel/wlanfw.cnss/1.0.1/cnss_proc/wlan/fw/target/include/usb3_hw.h $
- * $Revision: #3 $
- * $Date: 2013/08/06 $
- * $Change: 2161544 $
- *
- * Synopsys SS USB3 Linux Software Driver and documentation (hereinafter,
- * "Software") is an Unsupported proprietary work of Synopsys, Inc. unless
- * otherwise expressly agreed to in writing between Synopsys and you.
- *
- * The Software IS NOT an item of Licensed Software or Licensed Product under
- * any End User Software License Agreement or Agreement for Licensed Product
- * with Synopsys or any supplement thereto. You are permitted to use and
- * redistribute this Software in source and binary forms, with or without
- * modification, provided that redistributions of source code must retain this
- * notice. You may not view, use, disclose, copy or distribute this file or
- * any information contained herein except pursuant to this license grant from
- * Synopsys. If you do not agree with this notice, including the disclaimer
- * below, then you are not authorized to use the Software.
- *
- * THIS SOFTWARE IS BEING DISTRIBUTED BY SYNOPSYS SOLELY ON AN "AS IS" BASIS
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- * ARE HEREBY DISCLAIMED. IN NO EVENT SHALL SYNOPSYS BE LIABLE FOR ANY DIRECT,
- * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
- * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
- * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
- * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
- * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
- * DAMAGE.
- * ========================================================================== */
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/include/usb3_hw.h
 
 /*
  * Copyright (c) 2011 Qualcomm Atheros, Inc.
@@ -1649,35 +1298,8 @@ p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/include/usb3_h
 // Marcus Geelnard
 // marcus.geelnard at home.se
 // 
-p4://qctp411.qualcomm.com/components/rel/wlanfw_mac_core.cnss/1.0/src/misc/lzuncompr/lzuncompr1.c
 
-/*
- * WPA Supplicant - CCX Fast Roaming with CCKM Enhancements
- * Copyright (c) 2003-2008, Jouni Malinen <j@w1.fi>
- * Copyright (c) 2010-2011, embWiSe Technologies
- *
- * Licensed under a proprietary license.
- * Notifications and licenses are retained for attribution purposes only.
 
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions are
- * met:
- *
- * 1. Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer.
- *
- * 2. Redistributions in binary form must reproduce the above copyright
- *    notice, this list of conditions and the following disclaimer in the
- *    documentation and/or other materials provided with the distribution.
- *
- * 3. Neither the name(s) of the above-listed copyright holder(s) nor the
- *    names of its contributors may be used to endorse or promote products
- *    derived from this software without specific prior written permission.
- */
-/*original files: ccx_cckm.c and part of wpa_common.c in proprietary patch
- * of open source supplicant */
-
-p4://qctp411.qualcomm.com/components/src/wlanfw_protocol_cmn.cnss/3.0/src/supplicant/mywpa_cckm.c 
 /*
 * Copyright (c)2014 Qualcomm Atheros, Inc.
 * All Rights Reserved.
@@ -1727,4 +1349,4 @@ p4://qctp411.qualcomm.com/components/src/wlanfw_protocol_cmn.cnss/3.0/src/suppli
  * SUCH DAMAGE.
  */
 
-p4://qctp411.qualcomm.com/components/src/wlanfw_mac_core.cnss/6.0/patch/AR6320/v3/cmnos_printf_patch.c
+
