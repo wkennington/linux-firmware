@@ -3976,6 +3976,8 @@ Driver: mt76x0 - MediaTek MT76x0 Wireless MACs
 File: mediatek/mt7610u.bin
 File: mediatek/mt7610e.bin
 Version: 2.6
+File: mediatek/mt7650e.bin
+Version: 1.0.07-b370
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
