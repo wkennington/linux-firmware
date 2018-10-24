@@ -4208,3 +4208,13 @@ File: cadence/mhdp8546.bin
 Version: 1.2.12
 
 Licence: Redistributable. See LICENCE.cadence for details
+
+--------------------------------------------------------------------------
+
+Driver: fsl-mc bus - NXP Management Complex Bus Driver
+
+File: dpaa2/mc/mc_10.10.0_ls1088a.itb
+File: dpaa2/mc/mc_10.10.0_ls2088a.itb
+File: dpaa2/mc/mc_10.10.0_lx2160a.itb
+
+Licence: Redistributable. See LICENSE.nxp_mc_firmware for details
