@@ -2164,6 +2164,7 @@ File: amdgpu/raven_pfp.bin
 File: amdgpu/raven_rlc.bin
 File: amdgpu/raven_sdma.bin
 File: amdgpu/raven_vcn.bin
+File: amdgpu/raven_dmcu.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
