@@ -2089,6 +2089,7 @@ File: amdgpu/polaris10_sdma1.bin
 File: amdgpu/polaris10_sdma.bin
 File: amdgpu/polaris10_smc.bin
 File: amdgpu/polaris10_k_smc.bin
+File: amdgpu/polaris10_k2_smc.bin
 File: amdgpu/polaris10_smc_sk.bin
 File: amdgpu/polaris10_uvd.bin
 File: amdgpu/polaris10_vce.bin
@@ -2108,6 +2109,7 @@ File: amdgpu/polaris11_sdma1.bin
 File: amdgpu/polaris11_sdma.bin
 File: amdgpu/polaris11_smc.bin
 File: amdgpu/polaris11_k_smc.bin
+File: amdgpu/polaris11_k2_smc.bin
 File: amdgpu/polaris11_smc_sk.bin
 File: amdgpu/polaris11_uvd.bin
 File: amdgpu/polaris11_vce.bin
@@ -2126,6 +2128,7 @@ File: amdgpu/polaris12_rlc.bin
 File: amdgpu/polaris12_sdma.bin
 File: amdgpu/polaris12_sdma1.bin
 File: amdgpu/polaris12_smc.bin
+File: amdgpu/polaris12_k_smc.bin
 File: amdgpu/polaris12_uvd.bin
 File: amdgpu/polaris12_vce.bin
 File: amdgpu/vegam_ce.bin
