@@ -2076,6 +2076,7 @@ File: amdgpu/stoney_vce.bin
 File: amdgpu/polaris10_ce.bin
 File: amdgpu/polaris10_ce_2.bin
 File: amdgpu/polaris10_mc.bin
+File: amdgpu/polaris10_k_mc.bin
 File: amdgpu/polaris10_me.bin
 File: amdgpu/polaris10_me_2.bin
 File: amdgpu/polaris10_mec2.bin
@@ -2096,6 +2097,7 @@ File: amdgpu/polaris10_vce.bin
 File: amdgpu/polaris11_ce.bin
 File: amdgpu/polaris11_ce_2.bin
 File: amdgpu/polaris11_mc.bin
+File: amdgpu/polaris11_k_mc.bin
 File: amdgpu/polaris11_me.bin
 File: amdgpu/polaris11_me_2.bin
 File: amdgpu/polaris11_mec2.bin
@@ -2116,6 +2118,7 @@ File: amdgpu/polaris11_vce.bin
 File: amdgpu/polaris12_ce.bin
 File: amdgpu/polaris12_ce_2.bin
 File: amdgpu/polaris12_mc.bin
+File: amdgpu/polaris12_k_mc.bin
 File: amdgpu/polaris12_me.bin
 File: amdgpu/polaris12_me_2.bin
 File: amdgpu/polaris12_mec.bin
