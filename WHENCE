@@ -2416,6 +2416,7 @@ File: "brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt"
 File: "brcm/brcmfmac43362-sdio.lemaker,bananapro.txt"
 File: "brcm/brcmfmac43430-sdio.AP6212.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
+File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
 
 Licence: GPLv2. See GPL-2 for details.
 
