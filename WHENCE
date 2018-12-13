@@ -2202,6 +2202,17 @@ File: amdgpu/picasso_rlc.bin
 File: amdgpu/picasso_rlc_am4.bin
 File: amdgpu/picasso_sdma.bin
 File: amdgpu/picasso_vcn.bin
+File: amdgpu/raven2_asd.bin
+File: amdgpu/raven2_ce.bin
+File: amdgpu/raven2_gpu_info.bin
+File: amdgpu/raven2_me.bin
+File: amdgpu/raven2_mec.bin
+File: amdgpu/raven2_mec2.bin
+File: amdgpu/raven2_pfp.bin
+File: amdgpu/raven2_rlc.bin
+File: amdgpu/raven2_sdma.bin
+File: amdgpu/raven2_sdma1.bin
+File: amdgpu/raven2_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
