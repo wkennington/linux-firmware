@@ -4222,3 +4222,12 @@ File: dpaa2/mc/mc_10.10.0_ls2088a.itb
 File: dpaa2/mc/mc_10.10.0_lx2160a.itb
 
 Licence: Redistributable. See LICENSE.nxp_mc_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: mscc-phy - Microchip PHY drivers
+
+File: microchip/mscc_vsc8574_revb_int8051_29e8.bin
+File: microchip/mscc_vsc8584_revb_int8051_fb48.bin
+
+Licence: Redistributable. See LICENCE.microchip for details
