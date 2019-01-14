@@ -2388,7 +2388,6 @@ File: brcm/brcmfmac43143.bin
 File: brcm/brcmfmac43143-sdio.bin
 File: brcm/brcmfmac43430a0-sdio.bin
 File: brcm/brcmfmac43455-sdio.bin
-File: brcm/brcmfmac43455-sdio.clm_blob
 File: brcm/brcmfmac4350c2-pcie.bin
 File: brcm/brcmfmac4350-pcie.bin
 File: brcm/brcmfmac4356-sdio.bin
@@ -2423,7 +2422,6 @@ File: "brcm/brcmfmac43430-sdio.AP6212.txt"
 File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi-rpi.txt"
-File: "brcm/brcmfmac43455-sdio.raspberrypi-rpi.txt"
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
 
 Licence: GPLv2. See GPL-2 for details.
