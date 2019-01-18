@@ -2443,7 +2443,8 @@ File: "brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt"
 File: "brcm/brcmfmac43430-sdio.AP6212.txt"
 File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
-File: "brcm/brcmfmac43430-sdio.raspberrypi-rpi.txt"
+File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
+File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
 
 Licence: GPLv2. See GPL-2 for details.
