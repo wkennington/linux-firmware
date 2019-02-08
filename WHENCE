@@ -768,6 +768,9 @@ Version: V16.68.1.p162
 File: mrvl/sdsd8997_combo_v4.bin
 Version: W16.68.1.p179
 
+File: mrvl/sdsd8977_combo_v2.bin
+Version: W16.68.1.p195
+
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
 
