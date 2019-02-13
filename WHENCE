@@ -3311,6 +3311,15 @@ Licence: Redistributable. See LICENCE.go7007 for details
 
 --------------------------------------------------------------------------
 
+Driver: ccp - Platform Security Processor (PSP) device
+
+File: amd/amd_sev_fam17h_model0xh.sbin
+Version: 2019-02-13
+
+License: Redistributable. See LICENSE.amd-sev for details
+
+--------------------------------------------------------------------------
+
 Driver: microcode_amd - AMD CPU Microcode Update Driver for Linux
 
 File: amd-ucode/microcode_amd.bin
