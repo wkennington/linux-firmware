@@ -3969,6 +3969,10 @@ File: nvidia/gv100/sec2/desc.bin
 File: nvidia/gv100/sec2/image.bin
 File: nvidia/gv100/sec2/sig.bin
 
+File: nvidia/tu10x/typec/ccg_primary.cyacd
+File: nvidia/tu10x/typec/ccg_secondary.cyacd
+File: nvidia/tu10x/typec/ccg_boot.cyacd
+
 Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
