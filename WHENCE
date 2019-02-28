@@ -724,7 +724,7 @@ directly by Marvell.
 Driver: mwifiex - Marvell Wi-Fi fullmac-type 802.11n/ac cards
 
 File: mrvl/sd8787_uapsta.bin
-Version: 14.66.35.p52
+Version: W14.68.35.p66
 
 File: mrvl/usb8766_uapsta.bin
 Version: 14.68.22.p16
@@ -745,10 +745,10 @@ File: mrvl/pcie8897_uapsta.bin
 Version: W15.68.19.p21
 
 File: mrvl/sd8887_uapsta.bin
-Version: 15.68.7.p112
+Version: W15.68.7.p189
 
 File: mrvl/sd8801_uapsta.bin
-Version: 14.68.36.p60
+Version: W14.68.36.p204
 
 File: mrvl/usb8801_uapsta.bin
 Version: W14.68.36.p138
