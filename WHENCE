@@ -742,7 +742,7 @@ File: mrvl/usb8897_uapsta.bin
 Version: 15.68.4.p103
 
 File: mrvl/pcie8897_uapsta.bin
-Version: V15.68.7.p154
+Version: W15.68.19.p21
 
 File: mrvl/sd8887_uapsta.bin
 Version: 15.68.7.p112
@@ -760,10 +760,10 @@ File: mrvl/pcieusb8997_combo_v4.bin
 Version: W16.68.1.p195
 
 File: mrvl/pcie8997_wlan_v4.bin
-Version: 16.68.1.p97
+Version: W16.68.1.p195
 
 File: mrvl/usbusb8997_combo_v4.bin
-Version: V16.68.1.p162
+Version: W16.68.1.p183
 
 File: mrvl/sdsd8997_combo_v4.bin
 Version: W16.68.1.p179
