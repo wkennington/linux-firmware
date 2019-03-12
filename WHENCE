@@ -3651,6 +3651,8 @@ File: qca/rampatch_00130300.bin
 File: qca/rampatch_00130302.bin
 File: qca/crbtfw21.tlv
 File: qca/crnv21.bin
+File: qca/nvm_00440302.bin
+File: qca/rampatch_00440302.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
