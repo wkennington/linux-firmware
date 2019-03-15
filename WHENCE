@@ -730,10 +730,10 @@ File: mrvl/usb8766_uapsta.bin
 Version: 14.68.22.p16
 
 File: mrvl/sd8797_uapsta.bin
-Version: 14.66.11.p151
+Version: W14.68.29.p59
 
 File: mrvl/usb8797_uapsta.bin
-Version: 14.68.29.p49
+Version: W14.68.29.p60
 
 File: mrvl/sd8897_uapsta.bin
 Version: W15.68.19.17
@@ -754,7 +754,7 @@ File: mrvl/usb8801_uapsta.bin
 Version: W14.68.36.p138
 
 File: mrvl/pcieuart8997_combo_v4.bin
-Version: 16.68.1.p70
+Version: W16.68.1.p179
 
 File: mrvl/pcieusb8997_combo_v4.bin
 Version: W16.68.1.p195
