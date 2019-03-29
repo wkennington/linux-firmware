@@ -3766,6 +3766,9 @@ Version: Guc API/APB ver 32 release 0 for Kabylake
 File: i915/glk_guc_32.0.3.bin
 Version: Guc API/APB ver 32 release 0 for Geminilake
 
+File: i915/glk_huc_ver03_01_2893.bin
+Version: Huc API/APB ver 3 release 1 for Geminilake
+
 File: i915/glk_dmc_ver1_04.bin
 Version: DMC API/ABI ver 1 - release 04 for Geminilake
 
