@@ -1019,7 +1019,7 @@ File: iwlwifi-9000-pu-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-46.ucode
-Version: 46.b20aefee.0
+Version: 46.c9682e2b.0
 
 File: iwlwifi-9260-th-b0-jf-b0-33.ucode
 Version: 33.610294.0
@@ -1037,7 +1037,10 @@ File: iwlwifi-9260-th-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
 File: iwlwifi-9260-th-b0-jf-b0-46.ucode
-Version: 46.b20aefee.0
+Version: 46.c9682e2b.0
+
+File: iwlwifi-cc-a0-46.ucode
+Version: 46.3cfab8da.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
