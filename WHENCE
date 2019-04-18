@@ -3783,6 +3783,9 @@ Version: DMC API/ABI ver 1 - release 07 for icelake
 
 File: i915/icl_guc_32.0.3.bin
 Version: Guc API/APB ver 32 release 0 for Icelake
+
+File: i915/icl_huc_ver8_4_3238.bin
+Version: Huc API/APB ver 8 release 4 for Icelake
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
