@@ -4336,9 +4336,10 @@ File: mellanox/mlxsw_spectrum-13.1620.192.mfa2
 File: mellanox/mlxsw_spectrum-13.1702.6.mfa2
 File: mellanox/mlxsw_spectrum-13.1703.4.mfa2
 File: mellanox/mlxsw_spectrum-13.1910.622.mfa2
+File: mellanox/mlxsw_spectrum-13.2000.1122.mfa2
 
 Licence:
- Copyright (c) 2017-2018 Mellanox Technologies, Ltd. All rights reserved.
+ Copyright (c) 2017-2019 Mellanox Technologies, Ltd. All rights reserved.
 
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
