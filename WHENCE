@@ -3236,13 +3236,13 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL0246
+Version: BT_CyclonePeak_A0_REL0275
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL0246
+Version: BT_CyclonePeak_A0_REL0275
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL0246
+Version: BT_CyclonePeak_A0_REL0275
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL_0246
+Version: BT_CyclonePeak_A0_REL_0275
 
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
