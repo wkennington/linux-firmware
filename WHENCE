@@ -4399,3 +4399,21 @@ File: microchip/mscc_vsc8574_revb_int8051_29e8.bin
 File: microchip/mscc_vsc8584_revb_int8051_fb48.bin
 
 Licence: Redistributable. See LICENCE.microchip for details
+
+--------------------------------------------------------------------------
+
+Driver: meson-vdec - Amlogic video decoder
+
+File: meson/vdec/g12a_h264.bin
+File: meson/vdec/g12a_vp9.bin
+File: meson/vdec/gxbb_h264.bin
+File: meson/vdec/gxl_h263.bin
+File: meson/vdec/gxl_h264.bin
+File: meson/vdec/gxl_hevc.bin
+File: meson/vdec/gxl_hevc_mmu.bin
+File: meson/vdec/gxl_mjpeg.bin
+File: meson/vdec/gxl_mpeg12.bin
+File: meson/vdec/gxl_mpeg4_5.bin
+File: meson/vdec/gxm_h264.bin
+
+Licence: Redistributable. See LICENSE.amlogic_vdec for details.
